@@ -15,4 +15,4 @@
 ## Cheat sheets
 The following cheatsheets may be helpful for your reference: [data storytelling](../files/data_storytelling.pdf), [data visualizations](../files/data_visualizations.pdf), [matplotlib](../files/matplotlib.pdf), [plotly](../files/plotly.pdf), [seaborn](../files/seaborn.pdf). <br>
 
-
+ 

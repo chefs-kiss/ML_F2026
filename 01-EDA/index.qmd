@@ -6,4 +6,4 @@
 
 [Homework](hw-EDA.qmd)
 
-[Lab](../labs.qmd#lab-eda)
+[Lab](../labs.qmd#lab-eda) 

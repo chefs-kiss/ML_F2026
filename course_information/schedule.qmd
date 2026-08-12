@@ -1,4 +1,4 @@
-![](../static/art3.png)
+
 
 Note: Days that are bolded will be held asynchronously. 
 Student will work through the material at their own pace, and schedule a time to meet with their lab partner (if needed).
@@ -48,4 +48,3 @@ Over the weekend, complete an [article review](../articles.qmd)
 | Th      | Jan 29    |     | Final Day    | [QUIZ <br>(group)<br>NN]{.badge .bg-info}  [QUIZ <br> RETAKES <br>  ANY]{.badge .bg-info .text-decoration-none} 🍽️ [☑️<br><br>PREZ](../project.qmd#presentations){.badge .bg-light .text-decoration-none}                           |
 | F       | **Jan 30**    |     [submit<br>presentation](){.badge .bg-light .text-decoration-none}             | No Class  |                                                                                  |
 
-![](../static/art2.jpg)

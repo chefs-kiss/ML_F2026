@@ -1,6 +1,4 @@
 
-![](static/art3.png)
-
 Each lab will be completed with a lab partner. 
 The group can decide which member is the recorder (copies the colab workbook and notetakes) and the researcher (searchs documentation, slide decks, class materials).
 The recorder should submit a clickable link to the Moodle submission by the next lecture.
