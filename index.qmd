@@ -1,0 +1,15 @@
+---
+title: "Machine Learning"
+---
+
+![](static/art1.jpg)
+
+This is the homepage for CSCI 200 - Introduction to Machine Learning taught by Prof. Kim Mandery in January 2026 at St. Olaf College. All course materials will be posted on this site.
+
+We will be using our Moodle page to [submit assignments](https://mdl.stolaf.edu/course/section.php?id=1379416) and host our class [discussion forum](https://mdl.stolaf.edu/mod/forum/view.php?id=514243)
+
+Click here for the [course syllabus](course_information/syllabus.qmd) or here for the [course schedule](course_information/schedule.qmd)
+
+![](static/art2.jpg)
+
+*Artwork: The Myth of Zhuangzi by Yeachin Tsai*
