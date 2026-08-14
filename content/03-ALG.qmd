@@ -2,8 +2,7 @@
 title: "Algorithms"
 subtitle: "Step 3 of the machine learning workflow"
 toc: true
-toc-location: left
-toc-title: "On this page"
+
 ---
 
 ::: {.callout-note appearance="minimal"}
@@ -260,10 +259,8 @@ know where to look:
 
 ## See also {#see-also}
 
-- [Step 2 · Data Preparation](../content/02-DATA.qmd) — getting data ready for these algorithms.
+- [Step 1 · EDA](../content/01-EDA.qmd) — understanding the data before choosing a model.
+- [Step 2 · Data Preparation](../content/02-DATA.qmd) — preparing data for these algorithms.
+- **Step 3 · Algorithms** — *you are here*.
 - [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the algorithm you choose here.
-- [Step 5 · Evaluation](../content/05-EVAL.qmd) — measuring how well it worked.
-
-## References {#references}
-
-*(Add readings, textbooks, and sources here.)*
+- [Step 5 · Evaluation](../content/05-EVAL.qmd) — measuring how well the chosen model works.

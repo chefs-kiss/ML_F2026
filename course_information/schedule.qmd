@@ -11,7 +11,7 @@
     --on-light: #1a1a1a;
     --on-dark:  #ffffff;
   }
-  .topic-btn { display:inline-block; padding:3px 330px; border-radius:999px;
+  .topic-btn { display:inline-flex; padding:3px 10px; border-radius:999px; width:100%; justify-content: center;
     font-weight:700; font-size:0.85rem; text-decoration:none; line-height:1.5;
     box-shadow:0 1px 3px rgba(0,0,0,0.18); color:var(--on-light); }
   .ag-btn { display:inline-block; margin:2px 0; padding:2px 10px; border-radius:6px;
@@ -37,7 +37,9 @@
 |:---:|:---|:----|
 | Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Saturday<br>Skim next module  |
 
-[EDA](../content/01-EDA.qmd){.topic-btn .step1}  click to open
+
+
+[EDA](../content/01-EDA.qmd){.topic-btn .step1}  
 
 |||
 |:---:|:---|:----|
@@ -45,7 +47,7 @@
 | Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
 | T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | Article review 1 due Saturday <br> Skim next module  |
 
-[EVL](../content/05-EVAL.qmd){.topic-btn .step5} click to open
+[EVL](../content/05-EVAL.qmd){.topic-btn .step5} 
 
 |||
 |:---:|:---|:----|
@@ -58,7 +60,7 @@
 |:---:|:---|:---|
 | Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL HW + Lab due Saturday<br>Study for EVL quiz <br> Skim next module |
 
-[CLS](../content/03-ALG.qmd#cls){.topic-btn .step3} click to open
+[CLS](../content/03-ALG.qmd#cls){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
@@ -67,15 +69,15 @@
 | T Oct 13 |  **Fall Break** |  |
 | Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW + Lab due Saturday<br>Study for CLS quiz <br> Skim next module |
 
-[DATA](../content/02-DATA.qmd){.topic-btn .step2} click to open
+[DATA](../content/02-DATA.qmd){.topic-btn .step2} 
 
 |||
 |:---:|:---|:---|
-| T Oct 20 |  [DATA1](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [Quiz: CLS](../content/03-ALG.qmd#cls-standards){.ag-btn .step3} | Sign-up for retakes if applicable |
+| T Oct 20 |  [DATA1](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [Quiz: CLS](../content/03-ALG.qmd#cls-standards){.ag-btn .step3} | [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSfR-lWP6ZGMbUYw_Zq4Pw8kJn8gYsjL5nun4cvbkPWpYRipSA/viewform?usp=share_link&ouid=101535206594689312428) for retakes if applicable |
 | W Oct 21 |  [Quiz Retakes: INTRO EDA EVL]{.ag-btn .ag-grey} |  |
 | Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} [PC4](../project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Skim next module |
 
-[TREE](../content/03-ALG.qmd#tree){.topic-btn .step3} click to open
+[TREE](../content/03-ALG.qmd#tree){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
@@ -114,7 +116,7 @@
 
 | **date**  | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| T Dec 1 |  [ESB3](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [Lab: ESB Part 2](../content/04-TRAIN.qmd){.ag-btn .ag-grey} | PC6 due Thursday<br> Sign up for retakes if applicable  |
+| T Dec 1 |  [ESB3](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [Lab: ESB Part 2](../content/04-TRAIN.qmd){.ag-btn .ag-grey} | PC6 due Thursday<br> [Sign up]() for retakes if applicable  |
 | W Dec 2 | [Quiz Retakes<br> CLS DATA TREE LIN]{.ag-btn .ag-grey} | skim next module |
 
 [NN](../content/03-ALG.qmd#nn){.topic-btn .step3}

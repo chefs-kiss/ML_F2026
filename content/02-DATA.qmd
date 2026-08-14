@@ -98,9 +98,8 @@ Term
 
 ## See also {#see-also}
 
-- [Step 1 · Exploring Data](../content/01-EDA.qmd) — understanding data before preparing it.
+- [Step 1 · EDA](../content/01-EDA.qmd) — understanding the data before you prepare it.
+- **Step 2 · Data Preparation** — *you are here*.
 - [Step 3 · Algorithms](../content/03-ALG.qmd) — the models this prepared data feeds.
-
-## References {#references}
-
-*(Add readings, textbooks, and sources.)*
+- [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the models to the prepared data.
+- [Step 5 · Evaluation](../content/05-EVAL.qmd) — judging the models built from this data.

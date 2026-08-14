@@ -102,5 +102,5 @@ Term
 - [Step 2 · Data Preparation](../content/02-DATA.qmd) — where most model-performance gains come from.
 - [Step 3 · Algorithms](../content/03-ALG.qmd) — the models being evaluated.
 - [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the models you evaluate here.
-- **Step 5 · Evaluation** - *you are here*.
+- **Step 5 · Evaluation** — *you are here*.
 

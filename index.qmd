@@ -1,4 +1,6 @@
-
+---
+toc: false
+---
 # CSCI 279 - Fall 2026
 ![](static/art3.png)
 
@@ -9,7 +11,7 @@ including recommendation systems, criminal justice, healthcare, and more. This c
 several common machine learning algorithms: how they work, their strengths and limitations, their 
 applications to real-world datasets, their implementation via Python frameworks, and the ethical 
 and societal consequences of their use.
-:::
+
 
 :::{columns}
 ::: {.column width="50%"}

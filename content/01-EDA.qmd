@@ -12,7 +12,7 @@ toc: true
 | **Workflow step** | Step 1 of 5 · Explore |
 | **What you'll learn** | How to summarize a dataset, read its distributions, and reason about feature types. |
 | **Standards assessed** | FLOW · EDA-STAT |
-| **Key terms** | distribution · feature type · summary statistic · skew |
+| **Key terms** | target · features · distribution · feature type · summary statistic · skew |
 | **Materials** | [readings](#readings) · [slides](#slides) · [homework](#homework) · [lab](#lab) |
 | **Self-quiz** | [standards & practice →](#standards) |
 
@@ -39,40 +39,72 @@ flesh out.)*
 
 ## Readings {#readings}
 
-Before class, read the assigned material.
+Before class, read the assigned material and take notes.
 
-- Required: *add reading + link*
-- Optional / going deeper: *add reading + link*
+### Related articles
+ - [ ] [Stats distributions](https://www.research.autodesk.com/publications/same-stats-different-graphs/) describes how by only knowing statistical properties we may be making inaccurate assumptions of what our data actually looks like visually.  <br>
+
+ - [ ] [Implications behind visualizations](https://callingbullshit.org/case_studies/case_study_track_records.html) (excusing the explicit language) has loads of examples of how biases can creep into our data insights. This article shows how we can initially interpret visualizations, and perhaps how to start questioning if the visualization is telling the story we think it is. <br>
+
+ - [ ] [Using LLMs to storyboard](https://pudding.cool/2024/07/ai/) goes through the process of how a data-driven story is created at The Pudding, but using an LLM. This article is a great way to understand how data-driven stories are put together, and how good (or not so good) LLMs are at replicating tasks associated with the design and implementation process. <br>
+
+ - [ ] [ggplot vs plotnine](https://blog.tidy-intelligence.com/posts/ggplot2-vs-plotnine/) compares the graphing power of R's ggplot to Python's plotnine (R wrapper for ggplot). Useful for those who have experience with creating visualizations in R, or for those who are unimpressed by matplotlib's capabilities. Only read if you have a background using R. 
+
+ - [ ] [Statistics for ML](stats_resource.qmd) walks through basic definitions of statistical measures, charts, and distributions. 
+
+### Cheat sheets
+The following cheatsheets may be helpful for your reference: [data storytelling](../files/data_storytelling.pdf), [data visualizations](../files/data_visualizations.pdf), [matplotlib](../files/matplotlib.pdf), [plotly](../files/plotly.pdf), [seaborn](../files/seaborn.pdf). <br>
 
 ## Slides {#slides}
 
-In class we'll work through these decks:
+### Model workflow 
+EDA1: Overview of the 5step workflow, learning paradigms, and features types.<br>
+[Open in new tab](../01-EDA/slides-EDA.pdf){target="_blank"}
 
-- *add slide deck links*
+### statistics
+EDA2: Descriptive statistics (mean, median, standard deviation), statistical tests and hypothesis testing. <br>
+[Open in new tab](../01-EDA/slides-EDA.pdf#page=17){target="_blank"}
+
+### Visualizations 
+EDA3: How to tell a story, and creating visualizations with mathplotlib, plotnine, seaborn.<br>
+[Open in new tab](../01-EDA/slides-EDA.pdf#page=37){target="_blank"}
 
 ## Homework {#homework}
-
-- Assignment: *link*
-- What it assesses: *short description*
+This homework goes over looking at summary tables for a dataset, explaining statistical terms to non-tech folks, exploring statistics, and interpretting statistical tests.
+[Click to view pdf](https://drive.google.com/file/d/1MvjwF0NlQVYzEB-rn1FgTYXVUp4bJfa_/view?usp=sharing){target="_blank"}.
 
 ## Lab {#lab}
 
-::: {.callout-tip}
-## Try it
-*(One-line pointer to the hands-on lab.)*
-:::
 
-- Lab: *link*
-- Objectives: *add objectives*
+In this lab, we will explore how to critic and refine code outputted by a language model, and practice a bit of prompt engineering.
+We will be using the Titanic dataset to perform exploratory data analysis tasks, 
+including calculating statistical measures, conducting statistical tests, and creating visualizations. 
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1a7vmVc8IS3Sal0WT7369o-s2wMgk-N8W?usp=sharing).
+
 
 ## Self-quiz {#standards}
 
-Use the standards below as a checklist — you should be able to do each — then try the
-practice questions to test yourself.
+Use the standards below as a checklist, then try the practice questions to test yourself.
 
 ### Standards
 
-*(Add the standards for this unit, each framed as "you should be able to…".)*
+#### FLOW
+
+You should be able to:
+
+- Define learning approaches (supervised vs. unsupervised learning) and learning tasks (regression, classification, and clustering).
+- Interpret a dataset summary table.
+- Describe a model’s goal and explain who might benefit from the model.
+- Describe the five steps ML workflow and give a few examples of tasks for each step
+
+#### EDA-STAT
+
+You should be able to:
+
+- Understand and describe statistical measures, distributions, and tests
+- Read and interpret charts, including identifying key features (skew, balance, shape) and chart types (histogram, boxplot, scatterplot)
+- Identify different feature types (numeric, discrete, continuous, ordinal, categorical, binary, or none).
+- Explain what factors to consider when deciding whether a feature type is appropriate to include in a machine learning model.
 
 ### Practice questions
 
@@ -88,19 +120,12 @@ Click a question to reveal the answer.
 *(Answer.)*
 :::
 
-## Key terms {#glossary}
 
-Term
-: *(definition)*
-
-Term
-: *(definition)*
 
 ## See also {#see-also}
 
-- [Step 2 · Data Preparation](../content/02-DATA.qmd) — preparing the data you've explored.
-- [Step 5 · Evaluation](../content/05-EVAL.qmd) — judging models later in the workflow.
-
-## References {#references}
-
-*(Add readings, textbooks, and sources.)*
+- **Step 1 · EDA** — *you are here*.
+- [Step 2 · Data Preparation](../content/02-DATA.qmd) — the next step: cleaning and transforming what you explored.
+- [Step 3 · Algorithms](../content/03-ALG.qmd) — the models your prepared data will feed.
+- [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the models to data.
+- [Step 5 · Evaluation](../content/05-EVAL.qmd) — judging how well the models performed.
