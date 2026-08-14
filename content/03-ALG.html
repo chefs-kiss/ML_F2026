@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Algorithms – Machine Learning</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../static/favicon_32.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8f77caed86629084ad557bf8884b5270.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Algorithms</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../static/ml_green.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../static/ml_green.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="../course_information/schedule.html" title="Home" class="quarto-navigation-tool px-1" aria-label="Home"><i class="bi bi-house"></i></a>
+    <a href="https://chefs-kiss.github.io/ML_J2026/files/ISLP.pdf" title="ISLP" class="quarto-navigation-tool px-1" aria-label="ISLP"><i class="bi bi-file-earmark-pdf"></i></a>
+    <a href="https://mdl.stolaf.edu/course/view.php?id=56310" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-chat-heart"></i></a>
+    <a href="https://github.com/chefs-kiss/ML_J2026" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course_information/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/00-INTRO.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Content</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Article Reviews</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/06-OTHER.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview: choosing an algorithm</a></li>
+  <li><a href="#organization" id="toc-organization" class="nav-link" data-scroll-target="#organization">How this chapter is organized</a></li>
+  <li><a href="#cls" id="toc-cls" class="nav-link" data-scroll-target="#cls">Classification (CLS)</a>
+  <ul class="collapse">
+  <li><a href="#cls-readings" id="toc-cls-readings" class="nav-link" data-scroll-target="#cls-readings">Readings</a></li>
+  <li><a href="#cls-slides" id="toc-cls-slides" class="nav-link" data-scroll-target="#cls-slides">Slides</a></li>
+  <li><a href="#cls-homework" id="toc-cls-homework" class="nav-link" data-scroll-target="#cls-homework">Homework</a></li>
+  <li><a href="#cls-lab" id="toc-cls-lab" class="nav-link" data-scroll-target="#cls-lab">Lab</a></li>
+  <li><a href="#cls-standards" id="toc-cls-standards" class="nav-link" data-scroll-target="#cls-standards">Standards</a></li>
+  </ul></li>
+  <li><a href="#tree" id="toc-tree" class="nav-link" data-scroll-target="#tree">Trees (TREE)</a>
+  <ul class="collapse">
+  <li><a href="#tree-readings" id="toc-tree-readings" class="nav-link" data-scroll-target="#tree-readings">Readings</a></li>
+  <li><a href="#tree-slides" id="toc-tree-slides" class="nav-link" data-scroll-target="#tree-slides">Slides</a></li>
+  <li><a href="#tree-homework" id="toc-tree-homework" class="nav-link" data-scroll-target="#tree-homework">Homework</a></li>
+  <li><a href="#tree-lab" id="toc-tree-lab" class="nav-link" data-scroll-target="#tree-lab">Lab</a></li>
+  <li><a href="#tree-standards" id="toc-tree-standards" class="nav-link" data-scroll-target="#tree-standards">Standards</a></li>
+  </ul></li>
+  <li><a href="#lin" id="toc-lin" class="nav-link" data-scroll-target="#lin">Linear models (LIN)</a>
+  <ul class="collapse">
+  <li><a href="#lin-readings" id="toc-lin-readings" class="nav-link" data-scroll-target="#lin-readings">Readings</a></li>
+  <li><a href="#lin-slides" id="toc-lin-slides" class="nav-link" data-scroll-target="#lin-slides">Slides</a></li>
+  <li><a href="#lin-homework" id="toc-lin-homework" class="nav-link" data-scroll-target="#lin-homework">Homework</a></li>
+  <li><a href="#lin-lab" id="toc-lin-lab" class="nav-link" data-scroll-target="#lin-lab">Lab</a></li>
+  <li><a href="#lin-standards" id="toc-lin-standards" class="nav-link" data-scroll-target="#lin-standards">Standards</a></li>
+  </ul></li>
+  <li><a href="#mod" id="toc-mod" class="nav-link" data-scroll-target="#mod">Other models (MOD)</a>
+  <ul class="collapse">
+  <li><a href="#mod-readings" id="toc-mod-readings" class="nav-link" data-scroll-target="#mod-readings">Readings</a></li>
+  <li><a href="#mod-slides" id="toc-mod-slides" class="nav-link" data-scroll-target="#mod-slides">Slides</a></li>
+  <li><a href="#mod-homework" id="toc-mod-homework" class="nav-link" data-scroll-target="#mod-homework">Homework</a></li>
+  <li><a href="#mod-lab" id="toc-mod-lab" class="nav-link" data-scroll-target="#mod-lab">Lab</a></li>
+  <li><a href="#mod-standards" id="toc-mod-standards" class="nav-link" data-scroll-target="#mod-standards">Standards</a></li>
+  </ul></li>
+  <li><a href="#nn" id="toc-nn" class="nav-link" data-scroll-target="#nn">Neural networks (NN)</a>
+  <ul class="collapse">
+  <li><a href="#nn-readings" id="toc-nn-readings" class="nav-link" data-scroll-target="#nn-readings">Readings</a></li>
+  <li><a href="#nn-slides" id="toc-nn-slides" class="nav-link" data-scroll-target="#nn-slides">Slides</a></li>
+  <li><a href="#nn-homework" id="toc-nn-homework" class="nav-link" data-scroll-target="#nn-homework">Homework</a></li>
+  <li><a href="#nn-lab" id="toc-nn-lab" class="nav-link" data-scroll-target="#nn-lab">Lab</a></li>
+  <li><a href="#nn-standards" id="toc-nn-standards" class="nav-link" data-scroll-target="#nn-standards">Standards</a></li>
+  </ul></li>
+  <li><a href="#see-also" id="toc-see-also" class="nav-link" data-scroll-target="#see-also">See also</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Algorithms</h1>
+<p class="subtitle lead">Step 3 of the machine learning workflow</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Algorithms · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 3 of 5 · Algorithms</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td>How to choose a model family for a task, and the core idea behind each one.</td>
+</tr>
+<tr class="odd">
+<td><strong>Algorithms covered</strong></td>
+<td><a href="#cls">Classification</a> · <a href="#tree">Trees</a> · <a href="#lin">Linear</a> · <a href="#mod">Other models</a> · <a href="#nn">Neural nets</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong>Algorithms</strong> are the procedures that turn prepared data into a model — the engines of machine learning. Where earlier steps got your data ready, this step is where a model is actually chosen and its shape decided. This chapter surveys the main <em>families</em> of algorithms used in this course.</p>
+<p>There is no single best algorithm. Each family makes different assumptions about what patterns in data look like, and each trades off differently between accuracy, interpretability, speed, and how much data it needs. Much of the craft of machine learning is matching an algorithm’s assumptions to the problem in front of you.</p>
+<p>This chapter is organized as a reference: a short guide to <em>choosing</em> among the families, followed by a self-contained section for each algorithm. You can read it straight through, or jump to whichever algorithm you need from the list above.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview: choosing an algorithm</h2>
+<p>Before reaching for any specific model, it helps to narrow the field by asking a few questions about your problem and your data.</p>
+<ul>
+<li><strong>What kind of task is it?</strong> Classification, regression, or clustering? This alone rules out whole families.</li>
+<li><strong>How much do you value interpretability?</strong> A <a href="#tree">tree</a> you can read end-to-end is very different from a <a href="#nn">neural network</a> whose reasoning is opaque.</li>
+<li><strong>How much data do you have?</strong> Some families (<a href="#nn">neural nets</a>) are data-hungry; others work well on small datasets.</li>
+<li><strong>How much compute and time?</strong> Simpler models train in seconds; others take much longer.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key idea: match the algorithm to the problem, not the hype
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The most powerful model is not always the right one. A simple, interpretable model that is “good enough” often beats a complex one that no one can explain or maintain.</p>
+</div>
+</div>
+</section>
+<section id="organization" class="level2">
+<h2 class="anchored" data-anchor-id="organization">How this chapter is organized</h2>
+<p>Each algorithm below is a self-contained section with the same structure, so you always know where to look:</p>
+<ul>
+<li><strong>Readings</strong> — do before class to build intuition.</li>
+<li><strong>Slides</strong> — what we work through in class.</li>
+<li><strong>Homework</strong> — apply the algorithm yourself.</li>
+<li><strong>Lab</strong> — hands-on practice.</li>
+<li><strong>Standards</strong> — what you should be able to do (assessed on the quiz).</li>
+</ul>
+<hr>
+</section>
+<section id="cls" class="level2">
+<h2 class="anchored" data-anchor-id="cls">Classification (CLS)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Classification · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>Supervised · predicts discrete categories</td>
+</tr>
+<tr class="even">
+<td><strong>Key idea</strong></td>
+<td>Learn a decision boundary that separates classes.</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards</strong></td>
+<td>CLS</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td>classifier · decision boundary · class · label</td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#cls-readings">readings</a> · <a href="#cls-slides">slides</a> · <a href="#cls-homework">homework</a> · <a href="#cls-lab">lab</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>(Overview of classification goes here — what it is, when to use it, the core idea.)</em></p>
+<section id="cls-readings" class="level3">
+<h3 class="anchored" data-anchor-id="cls-readings">Readings</h3>
+<p><em>(Add readings for CLS.)</em></p>
+</section>
+<section id="cls-slides" class="level3">
+<h3 class="anchored" data-anchor-id="cls-slides">Slides</h3>
+<p><em>(Add slide deck links for CLS.)</em></p>
+</section>
+<section id="cls-homework" class="level3">
+<h3 class="anchored" data-anchor-id="cls-homework">Homework</h3>
+<p><em>(Add homework for CLS.)</em></p>
+</section>
+<section id="cls-lab" class="level3">
+<h3 class="anchored" data-anchor-id="cls-lab">Lab</h3>
+<p><em>(Add lab for CLS.)</em></p>
+</section>
+<section id="cls-standards" class="level3">
+<h3 class="anchored" data-anchor-id="cls-standards">Standards</h3>
+<p><em>(Add the CLS standards — “you should be able to…”.)</em></p>
+<hr>
+</section>
+</section>
+<section id="tree" class="level2">
+<h2 class="anchored" data-anchor-id="tree">Trees (TREE)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Trees · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>Supervised · classification or regression</td>
+</tr>
+<tr class="even">
+<td><strong>Key idea</strong></td>
+<td>Split data with a sequence of yes/no questions.</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards</strong></td>
+<td>TREE</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td>node · split · leaf · depth · overfitting</td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#tree-readings">readings</a> · <a href="#tree-slides">slides</a> · <a href="#tree-homework">homework</a> · <a href="#tree-lab">lab</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>(Overview of tree-based models goes here.)</em></p>
+<section id="tree-readings" class="level3">
+<h3 class="anchored" data-anchor-id="tree-readings">Readings</h3>
+<p><em>(Add readings for TREE.)</em></p>
+</section>
+<section id="tree-slides" class="level3">
+<h3 class="anchored" data-anchor-id="tree-slides">Slides</h3>
+<p><em>(Add slide deck links for TREE.)</em></p>
+</section>
+<section id="tree-homework" class="level3">
+<h3 class="anchored" data-anchor-id="tree-homework">Homework</h3>
+<p><em>(Add homework for TREE.)</em></p>
+</section>
+<section id="tree-lab" class="level3">
+<h3 class="anchored" data-anchor-id="tree-lab">Lab</h3>
+<p><em>(Add lab for TREE.)</em></p>
+</section>
+<section id="tree-standards" class="level3">
+<h3 class="anchored" data-anchor-id="tree-standards">Standards</h3>
+<p><em>(Add the TREE standards.)</em></p>
+<hr>
+</section>
+</section>
+<section id="lin" class="level2">
+<h2 class="anchored" data-anchor-id="lin">Linear models (LIN)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Linear models · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>Supervised · regression or classification</td>
+</tr>
+<tr class="even">
+<td><strong>Key idea</strong></td>
+<td>Fit a straight-line (linear) relationship between features and target.</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards</strong></td>
+<td>LIN</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td>coefficient · weight · intercept · regularization</td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#lin-readings">readings</a> · <a href="#lin-slides">slides</a> · <a href="#lin-homework">homework</a> · <a href="#lin-lab">lab</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>(Overview of linear models goes here.)</em></p>
+<section id="lin-readings" class="level3">
+<h3 class="anchored" data-anchor-id="lin-readings">Readings</h3>
+<p><em>(Add readings for LIN.)</em></p>
+</section>
+<section id="lin-slides" class="level3">
+<h3 class="anchored" data-anchor-id="lin-slides">Slides</h3>
+<p><em>(Add slide deck links for LIN.)</em></p>
+</section>
+<section id="lin-homework" class="level3">
+<h3 class="anchored" data-anchor-id="lin-homework">Homework</h3>
+<p><em>(Add homework for LIN.)</em></p>
+</section>
+<section id="lin-lab" class="level3">
+<h3 class="anchored" data-anchor-id="lin-lab">Lab</h3>
+<p><em>(Add lab for LIN.)</em></p>
+</section>
+<section id="lin-standards" class="level3">
+<h3 class="anchored" data-anchor-id="lin-standards">Standards</h3>
+<p><em>(Add the LIN standards.)</em></p>
+<hr>
+</section>
+</section>
+<section id="mod" class="level2">
+<h2 class="anchored" data-anchor-id="mod">Other models (MOD)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Other models · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>Supervised · a grouping of additional approaches</td>
+</tr>
+<tr class="even">
+<td><strong>Key idea</strong></td>
+<td>Several distinct methods — kNN, SVM, naive Bayes — each with its own logic.</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards</strong></td>
+<td>MOD</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td>k-nearest neighbors · support vector · margin · prior probability</td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#mod-readings">readings</a> · <a href="#mod-slides">slides</a> · <a href="#mod-homework">homework</a> · <a href="#mod-lab">lab</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>(Overview of the additional model types — kNN, SVM, naive Bayes, etc.)</em></p>
+<section id="mod-readings" class="level3">
+<h3 class="anchored" data-anchor-id="mod-readings">Readings</h3>
+<p><em>(Add readings for MOD.)</em></p>
+</section>
+<section id="mod-slides" class="level3">
+<h3 class="anchored" data-anchor-id="mod-slides">Slides</h3>
+<p><em>(Add slide deck links for MOD.)</em></p>
+</section>
+<section id="mod-homework" class="level3">
+<h3 class="anchored" data-anchor-id="mod-homework">Homework</h3>
+<p><em>(Add homework for MOD.)</em></p>
+</section>
+<section id="mod-lab" class="level3">
+<h3 class="anchored" data-anchor-id="mod-lab">Lab</h3>
+<p><em>(Add lab for MOD.)</em></p>
+</section>
+<section id="mod-standards" class="level3">
+<h3 class="anchored" data-anchor-id="mod-standards">Standards</h3>
+<p><em>(Add the MOD standards.)</em></p>
+<hr>
+</section>
+</section>
+<section id="nn" class="level2">
+<h2 class="anchored" data-anchor-id="nn">Neural networks (NN)</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Neural networks · at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Type</strong></td>
+<td>Supervised · flexible, high-capacity models</td>
+</tr>
+<tr class="even">
+<td><strong>Key idea</strong></td>
+<td>Stacked layers of simple units learn complex patterns from lots of data.</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards</strong></td>
+<td>NN</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td>neuron · layer · weight · activation · training</td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#nn-readings">readings</a> · <a href="#nn-slides">slides</a> · <a href="#nn-homework">homework</a> · <a href="#nn-lab">lab</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>(Overview of neural networks goes here.)</em></p>
+<section id="nn-readings" class="level3">
+<h3 class="anchored" data-anchor-id="nn-readings">Readings</h3>
+<p><em>(Add readings for NN.)</em></p>
+</section>
+<section id="nn-slides" class="level3">
+<h3 class="anchored" data-anchor-id="nn-slides">Slides</h3>
+<p><em>(Add slide deck links for NN.)</em></p>
+</section>
+<section id="nn-homework" class="level3">
+<h3 class="anchored" data-anchor-id="nn-homework">Homework</h3>
+<p><em>(Add homework for NN.)</em></p>
+</section>
+<section id="nn-lab" class="level3">
+<h3 class="anchored" data-anchor-id="nn-lab">Lab</h3>
+<p><em>(Add lab for NN.)</em></p>
+</section>
+<section id="nn-standards" class="level3">
+<h3 class="anchored" data-anchor-id="nn-standards">Standards</h3>
+<p><em>(Add the NN standards.)</em></p>
+<hr>
+</section>
+</section>
+<section id="see-also" class="level2">
+<h2 class="anchored" data-anchor-id="see-also">See also</h2>
+<ul>
+<li><a href="../content/01-EDA.html">Step 1 · EDA</a> — understanding the data before choosing a model.</li>
+<li><a href="../content/02-DATA.html">Step 2 · Data Preparation</a> — preparing data for these algorithms.</li>
+<li><strong>Step 3 · Algorithms</strong> — <em>you are here</em>.</li>
+<li><a href="../content/04-TRAIN.html">Step 4 · Train</a> — fitting the algorithm you choose here.</li>
+<li><a href="../content/05-EVAL.html">Step 5 · Evaluation</a> — measuring how well the chosen model works.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
