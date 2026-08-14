@@ -1,13 +1,44 @@
+
+# CSCI 279 - Fall 2026
+![](static/art3.png)
+
+Welcome to Machine Learning!
+
+Machine learning algorithms are used to make decisions in a wide variety of applications, 
+including recommendation systems, criminal justice, healthcare, and more. This course explores 
+several common machine learning algorithms: how they work, their strengths and limitations, their 
+applications to real-world datasets, their implementation via Python frameworks, and the ethical 
+and societal consequences of their use.
+:::
+
+:::{columns}
+::: {.column width="50%"}
+## Staff Information
+Instructor: Prof. Kim Mandery<br>
+Office: RMS 407<br>
+Office Hours: W 10:20-12:30am, or by appt. <br>
+Email: mander1@stolaf.edu<br>
+:::
+::: {.column width="45%"}
+## TA Information
+TA: Brooke Barenz<br>
+TA Hours: TBD <br>
+Drop-in lab: RNS202/203<br>
+:::
+
+Additional help can often be found in the drop-in lab from Sunday-Thursdays around 6-9pm.
+
+--- 
+
+We will be using this site for most of our course content. View the schedule or navigate through our course content on the left.
+
 ---
-title: "Machine Learning"
----
 
-
-This is the homepage for CSCI 200 - Introduction to Machine Learning taught by Prof. Kim Mandery in January 2026 at St. Olaf College. All course materials will be posted on this site.
-
-We will be using our Moodle page to [submit assignments](https://mdl.stolaf.edu/course/section.php?id=1379416) and host our class [discussion forum](https://mdl.stolaf.edu/mod/forum/view.php?id=514243)
-
-Click here for the [course syllabus](course_information/syllabus.qmd) or here for the [course schedule](course_information/schedule.qmd)
-
-
-*Artwork: The Myth of Zhuangzi by Yeachin Tsai* 
+Testing content pages:
+[INTRO](content/00-INTRO.html)
+[01-EDA](content/01-EDA.qmd)
+[02-DATA](content/02-DATA.qmd)
+[03-ALG](content/03-ALG.qmd)
+[04-TRAIN](content/04-TRAIN.qmd)
+[05-EVAL](content/05-EVAL.qmd)
+[MORE](content/06-OTHER.qmd)

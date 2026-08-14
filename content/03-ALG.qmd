@@ -1,0 +1,269 @@
+---
+title: "Algorithms"
+subtitle: "Step 3 of the machine learning workflow"
+toc: true
+toc-location: left
+toc-title: "On this page"
+---
+
+::: {.callout-note appearance="minimal"}
+## Algorithms · at a glance
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithms |
+| **What you'll learn** | How to choose a model family for a task, and the core idea behind each one. |
+| **Algorithms covered** | [Classification](#cls) · [Trees](#tree) · [Linear](#lin) · [Other models](#mod) · [Neural nets](#nn) |
+
+:::
+
+**Algorithms** are the procedures that turn prepared data into a model — the engines
+of machine learning. Where earlier steps got your data ready, this step is where a
+model is actually chosen and its shape decided. This chapter surveys the main
+*families* of algorithms used in this course.
+
+There is no single best algorithm. Each family makes different assumptions about what
+patterns in data look like, and each trades off differently between accuracy,
+interpretability, speed, and how much data it needs. Much of the craft of machine
+learning is matching an algorithm's assumptions to the problem in front of you.
+
+This chapter is organized as a reference: a short guide to *choosing* among the
+families, followed by a self-contained section for each algorithm. You can read it
+straight through, or jump to whichever algorithm you need from the list above.
+
+## Overview: choosing an algorithm {#overview}
+
+Before reaching for any specific model, it helps to narrow the field by asking a few
+questions about your problem and your data.
+
+- **What kind of task is it?** Classification, regression, or clustering? This alone
+  rules out whole families.
+- **How much do you value interpretability?** A [tree](#tree) you can read end-to-end
+  is very different from a [neural network](#nn) whose reasoning is opaque.
+- **How much data do you have?** Some families ([neural nets](#nn)) are data-hungry;
+  others work well on small datasets.
+- **How much compute and time?** Simpler models train in seconds; others take much longer.
+
+::: {.callout-note}
+## Key idea: match the algorithm to the problem, not the hype
+The most powerful model is not always the right one. A simple, interpretable model that
+is "good enough" often beats a complex one that no one can explain or maintain.
+:::
+
+## How this chapter is organized {#organization}
+
+Each algorithm below is a self-contained section with the same structure, so you always
+know where to look:
+
+- **Readings** — do before class to build intuition.
+- **Slides** — what we work through in class.
+- **Homework** — apply the algorithm yourself.
+- **Lab** — hands-on practice.
+- **Standards** — what you should be able to do (assessed on the quiz).
+
+---
+
+## Classification (CLS) {#cls}
+
+::: {.callout-note appearance="minimal"}
+## Classification · at a glance
+
+|  |  |
+|---|---|
+| **Type** | Supervised · predicts discrete categories |
+| **Key idea** | Learn a decision boundary that separates classes. |
+| **Standards** | CLS |
+| **Key terms** | classifier · decision boundary · class · label |
+| **Materials** | [readings](#cls-readings) · [slides](#cls-slides) · [homework](#cls-homework) · [lab](#cls-lab) |
+
+:::
+
+*(Overview of classification goes here — what it is, when to use it, the core idea.)*
+
+### Readings {#cls-readings}
+
+*(Add readings for CLS.)*
+
+### Slides {#cls-slides}
+
+*(Add slide deck links for CLS.)*
+
+### Homework {#cls-homework}
+
+*(Add homework for CLS.)*
+
+### Lab {#cls-lab}
+
+*(Add lab for CLS.)*
+
+### Standards {#cls-standards}
+
+*(Add the CLS standards — "you should be able to…".)*
+
+---
+
+## Trees (TREE) {#tree}
+
+::: {.callout-note appearance="minimal"}
+## Trees · at a glance
+
+|  |  |
+|---|---|
+| **Type** | Supervised · classification or regression |
+| **Key idea** | Split data with a sequence of yes/no questions. |
+| **Standards** | TREE |
+| **Key terms** | node · split · leaf · depth · overfitting |
+| **Materials** | [readings](#tree-readings) · [slides](#tree-slides) · [homework](#tree-homework) · [lab](#tree-lab) |
+
+:::
+
+*(Overview of tree-based models goes here.)*
+
+### Readings {#tree-readings}
+
+*(Add readings for TREE.)*
+
+### Slides {#tree-slides}
+
+*(Add slide deck links for TREE.)*
+
+### Homework {#tree-homework}
+
+*(Add homework for TREE.)*
+
+### Lab {#tree-lab}
+
+*(Add lab for TREE.)*
+
+### Standards {#tree-standards}
+
+*(Add the TREE standards.)*
+
+---
+
+## Linear models (LIN) {#lin}
+
+::: {.callout-note appearance="minimal"}
+## Linear models · at a glance
+
+|  |  |
+|---|---|
+| **Type** | Supervised · regression or classification |
+| **Key idea** | Fit a straight-line (linear) relationship between features and target. |
+| **Standards** | LIN |
+| **Key terms** | coefficient · weight · intercept · regularization |
+| **Materials** | [readings](#lin-readings) · [slides](#lin-slides) · [homework](#lin-homework) · [lab](#lin-lab) |
+
+:::
+
+*(Overview of linear models goes here.)*
+
+### Readings {#lin-readings}
+
+*(Add readings for LIN.)*
+
+### Slides {#lin-slides}
+
+*(Add slide deck links for LIN.)*
+
+### Homework {#lin-homework}
+
+*(Add homework for LIN.)*
+
+### Lab {#lin-lab}
+
+*(Add lab for LIN.)*
+
+### Standards {#lin-standards}
+
+*(Add the LIN standards.)*
+
+---
+
+## Other models (MOD) {#mod}
+
+::: {.callout-note appearance="minimal"}
+## Other models · at a glance
+
+|  |  |
+|---|---|
+| **Type** | Supervised · a grouping of additional approaches |
+| **Key idea** | Several distinct methods — kNN, SVM, naive Bayes — each with its own logic. |
+| **Standards** | MOD |
+| **Key terms** | k-nearest neighbors · support vector · margin · prior probability |
+| **Materials** | [readings](#mod-readings) · [slides](#mod-slides) · [homework](#mod-homework) · [lab](#mod-lab) |
+
+:::
+
+*(Overview of the additional model types — kNN, SVM, naive Bayes, etc.)*
+
+### Readings {#mod-readings}
+
+*(Add readings for MOD.)*
+
+### Slides {#mod-slides}
+
+*(Add slide deck links for MOD.)*
+
+### Homework {#mod-homework}
+
+*(Add homework for MOD.)*
+
+### Lab {#mod-lab}
+
+*(Add lab for MOD.)*
+
+### Standards {#mod-standards}
+
+*(Add the MOD standards.)*
+
+---
+
+## Neural networks (NN) {#nn}
+
+::: {.callout-note appearance="minimal"}
+## Neural networks · at a glance
+
+|  |  |
+|---|---|
+| **Type** | Supervised · flexible, high-capacity models |
+| **Key idea** | Stacked layers of simple units learn complex patterns from lots of data. |
+| **Standards** | NN |
+| **Key terms** | neuron · layer · weight · activation · training |
+| **Materials** | [readings](#nn-readings) · [slides](#nn-slides) · [homework](#nn-homework) · [lab](#nn-lab) |
+
+:::
+
+*(Overview of neural networks goes here.)*
+
+### Readings {#nn-readings}
+
+*(Add readings for NN.)*
+
+### Slides {#nn-slides}
+
+*(Add slide deck links for NN.)*
+
+### Homework {#nn-homework}
+
+*(Add homework for NN.)*
+
+### Lab {#nn-lab}
+
+*(Add lab for NN.)*
+
+### Standards {#nn-standards}
+
+*(Add the NN standards.)*
+
+---
+
+## See also {#see-also}
+
+- [Step 2 · Data Preparation](../content/02-DATA.qmd) — getting data ready for these algorithms.
+- [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the algorithm you choose here.
+- [Step 5 · Evaluation](../content/05-EVAL.qmd) — measuring how well it worked.
+
+## References {#references}
+
+*(Add readings, textbooks, and sources here.)*

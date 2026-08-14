@@ -1,50 +1,133 @@
+```{=html}
+<style>
+  /* ===== COLOR PALETTE — edit to re-theme ===== */
+  :root {
+    --step1: #dab7d3;   /* Explore (INTRO, EDA) */
+    --step2: #999f24;   /* Data Prep (DATA) */
+    --step3: #bc83d3;   /* Algorithms (CLS, TREE, LIN, MOD, NN) */
+    --step4: #b83912;   /* Train (ESB) */
+    --step5: #7f1e15;   /* Evaluate (EVL) */
+    --agenda-grey: #e4e2e6;  /* non-quiz agenda buttons */
+    --on-light: #1a1a1a;
+    --on-dark:  #ffffff;
+  }
+  .topic-btn { display:inline-block; padding:3px 330px; border-radius:999px;
+    font-weight:700; font-size:0.85rem; text-decoration:none; line-height:1.5;
+    box-shadow:0 1px 3px rgba(0,0,0,0.18); color:var(--on-light); }
+  .ag-btn { display:inline-block; margin:2px 0; padding:2px 10px; border-radius:6px;
+    font-weight:600; font-size:0.78rem; text-decoration:none; line-height:1.5;
+    box-shadow:0 1px 2px rgba(0,0,0,0.12); }
+  a.topic-btn:hover, a.ag-btn:hover { filter:brightness(0.97); text-decoration:none; }
+  .ag-grey { background:var(--agenda-grey); color:#333; }
+  .step1 { background:var(--step1); color:var(--on-light); }
+  .step2 { background:var(--step2); color:var(--on-light); }
+  .step3 { background:var(--step3); color:var(--on-light); }
+  .step4 { background:var(--step4); color:var(--on-dark); }
+  .step5 { background:var(--step5); color:var(--on-dark); }
+</style>
+```
 
+![](../static/art3.png)
 
-Note: Days that are bolded will be held asynchronously. 
-Student will work through the material at their own pace, and schedule a time to meet with their lab partner (if needed).
+## September
 
-## Week 1 (Jan 5 - 9)
+[INTRO]{.topic-btn .step1} 
 
-| **dow** | **date**  | **prepare**       | **topic**              | **agenda**                                                                                   |
-|:------:|:---------:|:-----------------|:----------------------|:------------------------------------------------------------------------------------------------|
-| M       | Jan 5     | [📖<br><br> syllabus](syllabus.qmd){.badge .bg-light .text-decoration-none}     | INTRO                  |   [👩🏻‍🏫<br><br> INTRO](../slides.html?q=INTRO1){.badge .bg-light .text-decoration-none}  [☑️<br><br>PC0](../project.qmd#pc0){.badge .bg-light .text-decoration-none} 🍽️  [💻<br><br>Lab: Intro](../labs.qmd#lab-intro){.badge .bg-light .text-decoration-none}                   |
-| T       | Jan 6     | [📖<br><br> readings](../01-EDA/rr-EDA.qmd){.badge .bg-light .text-decoration-none}     | [EDA](../01-EDA)                    |  [👩🏻‍🏫<br><br>EDA1](../slides.html?q=EDA1){.badge .bg-light .text-decoration-none} [👩🏻‍🏫<br><br>EDA2](../slides.html?q=EDA2){.badge .bg-light .text-decoration-none} 🍽️ [QUIZ <br><br>INTRO]{.badge .bg-info .text-decoration-none}  [📝<br><br>HW:EDA](/01-EDA/hw-EDA.qmd){.badge .bg-light .text-decoration-none}                 |
-| W       | Jan 7     | [📓<br>EDA <br>standards](../01-EDA/std-EDA.qmd){.badge .bg-light .text-decoration-none}     | EDA                    |  [👩🏻‍🏫<br><br>EDA3](../slides.html?q=EDA3){.badge .bg-light .text-decoration-none} [☑️<br><br>PC1](../project.qmd#pc1){.badge .bg-light .text-decoration-none} 🍽️ [💻<br><br>Lab:EDA](../labs.qmd#lab-eda){.badge .bg-light .text-decoration-none} [😵‍💫 <br>TA help <br> 7:30-8:30]{.badge .bg-light .text-decoration-none}            |
-| Th      | Jan 8     | [📖<br><br> readings](../02-EVL/rr-EVL.qmd){.badge .bg-light .text-decoration-none}     |  EVL      |  [👩🏻‍🏫<br><br>EVL1](../slides.html?q=EVL1){.badge .bg-light .text-decoration-none} [👩🏻‍🏫<br><br>EVL2](../slides.html?q=EVL2){.badge .bg-light .text-decoration-none} 🍽️ [QUIZ <br><br>EDA]{.badge .bg-info} [📝<br><br>HW:EVL](/02-EVL/hw-EVL.qmd){.badge .bg-light .text-decoration-none}                |
-| F       | **Jan 9**     | [📓<br>EVL<br> standards](../02-EVL/std-EVL.qmd){.badge .bg-light .text-decoration-none}      |  EVL                    | [👩🏻‍🏫<br><br>EVL3](../slides.html?q=EVL3){.badge .bg-light .text-decoration-none}  [☑️<br><br>PC2](../project.qmd#pc2){.badge .bg-light .text-decoration-none} [💻<br><br>Lab:EVL](../labs.qmd#lab-evl){.badge .bg-light .text-decoration-none} [😵‍💫 <br>TA help <br> 2:00-3:00]{.badge .bg-light .text-decoration-none}                                                |
-| Su      | Jan 11    | | |[📰 <br> article <br> review](../articles.qmd){.badge .bg-light .text-decoration-none}  [😵‍💫 <br>TA help <br> 8:00-9:00]{.badge .bg-light .text-decoration-none}
+| **date**  | **agenda** | **upcoming** |
+|:---:|:---|:----|
+| Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Saturday<br>Skim next module  |
 
-## Week 2 (Jan 12 - 16)
+[EDA](../content/01-EDA.qmd){.topic-btn .step1}  click to open
 
-| **dow** | **date**  | **prepare**       | **topic**              | **agenda**                                                                                   |
-|:------:|:---------:|:-----------------|:----------------------|:------------------------------------------------------------------------------------------------|
-| M       | Jan 12    | [📖<br><br> readings](../03-CLS/rr-CLS.qmd){.badge .bg-light .text-decoration-none}      |  CLS      | [👩🏻‍🏫<br><br>CLS1](../slides.html?q=CLS1){.badge .bg-light .text-decoration-none} [👩🏻‍🏫<br><br>CLS3](../slides.html?q=CLS1){.badge .bg-light .text-decoration-none}  [📝<br><br>HW:CLS](/03-CLS/hw-CLS.qmd){.badge .bg-light .text-decoration-none} 🍽️ [QUIZ <br><br>EVL]{.badge .bg-info}     |
-| T       | Jan 13    | [📓<br>CLS<br> standards](../03-CLS/std-CLS.qmd){.badge .bg-light .text-decoration-none}     | CLS   |  [👩🏻‍🏫<br><br>CLS3](../slides.html?q=CLS3){.badge .bg-light .text-decoration-none} [☑️<br><br>PC3](../project.qmd#pc3){.badge .bg-light .text-decoration-none} 🍽️ [💻<br><br>Lab:CLS](../labs.qmd#lab-cls){.badge .bg-light .text-decoration-none}  [QUIZ <br> RETAKES <br> EDA + EVL]{.badge .bg-info .text-decoration-none} [😵‍💫 <br>TA help <br> 7:00-8:00]{.badge .bg-light .text-decoration-none}                        |
-| W       | Jan 14    | [📖<br><br> readings](../04-DATA/rr-DATA.qmd){.badge .bg-light .text-decoration-none}      |  DATA     |  [👩🏻‍🏫<br><br>DATA1](../slides.html?q=DATA1){.badge .bg-light .text-decoration-none}  [👩🏻‍🏫<br><br>DATA2](../slides.html?q=DATA2){.badge .bg-light .text-decoration-none}  [📝<br><br>HW:DATA](../04-DATA/hw-DATA.qmd){.badge .bg-light .text-decoration-none} 🍽️ [Worktime: <br> PC or Lab]{.badge .bg-light .text-decoration-none}              |
-| Th      | Jan 15    | [📓<br>DATA<br> standards](../04-DATA/std-DATA.qmd){.badge .bg-light .text-decoration-none}   | DATA                   |    [💻<br><br>Lab:DATA](../labs.qmd#lab-data){.badge .bg-light .text-decoration-none}🍽️[👩🏻‍🏫<br><br>TREE1](../slides.html?q=TREE1){.badge .bg-light .text-decoration-none} [TREE<br><br>WS](../05-TREE/WS-TREE.qmd){.badge .bg-light .text-decoration-none} [QUIZ <br><br>CLS]{.badge .bg-info}  [😵‍💫 <br>TA help <br> 7:00-8:00]{.badge .bg-light .text-decoration-none}               |
-| F       | Jan 16    | [📖<br><br> readings](../05-TREE/rr-TREE.qmd){.badge .bg-light .text-decoration-none}    |  TREE     |  [👩🏻‍🏫<br><br>TREE2](../slides.html?q=TREE2){.badge .bg-light .text-decoration-none} [👩🏻‍🏫<br><br>TREE3](../slides.html?q=TREE3){.badge .bg-light .text-decoration-none} [📝<br><br>HW:TREE](../05-TREE/hw-TREE.qmd){.badge .bg-light .text-decoration-none}  🍽️ [QUIZ <br><br>DATA]{.badge .bg-info}  [☑️<br><br>PC4](../project.qmd#pc4){.badge .bg-light .text-decoration-none}                   |
+|||
+|:---:|:---|:----|
+| T Sept 15 |  [EDA1](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [PC0](../project.qmd#pc0){.ag-btn .ag-grey} [Quiz: INTRO]{.ag-btn .step1} | PC0 due Wednesday |
+| Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
+| T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | Article review 1 due Saturday <br> Skim next module  |
 
-<!-- move quiz retakes EDA/EVL from Tu to W afternoon  -->
+[EVL](../content/05-EVAL.qmd){.topic-btn .step5} click to open
 
-## Week 3 (Jan 19 - 23)
+|||
+|:---:|:---|:----|
+| Th Sept 24 |   [EVL1](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [PC2](../project.qmd#pc2){.ag-btn .ag-grey}| EDA HW + Lab due Saturday<br>Study for EDA quiz |
+| T Sept 29 |   [EVL2](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [Quiz: EDA](../content/01-EDA.qmd#standards){.ag-btn .step1} | PC2 due Wednesday |
 
-| **dow** | **date**  | **prepare**       | **topic**              | **agenda**                                                                                   |
-|:------:|:---------:|:-----------------|:----------------------|:------------------------------------------------------------------------------------------------|
-| M       | **Jan 19**    |   | No Class   |    [☑️<br><br>PC5](../project.qmd#pc5){.badge .bg-light .text-decoration-none}    | 
-| T       | Jan 20    |  [📓<br>TREE<br> standards](../05-TREE/std-TREE.qmd){.badge .bg-light .text-decoration-none}   |  TREE     | [👩🏻‍🏫<br><br>LIN1](../slides.html?q=LIN1){.badge .bg-light .text-decoration-none}  [👩🏻‍🏫<br><br>LIN2](../slides.html?q=LIN2){.badge .bg-light .text-decoration-none} [📝<br><br>HW:LIN](../06-LIN/hw-LIN.qmd){.badge .bg-light .text-decoration-none}  🍽️[💻<br><br>Lab:TREE](../labs.qmd#lab-tree){.badge .bg-light .text-decoration-none}    [😵‍💫 <br>TA help <br> 7:00-8:00]{.badge .bg-light .text-decoration-none}         |
-| W       | Jan 21    |   [📖<br><br> readings](../08-ESB/rr-ESB.qmd){.badge .bg-light .text-decoration-none}  | MOD                    | [👩🏻‍🏫<br><br>KNN](../slides.html?q=KNN){.badge .bg-light .text-decoration-none}[👩🏻‍🏫<br><br>SVM](../slides.html?q=SVM){.badge .bg-light .text-decoration-none}  🍽️ [QUIZ <br><br>TREE]{.badge .bg-info}  [QUIZ <br> RETAKES <br>  CLS + DATA]{.badge .bg-info .text-decoration-none}  |
-| Th      | Jan 22    |      |   ESB      |  [👩🏻‍🏫<br><br>ESB1](../slides.html?q=ESB1){.badge .bg-light .text-decoration-none} [👩🏻‍🏫<br><br>ESB2](../slides.html?q=ESB1){.badge .bg-light .text-decoration-none}   [📝<br><br>HW:ENS](../08-ESB/hw-ESB.qmd){.badge .bg-light .text-decoration-none}  🍽️ [QUIZ <br><br>LIN]{.badge .bg-info}[☑️<br><br>PC6](../project.qmd#pc6){.badge .bg-light .text-decoration-none}                      |
-| F       | **Jan 23**    |     [📓<br>LIN<br> standards](../06-LIN/std-LIN.qmd){.badge .bg-light .text-decoration-none}             | ESB   |  [💻<br>Lab:MOD <br> Part 1](../labs.qmd#lab-models){.badge .bg-light .text-decoration-none}         |
+## October
 
-Over the weekend, complete an [article review](../articles.qmd)
+| **date**  | **agenda** | **upcoming** |
+|:---:|:---|:---|
+| Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL HW + Lab due Saturday<br>Study for EVL quiz <br> Skim next module |
 
-## Week 4 (Jan 26 - 30)
+[CLS](../content/03-ALG.qmd#cls){.topic-btn .step3} click to open
 
-| **dow** | **date**  | **prepare**       | **topic**              | **agenda**                                                                                   |
-|:------:|:---------:|:-----------------|:----------------------|:------------------------------------------------------------------------------------------------|
-| M       | Jan 26    |      |  ESB       |[👩🏻‍🏫<br><br>ESB3](../slides.html?q=ESB3){.badge .bg-light .text-decoration-none} [MOD<br><br>WS](../07-MOD/WS-MOD.qmd){.badge .bg-light .text-decoration-none} [☑️<br><br>PC7](../project.qmd#pc7){.badge .bg-light .text-decoration-none} [☑️<br><br>PC8](../project.qmd#pc8){.badge .bg-light .text-decoration-none} 🍽️ [💻<br>Lab:MOD <br>Part 2](../labs.qmd#lab-models){.badge .bg-light .text-decoration-none}                       |
-| T       | Jan 27    |    [📓<br>ESB<br> standards](../08-ESB/std-ESB.qmd){.badge .bg-light .text-decoration-none}   | NN                                |    [👩🏻‍🏫<br><br>NN1](../slides.html?q=NN1){.badge .bg-light .text-decoration-none}  [👩🏻‍🏫<br><br>NN2](../slides.html?q=NN2){.badge .bg-light .text-decoration-none}[📝<br><br> HW:NN](../09-NN/hw-NN.qmd){.badge .bg-light .text-decoration-none} 🍽️ [QUIZ <br><br>ENS]{.badge .bg-info} [☑️<br>work<br>time](../project.qmd#pc6){.badge .bg-light .text-decoration-none}                                |
-| W       | Jan 28    | [📖<br><br> readings](){.badge .bg-light .text-decoration-none} [📓<br>NN<br> standards](../09-NN/std-NN.qmd){.badge .bg-light .text-decoration-none} |  NN        | [👩🏻‍🏫<br><br>NN3](../slides.html?q=NN3){.badge .bg-light .text-decoration-none} [☑️<br><br>PC9](){.badge .bg-light .text-decoration-none}🍽️  [👩🏻‍🏫<br><br>STORY](../slides.html?q=STORY){.badge .bg-light .text-decoration-none}[😵‍💫 <br>TA help <br> 7:00-8:00]{.badge .bg-light .text-decoration-none}                                          |
-| Th      | Jan 29    |     | Final Day    | [QUIZ <br>(group)<br>NN]{.badge .bg-info}  [QUIZ <br> RETAKES <br>  ANY]{.badge .bg-info .text-decoration-none} 🍽️ [☑️<br><br>PREZ](../project.qmd#presentations){.badge .bg-light .text-decoration-none}                           |
-| F       | **Jan 30**    |     [submit<br>presentation](){.badge .bg-light .text-decoration-none}             | No Class  |                                                                                  |
+|||
+|:---:|:---|:---|
+| T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday |
+| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} |  |
+| T Oct 13 |  **Fall Break** |  |
+| Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW + Lab due Saturday<br>Study for CLS quiz <br> Skim next module |
 
+[DATA](../content/02-DATA.qmd){.topic-btn .step2} click to open
+
+|||
+|:---:|:---|:---|
+| T Oct 20 |  [DATA1](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [Quiz: CLS](../content/03-ALG.qmd#cls-standards){.ag-btn .step3} | Sign-up for retakes if applicable |
+| W Oct 21 |  [Quiz Retakes: INTRO EDA EVL]{.ag-btn .ag-grey} |  |
+| Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} [PC4](../project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Skim next module |
+
+[TREE](../content/03-ALG.qmd#tree){.topic-btn .step3} click to open
+
+|||
+|:---:|:---|:---|
+| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} | Article review 2 due Wednesday |
+| Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
+
+## November
+
+| **date** | **agenda** | **upcoming** |
+|:---:|:---|:---|
+| T Nov 3 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | PC5 due Wednesday <br>Skim next module|
+
+[LIN](../content/03-ALG.qmd#lin){.topic-btn .step3}
+
+|||
+|:---:|:---|:---|
+| Th Nov 5 | [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [Lab: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} | TREE HW + Lab due Saturday<br>Study for TREE quiz |
+| T Nov 10 |  [LIN2](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [HW: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey} [Quiz: TREE](../content/03-ALG.qmd#tree-standards){.ag-btn .step3} | Skim next module |
+
+[MOD](../content/03-ALG.qmd#mod){.topic-btn .step3} 
+
+|||
+|:---:|:---|:---|
+| Th Nov 12 |  [MOD1](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [Lab: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey} | LIN HW due Saturday |
+| T Nov 17  | [MOD2](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [HW: MOD](../content/03-ALG.qmd#mod){.ag-btn .ag-grey} [Quiz: LIN](../content/03-ALG.qmd#lin-standards){.ag-btn .step3} | MOD HW due Saturday<br>Study for LIN quiz <br> Skim next module|
+
+[ESB](../content/04-TRAIN.qmd){.topic-btn .step4} 
+
+|||
+|:---:|:---|:---|
+| Th Nov 19 |  [ESB1](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [HW: ESB](../content/04-TRAIN.qmd){.ag-btn .ag-grey} [PC6](../project.qmd#pc6){.ag-btn .ag-grey} | ESB HW due Tuesday |
+| T Nov 24 |  [ESB2](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [Lab: ESB Part 1](../content/04-TRAIN.qmd){.ag-btn .ag-grey} | ESB LAB Part1 due Monday |
+| Th Nov 26 | | **Thanksgiving Break**  |  |
+
+## December
+
+| **date**  | **agenda** | **upcoming** |
+|:---:|:---|:---|
+| T Dec 1 |  [ESB3](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [Lab: ESB Part 2](../content/04-TRAIN.qmd){.ag-btn .ag-grey} | PC6 due Thursday<br> Sign up for retakes if applicable  |
+| W Dec 2 | [Quiz Retakes<br> CLS DATA TREE LIN]{.ag-btn .ag-grey} | skim next module |
+
+[NN](../content/03-ALG.qmd#nn){.topic-btn .step3}
+
+|||
+|:---:|:---|:---|
+| Th Dec 3  | [NN1](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [HW: NN](../content/03-ALG.qmd#nn){.ag-btn .ag-grey} [PC7-9](../project.qmd#pc7){.ag-btn .ag-grey} | ESB LAB Part2 due Saturday <br> Study for ESB quiz |
+| T Dec 8 | [NN2](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [HW: NN](../content/03-ALG.qmd#nn){.ag-btn .ag-grey} [Quiz: ESB](../content/04-TRAIN.qmd#standards){.ag-btn .step4} | NN HW due Wednesday<br>PC7 due Friday<br>Study for NN quiz |
+| Th Dec 10 |  [NN3](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [Quiz: NN](../content/03-ALG.qmd#nn-standards){.ag-btn .step3} | PC8 and PC9 due Monday |
+| T Dec 15 | **Presentations**  | Sign-up for retakes if applicable |
+
+Make sure to fill out course evaluation!
+
+||||
+|:--:|:---|:-----|
+| M Dec 21 |  [Quiz Retakes ESB + NN <br>or any previous]{.ag-btn .ag-grey} | Have a great break :) |

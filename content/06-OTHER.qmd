@@ -1,0 +1,31 @@
+Below are some helpful resources for machine learning:
+
+## Intro: Lab
+In this lab, we explore how to build our own Python dictionaries and functions to store and summarize data. 
+Using a national policing dataset, we examine the impact of policing on Black Americans.
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1--LiIuUrYp2gkUp6d6pW3Nl1NzPD_yed?usp=sharing)
+
+
+## Python libraries
+Reading the documentation pages for various libraries is standard practice.
+
+[numpy]()
+[pandas]()
+[matplotlib]()
+[plotnine]()
+[seaborn]()
+[scikit-learn]()
+[tensorflow]()
+
+## YT channels
+[3Blue1Brown]()
+[Computerfile]()
+[Veritasium]()
+others?
+
+### Live coding
+I find it quite helpful to watch people live code as you follow along as they logic their way through a problem. Do some searching for tutorials and once you find a host you like, binge all their content.
+
+
+## textbooks
+There are quite a few textbooks out there. 

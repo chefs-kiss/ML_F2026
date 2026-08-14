@@ -278,7 +278,7 @@ of your work for clarity.
 The St. Olaf Honor System has been in place at St. Olaf College since 1911.
 All tests, quizzes, and examinations of any kind are taken under the St. Olaf Honor System. Each student is
 responsible for adhering to all principles of the Honor System regardless of the individual circumstances associated
-with their assessment environment.
+with their assessment environment. 
 
 ## Computer Science Program Attendance Policy Jterm 2026:  
 Attending class is essential for learning the

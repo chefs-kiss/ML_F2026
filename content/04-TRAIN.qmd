@@ -1,0 +1,124 @@
+---
+title: "Train"
+subtitle: "Step 4 of the machine learning workflow"
+toc: true
+---
+
+
+::: {.callout-note appearance="minimal"}
+## Train · at a glance
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 4 of 5 · Train |
+| **What you'll learn** | How a model actually learns from data, and what can go wrong during training. |
+| **Standards assessed** | ESB |
+| **Key terms** | training set · loss · ensemble · generalization |
+| **Materials** | [readings](#readings) · [slides](#slides) · [homework](#homework) · [lab](#lab) |
+| **Self-quiz** | [standards & practice →](#quiz) |
+
+:::
+
+
+Training is where a model learns. You feed prepared data to an algorithm, and it
+adjusts itself to fit the patterns in that data. This chapter covers what "fitting"
+really means and how ensembles combine many models into a stronger one.
+
+## Overview {#overview}
+
+Training takes the algorithm you chose in Step 3 and the data you prepared in Step 2,
+and produces a fitted model. The central tension is *generalization*: a model that fits
+its training data perfectly may still fail on new data.
+
+*(Flesh this out later.)*
+
+## Key ideas {#key-ideas}
+
+::: {.callout-note}
+## Key idea: fitting the training data is not the goal
+The goal is performance on *new* data. A model that memorizes the training set has
+learned nothing useful.
+:::
+
+- **Training vs. generalization** — why fitting the data isn't the same as learning.
+- **Loss** — how a model measures how wrong it currently is.
+- **Ensembles** — combining many weak models into one strong model.
+
+*(Expand each as you flesh out.)*
+
+## Readings {#readings}
+
+Before class, read the assigned material on ensembles and training.
+
+- Required: *add reading + link*
+
+## Slides {#slides}
+
+In class we'll work through these decks:
+
+- *Slide deck links go here (ESB1, ESB2, ESB3)*
+
+## Homework {#homework}
+
+- Assignment: *link*
+- What it assesses: training a model and diagnosing under/overfitting.
+
+## Lab {#lab}
+
+::: {.callout-tip}
+## Try it
+Build an ensemble in the lab and compare it to a single model.
+:::
+
+- Lab: *link*
+- Objectives: *add objectives*
+
+## Self-quiz {#quiz}
+
+Use the standards as a checklist, then try the practice questions.
+
+### Standards
+
+**ESB** — *Explain how ensembles improve on single models, and train one on a dataset.*
+
+You should be able to:
+
+- Describe why combining models can outperform any single model.
+- Distinguish training performance from generalization performance.
+
+*(Add any additional training-related standards.)*
+
+### Practice questions
+
+Click a question to reveal the answer.
+
+::: {.callout-note collapse="true"}
+## Q1. Why can an ensemble of "weak" models outperform a single strong model?
+Different models make different errors. Averaging or voting across them cancels out
+individual mistakes, so the combined prediction is more reliable than any one model.
+:::
+
+::: {.callout-note collapse="true"}
+## Q2. Your model's training accuracy keeps rising but validation accuracy starts falling. What does this signal?
+Overfitting: the model is memorizing the training data at the expense of generalizing.
+It's time to stop training, simplify, or regularize.
+:::
+
+::: {.callout-note collapse="true"}
+## Q3. *(Add your own practice question here.)*
+*(Answer goes here.)*
+:::
+
+## Key terms {#glossary}
+
+Training set
+: The data a model learns from.
+
+Loss
+: A number measuring how wrong a model's current predictions are; training tries to minimize it.
+
+Ensemble
+: A model built by combining the predictions of several models.
+
+Generalization
+: How well a model performs on data it has never seen.
