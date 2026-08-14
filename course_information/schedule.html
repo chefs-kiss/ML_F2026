@@ -30,12 +30,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../static/favicon_32.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -45,19 +45,20 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-934e67339f4b651925d08586acd0e0a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-79a968c9aea4614460e09ff00c804a61.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -76,16 +77,51 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Machine Learning</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../course_information/schedule.html" aria-current="page"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../content/00-INTRO.html"> 
+<span class="menu-text">Course Wiki</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../course_information/project.html"> 
+<span class="menu-text">Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../course_information/schedule.html">Schedule</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../course_information/schedule.html">CSCI279 Fall 2026</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -95,21 +131,9 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../static/ml_green.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../static/ml_green.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main tools-wide">
-    <a href="../course_information/schedule.html" title="Home" class="quarto-navigation-tool px-1" aria-label="Home"><i class="bi bi-house"></i></a>
-    <a href="https://chefs-kiss.github.io/ML_J2026/files/ISLP.pdf" title="ISLP" class="quarto-navigation-tool px-1" aria-label="ISLP"><i class="bi bi-file-earmark-pdf"></i></a>
-    <a href="https://mdl.stolaf.edu/course/view.php?id=56310" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-chat-heart"></i></a>
-    <a href="https://github.com/chefs-kiss/ML_J2026" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
-</div>
-      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -119,38 +143,14 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../course_information/schedule.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">CSCI279 Fall 2026</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/00-INTRO.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Course Content</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../articles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Article Reviews</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/06-OTHER.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Resources</span></a>
+  <a href="https://wp.stolaf.edu/registrar/files/2026/03/2026-27-Academic-Calendar-FINAL-3.9.26.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Academic Calendar 2026-2027</span></a>
   </div>
 </li>
     </ul>
@@ -202,7 +202,6 @@ ul.task-list li input[type="checkbox"] {
   .step4 { background:var(--step4); color:var(--on-dark); }
   .step5 { background:var(--step5); color:var(--on-dark); }
 </style>
-<p><img src="../static/art3.png" class="img-fluid"></p>
 <section id="september" class="level2">
 <h2 class="anchored" data-anchor-id="september">September</h2>
 <p><span class="topic-btn step1">INTRO</span></p>
@@ -227,12 +226,12 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">T Sept 15</td>
-<td style="text-align: left;"><a href="../content/01-EDA.html#slides" class="ag-btn ag-grey">EDA1</a> <a href="../project.html#pc0" class="ag-btn ag-grey">PC0</a> <span class="ag-btn step1">Quiz: INTRO</span></td>
+<td style="text-align: left;"><a href="../content/01-EDA.html#slides" class="ag-btn ag-grey">EDA1</a> <a href="../project.qmd#pc0" class="ag-btn ag-grey">PC0</a> <span class="ag-btn step1">Quiz: INTRO</span></td>
 <td style="text-align: left;">PC0 due Wednesday</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Th Sept 17</td>
-<td style="text-align: left;"><a href="../content/01-EDA.html#slides" class="ag-btn ag-grey">EDA2</a> <a href="../content/01-EDA.html" class="ag-btn ag-grey">HW: EDA</a> <a href="../project.html#pc1" class="ag-btn ag-grey">PC1</a></td>
+<td style="text-align: left;"><a href="../content/01-EDA.html#slides" class="ag-btn ag-grey">EDA2</a> <a href="../content/01-EDA.html" class="ag-btn ag-grey">HW: EDA</a> <a href="../project.qmd#pc1" class="ag-btn ag-grey">PC1</a></td>
 <td style="text-align: left;">PC1 due Saturday</td>
 </tr>
 <tr class="odd">
@@ -247,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Th Sept 24</td>
-<td style="text-align: left;"><a href="../content/05-EVAL.html#slides" class="ag-btn ag-grey">EVL1</a> <a href="../content/05-EVAL.html" class="ag-btn ag-grey">HW: EVL</a> <a href="../project.html#pc2" class="ag-btn ag-grey">PC2</a></td>
+<td style="text-align: left;"><a href="../content/05-EVAL.html#slides" class="ag-btn ag-grey">EVL1</a> <a href="../content/05-EVAL.html" class="ag-btn ag-grey">HW: EVL</a> <a href="../project.qmd#pc2" class="ag-btn ag-grey">PC2</a></td>
 <td style="text-align: left;">EDA HW + Lab due Saturday<br>Study for EDA quiz</td>
 </tr>
 <tr class="even">
@@ -281,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">T Oct 6</td>
-<td style="text-align: left;"><a href="../content/03-ALG.html#cls-slides" class="ag-btn ag-grey">CLS1</a> <a href="../project.html#pc3" class="ag-btn ag-grey">PC3</a> <a href="../content/05-EVAL.html#standards" class="ag-btn step5">Quiz: EVL</a></td>
+<td style="text-align: left;"><a href="../content/03-ALG.html#cls-slides" class="ag-btn ag-grey">CLS1</a> <a href="../project.qmd#pc3" class="ag-btn ag-grey">PC3</a> <a href="../content/05-EVAL.html#standards" class="ag-btn step5">Quiz: EVL</a></td>
 <td style="text-align: left;">PC3 due Wednesday</td>
 </tr>
 <tr class="even">
@@ -316,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Th Oct 22</td>
-<td style="text-align: left;"><a href="../content/02-DATA.html#slides" class="ag-btn ag-grey">DATA2</a> <a href="../content/02-DATA.html" class="ag-btn ag-grey">HW: DATA</a> <a href="../project.html#pc4" class="ag-btn ag-grey">PC4</a></td>
+<td style="text-align: left;"><a href="../content/02-DATA.html#slides" class="ag-btn ag-grey">DATA2</a> <a href="../content/02-DATA.html" class="ag-btn ag-grey">HW: DATA</a> <a href="../project.qmd#pc4" class="ag-btn ag-grey">PC4</a></td>
 <td style="text-align: left;">PC4 due Saturday <br> Skim next module</td>
 </tr>
 </tbody>
@@ -331,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: center;">Th Oct 29</td>
-<td style="text-align: left;"><a href="../content/03-ALG.html#tree-slides" class="ag-btn ag-grey">TREE2</a> <a href="../content/03-ALG.html#tree" class="ag-btn ag-grey">HW: TREE</a> <a href="../project.html#pc5" class="ag-btn ag-grey">PC5</a></td>
+<td style="text-align: left;"><a href="../content/03-ALG.html#tree-slides" class="ag-btn ag-grey">TREE2</a> <a href="../content/03-ALG.html#tree" class="ag-btn ag-grey">HW: TREE</a> <a href="../project.qmd#pc5" class="ag-btn ag-grey">PC5</a></td>
 <td style="text-align: left;">DATA HW + Lab due Saturday<br>Study for DATA quiz</td>
 </tr>
 </tbody>
@@ -390,7 +389,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Th Nov 19</td>
-<td style="text-align: left;"><a href="../content/04-TRAIN.html#slides" class="ag-btn ag-grey">ESB1</a> <a href="../content/04-TRAIN.html" class="ag-btn ag-grey">HW: ESB</a> <a href="../project.html#pc6" class="ag-btn ag-grey">PC6</a></td>
+<td style="text-align: left;"><a href="../content/04-TRAIN.html#slides" class="ag-btn ag-grey">ESB1</a> <a href="../content/04-TRAIN.html" class="ag-btn ag-grey">HW: ESB</a> <a href="../project.qmd#pc6" class="ag-btn ag-grey">PC6</a></td>
 <td style="text-align: left;">ESB HW due Tuesday</td>
 </tr>
 <tr class="even">
@@ -434,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">Th Dec 3</td>
-<td style="text-align: left;"><a href="../content/03-ALG.html#nn-slides" class="ag-btn ag-grey">NN1</a> <a href="../content/03-ALG.html#nn" class="ag-btn ag-grey">HW: NN</a> <a href="../project.html#pc7" class="ag-btn ag-grey">PC7-9</a></td>
+<td style="text-align: left;"><a href="../content/03-ALG.html#nn-slides" class="ag-btn ag-grey">NN1</a> <a href="../content/03-ALG.html#nn" class="ag-btn ag-grey">HW: NN</a> <a href="../project.qmd#pc7" class="ag-btn ag-grey">PC7-9</a></td>
 <td style="text-align: left;">ESB LAB Part2 due Saturday <br> Study for ESB quiz</td>
 </tr>
 <tr class="even">

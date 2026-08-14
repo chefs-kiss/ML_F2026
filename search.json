@@ -109,328 +109,359 @@
     "href": "articles.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "You will complete one (1) review of an article related to machine learning. The review is worth 5 points.\nThese assignments are designed to help you:\nThe review should demonstrate that you have read and understood the article, and thoughtfully reflected on its content. Most importantly, I should be able to get to know you personally through your writing of the review.",
-    "crumbs": [
-      "Article Reviews"
-    ]
+    "text": "You will complete one (1) review of an article related to machine learning. The review is worth 5 points.\nThese assignments are designed to help you:\nThe review should demonstrate that you have read and understood the article, and thoughtfully reflected on its content. Most importantly, I should be able to get to know you personally through your writing of the review."
   },
   {
     "objectID": "articles.html#finding-an-article",
     "href": "articles.html#finding-an-article",
     "title": "Machine Learning",
     "section": "Finding an Article",
-    "text": "Finding an Article\nYou are encouraged to find an article from reputable sources. Some suggestions include:\n\nThe New York Times (free access through our library)\n\nThe Pudding has data-driven storytelling examples\nYouTube channels like 3Blue1Brown or Veritasium\n\nOther sources such as academic blogs, news outlets, Medium posts, or scientific publications\n\nAny chapter from Weapons of Math Destruction by Cathy O’Neil (Prof Kim has multiple copies, and so does the library)\n\nTip: Pick an article that genuinely interest you. You will write better reflections if the topic captures your attention.",
-    "crumbs": [
-      "Article Reviews"
-    ]
+    "text": "Finding an Article\nYou are encouraged to find an article from reputable sources. Some suggestions include:\n\nThe New York Times (free access through our library)\n\nThe Pudding has data-driven storytelling examples\nYouTube channels like 3Blue1Brown or Veritasium\n\nOther sources such as academic blogs, news outlets, Medium posts, or scientific publications\n\nAny chapter from Weapons of Math Destruction by Cathy O’Neil (Prof Kim has multiple copies, and so does the library)\n\nTip: Pick an article that genuinely interest you. You will write better reflections if the topic captures your attention."
   },
   {
     "objectID": "articles.html#article-review-instructions",
     "href": "articles.html#article-review-instructions",
     "title": "Machine Learning",
     "section": "Article Review Instructions",
-    "text": "Article Review Instructions\nFor the article, provide clear and complete answers to the following questions.\nWrite in your own words. I do not want to read summarized slop from LLMs (these will receive 0 points).\n\nArticle Information: title of the article, author(s), publication month and year, link to the article\nIn your own words, summarize what the article covers. Focus on the key points and main ideas.\nIdentify any surprising facts, unique approaches, or compelling examples mentioned in the article.\nDiscuss how the ideas or technologies presented could affect society. Consider both positive and negative implications.\nReflect on how the article’s ideas might influence your own life, studies, or career.\nWhat would you ask the author to clarify, expand upon, or explain further?\nWhat question could you pose to readers or viewers to spark discussion?\nReflect on the article as a whole. What did you like or dislike? What did you agree or disagree with? Did it change your perspective on machine learning in any way? Would you recommend this article?",
-    "crumbs": [
-      "Article Reviews"
-    ]
+    "text": "Article Review Instructions\nFor the article, provide clear and complete answers to the following questions.\nWrite in your own words. I do not want to read summarized slop from LLMs (these will receive 0 points).\n\nArticle Information: title of the article, author(s), publication month and year, link to the article\nIn your own words, summarize what the article covers. Focus on the key points and main ideas.\nIdentify any surprising facts, unique approaches, or compelling examples mentioned in the article.\nDiscuss how the ideas or technologies presented could affect society. Consider both positive and negative implications.\nReflect on how the article’s ideas might influence your own life, studies, or career.\nWhat would you ask the author to clarify, expand upon, or explain further?\nWhat question could you pose to readers or viewers to spark discussion?\nReflect on the article as a whole. What did you like or dislike? What did you agree or disagree with? Did it change your perspective on machine learning in any way? Would you recommend this article?"
   },
   {
     "objectID": "articles.html#submission-guidelines",
     "href": "articles.html#submission-guidelines",
     "title": "Machine Learning",
     "section": "Submission Guidelines",
-    "text": "Submission Guidelines\n\nSubmit the article review as pdf to Moodle\nThe review should be about a page or so in length.\nIt’s okay if your grammar is less than perfect.\n\nThe review is due by the last day of class, though it is encouraged to complete them early.",
-    "crumbs": [
-      "Article Reviews"
-    ]
+    "text": "Submission Guidelines\n\nSubmit the article review as pdf to Moodle\nThe review should be about a page or so in length.\nIt’s okay if your grammar is less than perfect.\n\nThe review is due by the last day of class, though it is encouraged to complete them early."
   },
   {
     "objectID": "articles.html#grading-criteria",
     "href": "articles.html#grading-criteria",
     "title": "Machine Learning",
     "section": "Grading Criteria",
-    "text": "Grading Criteria\n\nCompleteness (2 pts)\nPersonal (1 pt)\nInsightful impact (1pt)\nClarity + organization (1pt)\nTotal: 5 pt",
-    "crumbs": [
-      "Article Reviews"
-    ]
+    "text": "Grading Criteria\n\nCompleteness (2 pts)\nPersonal (1 pt)\nInsightful impact (1pt)\nClarity + organization (1pt)\nTotal: 5 pt"
   },
   {
     "objectID": "articles.html#tips-for-success",
     "href": "articles.html#tips-for-success",
     "title": "Machine Learning",
     "section": "Tips for Success",
-    "text": "Tips for Success\n\nReflect on how the article connects to your understanding of machine learning.\n\nThink critically about the societal and personal implications.\n\nUse your own words to demonstrate understanding.\n\nChoose a mix of technical and non-technical articles for variety.",
+    "text": "Tips for Success\n\nReflect on how the article connects to your understanding of machine learning.\n\nThink critically about the societal and personal implications.\n\nUse your own words to demonstrate understanding.\n\nChoose a mix of technical and non-technical articles for variety."
+  },
+  {
+    "objectID": "course_information/schedule.html",
+    "href": "course_information/schedule.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus Lab: Intro\nINTRO lab due SaturdaySkim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Wednesday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\nPC1 due Saturday\n\n\nT Sept 22\nEDA3 Lab: EDA\nArticle review 1 due Saturday  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA HW + Lab due SaturdayStudy for EDA quiz\n\n\nT Sept 29\nEVL2 HW: EVL Quiz: EDA\nPC2 due Wednesday",
     "crumbs": [
-      "Article Reviews"
+      "Schedule",
+      "CSCI279 Fall 2026"
     ]
   },
   {
-    "objectID": "02-EVL/std-EVL.html",
-    "href": "02-EVL/std-EVL.html",
+    "objectID": "course_information/schedule.html#september",
+    "href": "course_information/schedule.html#september",
     "title": "Machine Learning",
     "section": "",
-    "text": "The following standards will be assessed on the EVL quiz:"
-  },
-  {
-    "objectID": "02-EVL/std-EVL.html#eval",
-    "href": "02-EVL/std-EVL.html#eval",
-    "title": "Machine Learning",
-    "section": "EVAL",
-    "text": "EVAL\nYou should be able to:\n\nIdentify which evaluation metrics to use for various ML tasks\nCompute metrics (formulas provided)\nInterpret metrics in an accessible way"
-  },
-  {
-    "objectID": "02-EVL/std-EVL.html#train",
-    "href": "02-EVL/std-EVL.html#train",
-    "title": "Machine Learning",
-    "section": "TRAIN",
-    "text": "TRAIN\nYou should be able to:\n\nKnow ways to separate train, validation, and test sets\nDefine overfitting, underfitting, cross-fold validation\nUnderstand and give examples of the bias(underfitting) - variance (overfitting) tradeoff"
-  },
-  {
-    "objectID": "02-EVL/std-EVL.html#study-tips",
-    "href": "02-EVL/std-EVL.html#study-tips",
-    "title": "Machine Learning",
-    "section": "Study Tips",
-    "text": "Study Tips\nReview the lecture slides, workbooks, homework assignments, and the associated lab.\nQuiz questions are similar (though not identical) to the types of questions covered in these materials. You should be able to use appropriate terminology and apply the concepts covered in class to a variety of new scenarios.\nThe primary goal of each quiz is to give you an opportunity to apply concepts with clear and well-explained reasoning.\nQuizzes are also a valuable opportunity to receive feedback on your reasoning skills."
-  },
-  {
-    "objectID": "02-EVL/std-EVL.html#formulas-given",
-    "href": "02-EVL/std-EVL.html#formulas-given",
-    "title": "Machine Learning",
-    "section": "Formulas given",
-    "text": "Formulas given\n\\(\\text{Accuracy} = \\frac{TP + TN}{TP + FP + FN + TN}\\)\n\\(\\text{Precision} = \\frac{TP}{TP + FP}\\)\n\\(\\text{Recall} = \\frac{TP}{TP + FN}\\)\n\\(F1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}\\)\n\\(MAE = \\frac{1}{n} \\sum |y_{obs} - y_{pred}|\\)\n\\(MSE = \\frac{1}{n} \\sum (y_{obs} - y_{pred})^2\\)\n\\(RMSE = \\sqrt{MSE}\\)"
-  },
-  {
-    "objectID": "02-EVL/rr-EVL.html",
-    "href": "02-EVL/rr-EVL.html",
-    "title": "EVL readings",
-    "section": "",
-    "text": "Dive deeper in the content we’ll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. \n\nIntro to ML section 2.1 \nModel Accuracy section 2.2 \nCross-validation section 5.1 \nBootstrap section 5.2\n\n\n\n\n\nAccountable algorithms describes principles for investigating algorithms and holding them accountable. \nAlgorithm guidance expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples."
-  },
-  {
-    "objectID": "02-EVL/rr-EVL.html#islp-selected-readings",
-    "href": "02-EVL/rr-EVL.html#islp-selected-readings",
-    "title": "EVL readings",
-    "section": "",
-    "text": "Dive deeper in the content we’ll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. \n\nIntro to ML section 2.1 \nModel Accuracy section 2.2 \nCross-validation section 5.1 \nBootstrap section 5.2"
-  },
-  {
-    "objectID": "02-EVL/rr-EVL.html#related-articles",
-    "href": "02-EVL/rr-EVL.html#related-articles",
-    "title": "EVL readings",
-    "section": "",
-    "text": "Accountable algorithms describes principles for investigating algorithms and holding them accountable. \nAlgorithm guidance expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples."
-  },
-  {
-    "objectID": "content/05-EVAL.html",
-    "href": "content/05-EVAL.html",
-    "title": "Evaluation",
-    "section": "",
-    "text": "NoteEvaluation · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 5 of 5 · Evaluate\n\n\nWhat you’ll learn\nHow to measure whether a model is any good, and how to compare models fairly.\n\n\nStandards assessed\nEVL\n\n\nKey terms\naccuracy · precision · recall · overfitting\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nEvaluation (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)"
-  },
-  {
-    "objectID": "content/05-EVAL.html#overview",
-    "href": "content/05-EVAL.html#overview",
-    "title": "Evaluation",
-    "section": "Overview",
-    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)"
-  },
-  {
-    "objectID": "content/05-EVAL.html#key-ideas",
-    "href": "content/05-EVAL.html#key-ideas",
-    "title": "Evaluation",
-    "section": "Key ideas",
-    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)"
-  },
-  {
-    "objectID": "content/05-EVAL.html#readings",
-    "href": "content/05-EVAL.html#readings",
-    "title": "Evaluation",
-    "section": "Readings",
-    "text": "Readings\nBefore class, read the assigned material.\n\nRequired: add reading + link\nOptional / going deeper: add reading + link"
-  },
-  {
-    "objectID": "content/05-EVAL.html#slides",
-    "href": "content/05-EVAL.html#slides",
-    "title": "Evaluation",
-    "section": "Slides",
-    "text": "Slides\nIn class we’ll work through these decks:\n\nadd slide deck links"
-  },
-  {
-    "objectID": "content/05-EVAL.html#homework",
-    "href": "content/05-EVAL.html#homework",
-    "title": "Evaluation",
-    "section": "Homework",
-    "text": "Homework\n\nAssignment: link\nWhat it assesses: short description"
-  },
-  {
-    "objectID": "content/05-EVAL.html#lab",
-    "href": "content/05-EVAL.html#lab",
-    "title": "Evaluation",
-    "section": "Lab",
-    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\n(One-line pointer to the hands-on lab.)\n\n\n\nLab: link\nObjectives: add objectives"
-  },
-  {
-    "objectID": "content/05-EVAL.html#standards",
-    "href": "content/05-EVAL.html#standards",
-    "title": "Evaluation",
-    "section": "Self-quiz",
-    "text": "Self-quiz\nUse the standards below as a checklist — you should be able to do each — then try the practice questions to test yourself.\n\nStandards\n(Add the standards for this unit, each framed as “you should be able to…”.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)"
-  },
-  {
-    "objectID": "content/05-EVAL.html#glossary",
-    "href": "content/05-EVAL.html#glossary",
-    "title": "Evaluation",
-    "section": "Key terms",
-    "text": "Key terms\n\nTerm\n\n(definition)\n\nTerm\n\n(definition)"
-  },
-  {
-    "objectID": "content/05-EVAL.html#see-also",
-    "href": "content/05-EVAL.html#see-also",
-    "title": "Evaluation",
-    "section": "See also",
-    "text": "See also\n\nStep 1 · EDA — reuse EDA plots to inspect predictions (if doing supervised learning).\nStep 2 · Data Preparation — where most model-performance gains come from.\nStep 3 · Algorithms — the models being evaluated.\nStep 4 · Train — fitting the models you evaluate here.\nStep 5 · Evaluation — you are here."
-  },
-  {
-    "objectID": "content/02-DATA.html",
-    "href": "content/02-DATA.html",
-    "title": "Data Preparation",
-    "section": "",
-    "text": "NoteData Preparation · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 2 of 5 · Data Prep\n\n\nWhat you’ll learn\nHow to clean, transform, and structure data so it’s ready to model.\n\n\nStandards assessed\nDATA\n\n\nKey terms\ncleaning · transformation · encoding · missing values\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nData preparation (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)"
-  },
-  {
-    "objectID": "content/02-DATA.html#overview",
-    "href": "content/02-DATA.html#overview",
-    "title": "Data Preparation",
-    "section": "Overview",
-    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)"
-  },
-  {
-    "objectID": "content/02-DATA.html#key-ideas",
-    "href": "content/02-DATA.html#key-ideas",
-    "title": "Data Preparation",
-    "section": "Key ideas",
-    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)"
-  },
-  {
-    "objectID": "content/02-DATA.html#readings",
-    "href": "content/02-DATA.html#readings",
-    "title": "Data Preparation",
-    "section": "Readings",
-    "text": "Readings\nBefore class, read the assigned material.\n\nRequired: add reading + link\nOptional / going deeper: add reading + link"
-  },
-  {
-    "objectID": "content/02-DATA.html#slides",
-    "href": "content/02-DATA.html#slides",
-    "title": "Data Preparation",
-    "section": "Slides",
-    "text": "Slides\nIn class we’ll work through these decks:\n\nadd slide deck links"
-  },
-  {
-    "objectID": "content/02-DATA.html#homework",
-    "href": "content/02-DATA.html#homework",
-    "title": "Data Preparation",
-    "section": "Homework",
-    "text": "Homework\n\nAssignment: link\nWhat it assesses: short description"
-  },
-  {
-    "objectID": "content/02-DATA.html#lab",
-    "href": "content/02-DATA.html#lab",
-    "title": "Data Preparation",
-    "section": "Lab",
-    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\n(One-line pointer to the hands-on lab.)\n\n\n\nLab: link\nObjectives: add objectives"
-  },
-  {
-    "objectID": "content/02-DATA.html#standards",
-    "href": "content/02-DATA.html#standards",
-    "title": "Data Preparation",
-    "section": "Self-quiz",
-    "text": "Self-quiz\nUse the standards below as a checklist — you should be able to do each — then try the practice questions to test yourself.\n\nStandards\n(Add the standards for this unit, each framed as “you should be able to…”.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)"
-  },
-  {
-    "objectID": "content/02-DATA.html#glossary",
-    "href": "content/02-DATA.html#glossary",
-    "title": "Data Preparation",
-    "section": "Key terms",
-    "text": "Key terms\n\nTerm\n\n(definition)\n\nTerm\n\n(definition)"
-  },
-  {
-    "objectID": "content/02-DATA.html#see-also",
-    "href": "content/02-DATA.html#see-also",
-    "title": "Data Preparation",
-    "section": "See also",
-    "text": "See also\n\nStep 1 · EDA — understanding the data before you prepare it.\nStep 2 · Data Preparation — you are here.\nStep 3 · Algorithms — the models this prepared data feeds.\nStep 4 · Train — fitting the models to the prepared data.\nStep 5 · Evaluation — judging the models built from this data."
-  },
-  {
-    "objectID": "content/01-EDA.html",
-    "href": "content/01-EDA.html",
-    "title": "Exploring Data",
-    "section": "",
-    "text": "NoteExploring Data · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 1 of 5 · Explore\n\n\nWhat you’ll learn\nHow to summarize a dataset, read its distributions, and reason about feature types.\n\n\nStandards assessed\nFLOW · EDA-STAT\n\n\nKey terms\ntarget · features · distribution · feature type · summary statistic · skew\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nExploratory data analysis (EDA) (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)"
-  },
-  {
-    "objectID": "content/01-EDA.html#overview",
-    "href": "content/01-EDA.html#overview",
-    "title": "Exploring Data",
-    "section": "Overview",
-    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)"
-  },
-  {
-    "objectID": "content/01-EDA.html#key-ideas",
-    "href": "content/01-EDA.html#key-ideas",
-    "title": "Exploring Data",
-    "section": "Key ideas",
-    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)"
-  },
-  {
-    "objectID": "content/01-EDA.html#readings",
-    "href": "content/01-EDA.html#readings",
-    "title": "Exploring Data",
-    "section": "Readings",
-    "text": "Readings\nBefore class, read the assigned material and take notes.\n\nRelated articles\n\nStats distributions describes how by only knowing statistical properties we may be making inaccurate assumptions of what our data actually looks like visually. \nImplications behind visualizations (excusing the explicit language) has loads of examples of how biases can creep into our data insights. This article shows how we can initially interpret visualizations, and perhaps how to start questioning if the visualization is telling the story we think it is. \nUsing LLMs to storyboard goes through the process of how a data-driven story is created at The Pudding, but using an LLM. This article is a great way to understand how data-driven stories are put together, and how good (or not so good) LLMs are at replicating tasks associated with the design and implementation process. \nggplot vs plotnine compares the graphing power of R’s ggplot to Python’s plotnine (R wrapper for ggplot). Useful for those who have experience with creating visualizations in R, or for those who are unimpressed by matplotlib’s capabilities. Only read if you have a background using R.\nStatistics for ML walks through basic definitions of statistical measures, charts, and distributions.\n\n\n\nCheat sheets\nThe following cheatsheets may be helpful for your reference: data storytelling, data visualizations, matplotlib, plotly, seaborn."
-  },
-  {
-    "objectID": "content/01-EDA.html#slides",
-    "href": "content/01-EDA.html#slides",
-    "title": "Exploring Data",
-    "section": "Slides",
-    "text": "Slides\n\nModel workflow\nEDA1: Overview of the 5step workflow, learning paradigms, and features types. Open in new tab\n\n\nstatistics\nEDA2: Descriptive statistics (mean, median, standard deviation), statistical tests and hypothesis testing.  Open in new tab\n\n\nVisualizations\nEDA3: How to tell a story, and creating visualizations with mathplotlib, plotnine, seaborn. Open in new tab"
-  },
-  {
-    "objectID": "content/01-EDA.html#homework",
-    "href": "content/01-EDA.html#homework",
-    "title": "Exploring Data",
-    "section": "Homework",
-    "text": "Homework\nThis homework goes over looking at summary tables for a dataset, explaining statistical terms to non-tech folks, exploring statistics, and interpretting statistical tests. Click to view pdf."
-  },
-  {
-    "objectID": "content/01-EDA.html#lab",
-    "href": "content/01-EDA.html#lab",
-    "title": "Exploring Data",
-    "section": "Lab",
-    "text": "Lab\nIn this lab, we will explore how to critic and refine code outputted by a language model, and practice a bit of prompt engineering. We will be using the Titanic dataset to perform exploratory data analysis tasks, including calculating statistical measures, conducting statistical tests, and creating visualizations. Click to view Colab Notebook."
-  },
-  {
-    "objectID": "content/01-EDA.html#standards",
-    "href": "content/01-EDA.html#standards",
-    "title": "Exploring Data",
-    "section": "Self-quiz",
-    "text": "Self-quiz\nUse the standards below as a checklist, then try the practice questions to test yourself.\n\nStandards\n\nFLOW\nYou should be able to:\n\nDefine learning approaches (supervised vs. unsupervised learning) and learning tasks (regression, classification, and clustering).\nInterpret a dataset summary table.\nDescribe a model’s goal and explain who might benefit from the model.\nDescribe the five steps ML workflow and give a few examples of tasks for each step\n\n\n\nEDA-STAT\nYou should be able to:\n\nUnderstand and describe statistical measures, distributions, and tests\nRead and interpret charts, including identifying key features (skew, balance, shape) and chart types (histogram, boxplot, scatterplot)\nIdentify different feature types (numeric, discrete, continuous, ordinal, categorical, binary, or none).\nExplain what factors to consider when deciding whether a feature type is appropriate to include in a machine learning model.\n\n\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)"
-  },
-  {
-    "objectID": "content/01-EDA.html#see-also",
-    "href": "content/01-EDA.html#see-also",
-    "title": "Exploring Data",
-    "section": "See also",
-    "text": "See also\n\nStep 1 · EDA — you are here.\nStep 2 · Data Preparation — the next step: cleaning and transforming what you explored.\nStep 3 · Algorithms — the models your prepared data will feed.\nStep 4 · Train — fitting the models to data.\nStep 5 · Evaluation — judging how well the models performed."
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Overview\nYou may choose to work on any machine learning project of your choice. This could be similar to the types of regression, classification, or clustering that we will cover in class, or could be on machine learning related to text (things like sentiment analysis, or text generation), or could be on machine learning related to images (things like image recognition, or image generation), or another area of machine learning altogether.\nYou must complete this project individually.\n\n\nRequirements\nThe first requirement for the project is that you have created a workflow plan for each section of the ML workflow process, and have code that implements that plan. You will want to create a colab workbook, and include this plan at the beginning of your code notebook.\nYour plan should include the following:\n\nWhat will be your goal in working on this project?\nWhat will be your source for data for the project? If this requires you to gather data, how will you go about this?\nWhat data cleaning, conversion, or preparation will you need to do to prepare your data set?\nWhat kinds of exploratory data analysis will you do?\nWhich machine learning algorithms will you use to train models? Why are you choosing these algorithms?\nHow will you attempt to optimize your models?\nHow will you analyze the accuracy of your models?\n\nYour workflow should have some form of data pre-processing, some kind of exploratory data analysis, training and testing of machine learning algorithms (including some parameter tuning), and evaluating the performance of your models. It is very important that your plan is complete and very detailed, in order to show a thorough understanding of the process of training a model using machine learning, in case you don’t have time to fully complete your project.\nThe second requirement for the project is that it use one of the following datasets. These datasets cover a variety of topics and have enough records to build substantial models. If you wish, you may choose your own data set (both the UCI repo or data.world are good places to start) that is not on this list, but you’ll need to check with your instructor first (look for data &gt;5k records with both numeric and categorial features)\n\nCardiotocography\nHuman Activity Recognition Using Smartphones\nLetter Recognition\nTurkiye Student Evaluation\nBank Marketing Data Set\nContraceptive Method Choice Data Set\nCrimes in Chicago\nDefault of Credit Card Clients Data Set\nOnline Shoppers Purchasing Intention Dataset\nSynthetic Financial Datasets for Fraud Detection (fake data set, but should still provide useful practice)\nRice Variety Recognition\nMice Protein Expression\n\n\n\nProject Check-ins\nThere are nine progress checks during the semester, each worth 4 points (see the schedule). To receive full credit for a progress check, you must submit work before the next lecture’s afternoon session.\n\nPC0\nRead over the project, taking a look at deadlines and deliverables. Then start to look at datasets you’re interested in. You can certainly use the ones given, but it is a requirement to find an outside datasource and post on the Forum under “Places to find additional data sources”\n\n\nPC1\nIdentify three data sets that you’re interested in. Include a link, a two sentence description, and the reasoning behind selection for each dataset. Post on the Forum under “Three datasets of interest” \n\n\nPC2\nCreate a Colab workbook and copy-paste the workflow plan above into a text box. Identify the dataset you’d like to use for your project, and fill out the project goal (first question). You may have to do some background research on your topic. Then fill out the next three questions.\nNext, make sure your data is accessible on a git repo somewhere so you can get started on the next PC. Depending on your project, this might be as simple as locating a git repo that has your data set, or it might require you to upload the dataset to your personal git repo.\nSubmit the link to your colab workbook to the Moodle submission.\n\n\nPC3\nPerform some exploratory data analysis using your workbook. Discuss the results, and what this tells you about your data, as well as your expectations for your results. This should include some data visualizations that go beyond a basic chart.\nSubmit a picture of a plot you made along with a quick relection to the Moodle submission\n\n\n\nPC4\nTime to do some more background research. By now, hopefully you have identified what the goal of the model you plan to build is. Your task is to see if something similar been done with this type of data. Do a brief write up of background information (one paragraph) making sure to link sources.\nYou should also continue to build out your workflow plan, adding more details as you learn new material in class.\n\n\nPC5\nPrepare your data set for training. This might include handling missing or categorical values, basic conversions, or more extensive conversions. Any choices that you make should be explained. Additionally, you may want to consider creating more visualizations using this pre-processed (or what we call “clean”) data.\n\n\nPC6\nFinish laying out your project workflow and begin building your presentation. Think about how to make the insights from your analysis, your model goal, or the background information engaging for a general audience. Use this checkpoint to explore what makes a story compelling and experiment with ways to bring that story to life in your presentation.\n\n\nPC7\nTrain models using machine learning algorithms. Although you should not use every algorithm that we’ve covered, you should use those that make sense for your data set. You should explain your choices, and perform parameter tuning in order to optimize their performance.\nAdd a slide to your presentation describing the algorithms and tuning you did, making sure to make it relatable for a general audience.\n\n\nPC8\nDiscussion of results. Compare the performance of your models, and discuss the results. Do you consider your results successful? Explain why or why not, and discuss how further improvements might be made.\nContinue working on your final presentation. You want a presentation that is digestible to a non-technical audidence and is interesting (visualizations, insights, models, data).\n\n\nPC9\nEvaluation of your plan. Discuss how closely you were able to follow your workflow. What unexpected issues did you encounter? What adjustments did you need to make? How would this affect planning a future machine learning project? Finalize your presentation, and submit your link along with a screenshot to Moodle.\n\n\n\nFinal Submission\nThe final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. Submissions are due by the last day of class.\nA detailed grading rubric\n\n\nPresentations\n(12 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. Grading is based on the quality of your peer review during these rounds.\nThe peer review forms are available up on Moodle",
+    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus Lab: Intro\nINTRO lab due SaturdaySkim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Wednesday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\nPC1 due Saturday\n\n\nT Sept 22\nEDA3 Lab: EDA\nArticle review 1 due Saturday  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA HW + Lab due SaturdayStudy for EDA quiz\n\n\nT Sept 29\nEVL2 HW: EVL Quiz: EDA\nPC2 due Wednesday",
     "crumbs": [
-      "Project"
+      "Schedule",
+      "CSCI279 Fall 2026"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#october",
+    "href": "course_information/schedule.html#october",
+    "title": "Machine Learning",
+    "section": "October",
+    "text": "October\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Oct 1\nEVL3 Lab: EVL\nEVAL HW + Lab due SaturdayStudy for EVL quiz  Skim next module\n\n\n\nCLS\n\n\n\nT Oct 6\nCLS1 PC3 Quiz: EVL\nPC3 due Wednesday\n\n\nTh Oct 8\nCLS2 HW: CLS\n\n\n\nT Oct 13\nFall Break\n\n\n\nTh Oct 15\nCLS3 Lab: CLS\nCLS HW + Lab due SaturdayStudy for CLS quiz  Skim next module\n\n\n\nDATA\n\n\n\nT Oct 20\nDATA1 Quiz: CLS\nSign up for retakes if applicable\n\n\nW Oct 21\nQuiz Retakes: INTRO EDA EVL\n\n\n\nTh Oct 22\nDATA2 HW: DATA PC4\nPC4 due Saturday  Skim next module\n\n\n\nTREE\n\n\n\nT Oct 27\nTREE1 Lab: DATA\nArticle review 2 due Wednesday\n\n\nTh Oct 29\nTREE2 HW: TREE PC5\nDATA HW + Lab due SaturdayStudy for DATA quiz",
+    "crumbs": [
+      "Schedule",
+      "CSCI279 Fall 2026"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#november",
+    "href": "course_information/schedule.html#november",
+    "title": "Machine Learning",
+    "section": "November",
+    "text": "November\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nT Nov 3\nTREE3 Quiz: DATA\nPC5 due Wednesday Skim next module\n\n\n\nLIN\n\n\n\nTh Nov 5\nLIN1 Lab: TREE\nTREE HW + Lab due SaturdayStudy for TREE quiz\n\n\nT Nov 10\nLIN2 HW: LIN Quiz: TREE\nSkim next module\n\n\n\nMOD\n\n\n\nTh Nov 12\nMOD1 Lab: LIN\nLIN HW due Saturday\n\n\nT Nov 17\nMOD2 HW: MOD Quiz: LIN\nMOD HW due SaturdayStudy for LIN quiz  Skim next module\n\n\n\nESB\n\n\n\nTh Nov 19\nESB1 HW: ESB PC6\nESB HW due Tuesday\n\n\nT Nov 24\nESB2 Lab: ESB Part 1\nESB LAB Part1 due Monday\n\n\nTh Nov 26\n\nThanksgiving Break",
+    "crumbs": [
+      "Schedule",
+      "CSCI279 Fall 2026"
+    ]
+  },
+  {
+    "objectID": "course_information/schedule.html#december",
+    "href": "course_information/schedule.html#december",
+    "title": "Machine Learning",
+    "section": "December",
+    "text": "December\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nT Dec 1\nESB3 Lab: ESB Part 2\nPC6 due Thursday Sign up for retakes if applicable\n\n\nW Dec 2\nQuiz Retakes CLS DATA TREE LIN\nskim next module\n\n\n\nNN\n\n\n\nTh Dec 3\nNN1 HW: NN PC7-9\nESB LAB Part2 due Saturday  Study for ESB quiz\n\n\nT Dec 8\nNN2 HW: NN Quiz: ESB\nNN HW due WednesdayPC7 due FridayStudy for NN quiz\n\n\nTh Dec 10\nNN3 Quiz: NN\nPC8 and PC9 due Monday\n\n\nT Dec 15\nPresentations\nSign-up for retakes if applicable\n\n\n\nMake sure to fill out course evaluation!\n\n\n\n\n\n\n\n\nM Dec 21\nQuiz Retakes ESB + NN or any previous\nHave a great break :)",
+    "crumbs": [
+      "Schedule",
+      "CSCI279 Fall 2026"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSCI 279 - Fall 2026",
+    "section": "",
+    "text": "Welcome to Machine Learning!\nMachine learning algorithms are used to make decisions in a wide variety of applications, including recommendation systems, criminal justice, healthcare, and more. This course explores several common machine learning algorithms: how they work, their strengths and limitations, their applications to real-world datasets, their implementation via Python frameworks, and the ethical and societal consequences of their use.\n\n\n\n\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: W 10:20-12:30am, or by appt.  Email: mander1@stolaf.edu\n\n\n\n\n\nTA: Brooke Barenz TA Hours: TBD  Drop-in lab: RNS202/203\n\n\nAdditional help can often be found in the drop-in lab from Sunday-Thursdays around 6-9pm.\n\nWe will be using this site for most of our course content. Navigate to the schedule or course content using the wiki at the top of this page. You can read the syllabus here.\n\nThis site was made using Quarto! If you are interested in building your own site to host your portfolio, reach out to Prof. Kim and she’ll help you get started.\nTesting content pages: INTRO 01-EDA 02-DATA 03-ALG 04-TRAIN 05-EVAL MORE"
+  },
+  {
+    "objectID": "index.html#staff-information",
+    "href": "index.html#staff-information",
+    "title": "CSCI 279 - Fall 2026",
+    "section": "",
+    "text": "Instructor: Prof. Kim Mandery Office: RMS 407 Office Hours: W 10:20-12:30am, or by appt.  Email: mander1@stolaf.edu"
+  },
+  {
+    "objectID": "index.html#ta-information",
+    "href": "index.html#ta-information",
+    "title": "CSCI 279 - Fall 2026",
+    "section": "",
+    "text": "TA: Brooke Barenz TA Hours: TBD  Drop-in lab: RNS202/203"
+  },
+  {
+    "objectID": "content/00-INTRO.html",
+    "href": "content/00-INTRO.html",
+    "title": "5 Step Workflow",
+    "section": "",
+    "text": "Step 1\n      Exploring Data\n    \n    \n      ×\n      Step 1\n      Exploring Data\n      Understand the shape, distributions, and quirks of your data before modeling.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 2\n      Data Preparation\n    \n    \n      ×\n      Step 2\n      Data Preparation\n      Clean, transform, and structure the data so it's ready to model.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 3\n      Algorithms\n    \n    \n      ×\n      Step 3\n      Algorithms\n      \n        kmeans\n        tree-based\n        linear-based\n        kNN\n        neural nets\n        SVM\n        naive bayes\n        regularized\n      \n      Open page →\n    \n  \n\n  \n  \n    \n      Step 4\n      Train\n    \n    \n      ×\n      Step 4\n      Train\n      Fit the chosen model to the prepared data.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 5\n      Evaluation\n    \n    \n      ×\n      Step 5\n      Evaluation\n      Measure how well the model performs, then iterate.\n      Open page →\n    \n  \n\n  \n  5-stepworkflow\n\n\n\n\n\n\n\n\nThe machine learning workflow is comprised of five steps, and often includes iteration after the last step to find optimal solutions.\nClick on any of the steps to learn more.\n\nThe most important part of this process is something not listed: identifying your workflow’s goal.\nThis is done by completing relevant background research, talking to stakeholders, and identifying what data you have available to you.\nSometimes goals are not able to come to fruition. This is normal, and requires you to rescope your goal to something that is doable within your time frame.",
+    "crumbs": [
+      "Course Wiki",
+      "5 Step Workflow"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html",
+    "href": "content/04-TRAIN.html",
+    "title": "Train",
+    "section": "",
+    "text": "NoteTrain · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 4 of 5 · Train\n\n\nWhat you’ll learn\nHow a model actually learns from data, and what can go wrong during training.\n\n\nStandards assessed\nESB\n\n\nKey terms\ntraining set · loss · ensemble · generalization\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nTraining is where a model learns. You feed prepared data to an algorithm, and it adjusts itself to fit the patterns in that data. This chapter covers what “fitting” really means and how ensembles combine many models into a stronger one.",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#overview",
+    "href": "content/04-TRAIN.html#overview",
+    "title": "Train",
+    "section": "Overview",
+    "text": "Overview\nTraining takes the algorithm you chose in Step 3 and the data you prepared in Step 2, and produces a fitted model. The central tension is generalization: a model that fits its training data perfectly may still fail on new data.\n(Flesh this out later.)",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#key-ideas",
+    "href": "content/04-TRAIN.html#key-ideas",
+    "title": "Train",
+    "section": "Key ideas",
+    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea: fitting the training data is not the goal\n\n\n\nThe goal is performance on new data. A model that memorizes the training set has learned nothing useful.\n\n\n\nTraining vs. generalization — why fitting the data isn’t the same as learning.\nLoss — how a model measures how wrong it currently is.\nEnsembles — combining many weak models into one strong model.\n\n(Expand each as you flesh out.)",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#readings",
+    "href": "content/04-TRAIN.html#readings",
+    "title": "Train",
+    "section": "Readings",
+    "text": "Readings\nBefore class, read the assigned material on ensembles and training.\n\nRequired: add reading + link",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#slides",
+    "href": "content/04-TRAIN.html#slides",
+    "title": "Train",
+    "section": "Slides",
+    "text": "Slides\nIn class we’ll work through these decks:\n\nSlide deck links go here (ESB1, ESB2, ESB3)",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#homework",
+    "href": "content/04-TRAIN.html#homework",
+    "title": "Train",
+    "section": "Homework",
+    "text": "Homework\n\nAssignment: link\nWhat it assesses: training a model and diagnosing under/overfitting.",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#lab",
+    "href": "content/04-TRAIN.html#lab",
+    "title": "Train",
+    "section": "Lab",
+    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\nBuild an ensemble in the lab and compare it to a single model.\n\n\n\nLab: link\nObjectives: add objectives",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/04-TRAIN.html#quiz",
+    "href": "content/04-TRAIN.html#quiz",
+    "title": "Train",
+    "section": "Self-quiz",
+    "text": "Self-quiz\nUse the standards as a checklist, then try the practice questions.\n\nStandards\nESB — Explain how ensembles improve on single models, and train one on a dataset.\nYou should be able to:\n\nDescribe why combining models can outperform any single model.\nDistinguish training performance from generalization performance.\n\n(Add any additional training-related standards.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. Why can an ensemble of “weak” models outperform a single strong model?\n\n\n\n\n\nDifferent models make different errors. Averaging or voting across them cancels out individual mistakes, so the combined prediction is more reliable than any one model.\n\n\n\n\n\n\n\n\n\nNoteQ2. Your model’s training accuracy keeps rising but validation accuracy starts falling. What does this signal?\n\n\n\n\n\nOverfitting: the model is memorizing the training data at the expense of generalizing. It’s time to stop training, simplify, or regularize.\n\n\n\n\n\n\n\n\n\nNoteQ3. (Add your own practice question here.)\n\n\n\n\n\n(Answer goes here.)",
+    "crumbs": [
+      "Course Wiki",
+      "Train"
+    ]
+  },
+  {
+    "objectID": "content/06-OTHER.html",
+    "href": "content/06-OTHER.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Below are some helpful resources for machine learning:",
+    "crumbs": [
+      "Course Wiki",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/06-OTHER.html#intro-lab",
+    "href": "content/06-OTHER.html#intro-lab",
+    "title": "Resources",
+    "section": "Intro: Lab",
+    "text": "Intro: Lab\nIn this lab, we explore how to build our own Python dictionaries and functions to store and summarize data. Using a national policing dataset, we examine the impact of policing on Black Americans. Click to view Colab Notebook",
+    "crumbs": [
+      "Course Wiki",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/06-OTHER.html#python-libraries",
+    "href": "content/06-OTHER.html#python-libraries",
+    "title": "Resources",
+    "section": "Python libraries",
+    "text": "Python libraries\nReading the documentation pages for various libraries is standard practice.\nnumpy pandas matplotlib plotnine seaborn scikit-learn tensorflow",
+    "crumbs": [
+      "Course Wiki",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/06-OTHER.html#yt-channels",
+    "href": "content/06-OTHER.html#yt-channels",
+    "title": "Resources",
+    "section": "YT channels",
+    "text": "YT channels\n3Blue1Brown Computerfile Veritasium others?\n\nLive coding\nI find it quite helpful to watch people live code as you follow along as they logic their way through a problem. Do some searching for tutorials and once you find a host you like, binge all their content.",
+    "crumbs": [
+      "Course Wiki",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/06-OTHER.html#textbooks",
+    "href": "content/06-OTHER.html#textbooks",
+    "title": "Resources",
+    "section": "textbooks",
+    "text": "textbooks\nThere are quite a few textbooks out there.",
+    "crumbs": [
+      "Course Wiki",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html",
+    "href": "content/03-ALG.html",
+    "title": "Algorithms",
+    "section": "",
+    "text": "NoteAlgorithms · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 3 of 5 · Algorithms\n\n\nWhat you’ll learn\nHow to choose a model family for a task, and the core idea behind each one.\n\n\nAlgorithms covered\nClassification · Trees · Linear · Other models · Neural nets\nAlgorithms are the procedures that turn prepared data into a model — the engines of machine learning. Where earlier steps got your data ready, this step is where a model is actually chosen and its shape decided. This chapter surveys the main families of algorithms used in this course.\nThere is no single best algorithm. Each family makes different assumptions about what patterns in data look like, and each trades off differently between accuracy, interpretability, speed, and how much data it needs. Much of the craft of machine learning is matching an algorithm’s assumptions to the problem in front of you.\nThis chapter is organized as a reference: a short guide to choosing among the families, followed by a self-contained section for each algorithm. You can read it straight through, or jump to whichever algorithm you need from the list above.",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#overview",
+    "href": "content/03-ALG.html#overview",
+    "title": "Algorithms",
+    "section": "Overview: choosing an algorithm",
+    "text": "Overview: choosing an algorithm\nBefore reaching for any specific model, it helps to narrow the field by asking a few questions about your problem and your data.\n\nWhat kind of task is it? Classification, regression, or clustering? This alone rules out whole families.\nHow much do you value interpretability? A tree you can read end-to-end is very different from a neural network whose reasoning is opaque.\nHow much data do you have? Some families (neural nets) are data-hungry; others work well on small datasets.\nHow much compute and time? Simpler models train in seconds; others take much longer.\n\n\n\n\n\n\n\nNoteKey idea: match the algorithm to the problem, not the hype\n\n\n\nThe most powerful model is not always the right one. A simple, interpretable model that is “good enough” often beats a complex one that no one can explain or maintain.",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#organization",
+    "href": "content/03-ALG.html#organization",
+    "title": "Algorithms",
+    "section": "How this chapter is organized",
+    "text": "How this chapter is organized\nEach algorithm below is a self-contained section with the same structure, so you always know where to look:\n\nReadings — do before class to build intuition.\nSlides — what we work through in class.\nHomework — apply the algorithm yourself.\nLab — hands-on practice.\nStandards — what you should be able to do (assessed on the quiz).",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#cls",
+    "href": "content/03-ALG.html#cls",
+    "title": "Algorithms",
+    "section": "Classification (CLS)",
+    "text": "Classification (CLS)\n\n\n\n\n\n\nNoteClassification · at a glance\n\n\n\n\n\n\nType\nSupervised · predicts discrete categories\n\n\nKey idea\nLearn a decision boundary that separates classes.\n\n\nStandards\nCLS\n\n\nKey terms\nclassifier · decision boundary · class · label\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of classification goes here — what it is, when to use it, the core idea.)\n\nReadings\n(Add readings for CLS.)\n\n\nSlides\n(Add slide deck links for CLS.)\n\n\nHomework\n(Add homework for CLS.)\n\n\nLab\n(Add lab for CLS.)\n\n\nStandards\n(Add the CLS standards — “you should be able to…”.)",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#tree",
+    "href": "content/03-ALG.html#tree",
+    "title": "Algorithms",
+    "section": "Trees (TREE)",
+    "text": "Trees (TREE)\n\n\n\n\n\n\nNoteTrees · at a glance\n\n\n\n\n\n\nType\nSupervised · classification or regression\n\n\nKey idea\nSplit data with a sequence of yes/no questions.\n\n\nStandards\nTREE\n\n\nKey terms\nnode · split · leaf · depth · overfitting\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of tree-based models goes here.)\n\nReadings\n(Add readings for TREE.)\n\n\nSlides\n(Add slide deck links for TREE.)\n\n\nHomework\n(Add homework for TREE.)\n\n\nLab\n(Add lab for TREE.)\n\n\nStandards\n(Add the TREE standards.)",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#lin",
+    "href": "content/03-ALG.html#lin",
+    "title": "Algorithms",
+    "section": "Linear models (LIN)",
+    "text": "Linear models (LIN)\n\n\n\n\n\n\nNoteLinear models · at a glance\n\n\n\n\n\n\nType\nSupervised · regression or classification\n\n\nKey idea\nFit a straight-line (linear) relationship between features and target.\n\n\nStandards\nLIN\n\n\nKey terms\ncoefficient · weight · intercept · regularization\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of linear models goes here.)\n\nReadings\n(Add readings for LIN.)\n\n\nSlides\n(Add slide deck links for LIN.)\n\n\nHomework\n(Add homework for LIN.)\n\n\nLab\n(Add lab for LIN.)\n\n\nStandards\n(Add the LIN standards.)",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#mod",
+    "href": "content/03-ALG.html#mod",
+    "title": "Algorithms",
+    "section": "Other models (MOD)",
+    "text": "Other models (MOD)\n\n\n\n\n\n\nNoteOther models · at a glance\n\n\n\n\n\n\nType\nSupervised · a grouping of additional approaches\n\n\nKey idea\nSeveral distinct methods — kNN, SVM, naive Bayes — each with its own logic.\n\n\nStandards\nMOD\n\n\nKey terms\nk-nearest neighbors · support vector · margin · prior probability\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of the additional model types — kNN, SVM, naive Bayes, etc.)\n\nReadings\n(Add readings for MOD.)\n\n\nSlides\n(Add slide deck links for MOD.)\n\n\nHomework\n(Add homework for MOD.)\n\n\nLab\n(Add lab for MOD.)\n\n\nStandards\n(Add the MOD standards.)",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
+    ]
+  },
+  {
+    "objectID": "content/03-ALG.html#nn",
+    "href": "content/03-ALG.html#nn",
+    "title": "Algorithms",
+    "section": "Neural networks (NN)",
+    "text": "Neural networks (NN)\n\n\n\n\n\n\nNoteNeural networks · at a glance\n\n\n\n\n\n\nType\nSupervised · flexible, high-capacity models\n\n\nKey idea\nStacked layers of simple units learn complex patterns from lots of data.\n\n\nStandards\nNN\n\n\nKey terms\nneuron · layer · weight · activation · training\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of neural networks goes here.)\n\nReadings\n(Add readings for NN.)\n\n\nSlides\n(Add slide deck links for NN.)\n\n\nHomework\n(Add homework for NN.)\n\n\nLab\n(Add lab for NN.)\n\n\nStandards\n(Add the NN standards.)",
+    "crumbs": [
+      "Course Wiki",
+      "Algorithms"
     ]
   },
   {
@@ -525,266 +556,345 @@
     "text": "Study Tips\nReview the lecture slides, workbooks, homework assignments, and the associated lab.\nQuiz questions are similar (though not identical) to the types of questions covered in these materials. You should be able to use appropriate terminology and apply the concepts covered in class to a variety of new scenarios.\nThe primary goal of each quiz is to give you an opportunity to apply concepts with clear and well-explained reasoning.\nQuizzes are also a valuable opportunity to receive feedback on your reasoning skills."
   },
   {
-    "objectID": "content/03-ALG.html",
-    "href": "content/03-ALG.html",
-    "title": "Algorithms",
+    "objectID": "content/01-EDA.html",
+    "href": "content/01-EDA.html",
+    "title": "Exploring Data",
     "section": "",
-    "text": "NoteAlgorithms · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 3 of 5 · Algorithms\n\n\nWhat you’ll learn\nHow to choose a model family for a task, and the core idea behind each one.\n\n\nAlgorithms covered\nClassification · Trees · Linear · Other models · Neural nets\nAlgorithms are the procedures that turn prepared data into a model — the engines of machine learning. Where earlier steps got your data ready, this step is where a model is actually chosen and its shape decided. This chapter surveys the main families of algorithms used in this course.\nThere is no single best algorithm. Each family makes different assumptions about what patterns in data look like, and each trades off differently between accuracy, interpretability, speed, and how much data it needs. Much of the craft of machine learning is matching an algorithm’s assumptions to the problem in front of you.\nThis chapter is organized as a reference: a short guide to choosing among the families, followed by a self-contained section for each algorithm. You can read it straight through, or jump to whichever algorithm you need from the list above."
-  },
-  {
-    "objectID": "content/03-ALG.html#overview",
-    "href": "content/03-ALG.html#overview",
-    "title": "Algorithms",
-    "section": "Overview: choosing an algorithm",
-    "text": "Overview: choosing an algorithm\nBefore reaching for any specific model, it helps to narrow the field by asking a few questions about your problem and your data.\n\nWhat kind of task is it? Classification, regression, or clustering? This alone rules out whole families.\nHow much do you value interpretability? A tree you can read end-to-end is very different from a neural network whose reasoning is opaque.\nHow much data do you have? Some families (neural nets) are data-hungry; others work well on small datasets.\nHow much compute and time? Simpler models train in seconds; others take much longer.\n\n\n\n\n\n\n\nNoteKey idea: match the algorithm to the problem, not the hype\n\n\n\nThe most powerful model is not always the right one. A simple, interpretable model that is “good enough” often beats a complex one that no one can explain or maintain."
-  },
-  {
-    "objectID": "content/03-ALG.html#organization",
-    "href": "content/03-ALG.html#organization",
-    "title": "Algorithms",
-    "section": "How this chapter is organized",
-    "text": "How this chapter is organized\nEach algorithm below is a self-contained section with the same structure, so you always know where to look:\n\nReadings — do before class to build intuition.\nSlides — what we work through in class.\nHomework — apply the algorithm yourself.\nLab — hands-on practice.\nStandards — what you should be able to do (assessed on the quiz)."
-  },
-  {
-    "objectID": "content/03-ALG.html#cls",
-    "href": "content/03-ALG.html#cls",
-    "title": "Algorithms",
-    "section": "Classification (CLS)",
-    "text": "Classification (CLS)\n\n\n\n\n\n\nNoteClassification · at a glance\n\n\n\n\n\n\nType\nSupervised · predicts discrete categories\n\n\nKey idea\nLearn a decision boundary that separates classes.\n\n\nStandards\nCLS\n\n\nKey terms\nclassifier · decision boundary · class · label\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of classification goes here — what it is, when to use it, the core idea.)\n\nReadings\n(Add readings for CLS.)\n\n\nSlides\n(Add slide deck links for CLS.)\n\n\nHomework\n(Add homework for CLS.)\n\n\nLab\n(Add lab for CLS.)\n\n\nStandards\n(Add the CLS standards — “you should be able to…”.)"
-  },
-  {
-    "objectID": "content/03-ALG.html#tree",
-    "href": "content/03-ALG.html#tree",
-    "title": "Algorithms",
-    "section": "Trees (TREE)",
-    "text": "Trees (TREE)\n\n\n\n\n\n\nNoteTrees · at a glance\n\n\n\n\n\n\nType\nSupervised · classification or regression\n\n\nKey idea\nSplit data with a sequence of yes/no questions.\n\n\nStandards\nTREE\n\n\nKey terms\nnode · split · leaf · depth · overfitting\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of tree-based models goes here.)\n\nReadings\n(Add readings for TREE.)\n\n\nSlides\n(Add slide deck links for TREE.)\n\n\nHomework\n(Add homework for TREE.)\n\n\nLab\n(Add lab for TREE.)\n\n\nStandards\n(Add the TREE standards.)"
-  },
-  {
-    "objectID": "content/03-ALG.html#lin",
-    "href": "content/03-ALG.html#lin",
-    "title": "Algorithms",
-    "section": "Linear models (LIN)",
-    "text": "Linear models (LIN)\n\n\n\n\n\n\nNoteLinear models · at a glance\n\n\n\n\n\n\nType\nSupervised · regression or classification\n\n\nKey idea\nFit a straight-line (linear) relationship between features and target.\n\n\nStandards\nLIN\n\n\nKey terms\ncoefficient · weight · intercept · regularization\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of linear models goes here.)\n\nReadings\n(Add readings for LIN.)\n\n\nSlides\n(Add slide deck links for LIN.)\n\n\nHomework\n(Add homework for LIN.)\n\n\nLab\n(Add lab for LIN.)\n\n\nStandards\n(Add the LIN standards.)"
-  },
-  {
-    "objectID": "content/03-ALG.html#mod",
-    "href": "content/03-ALG.html#mod",
-    "title": "Algorithms",
-    "section": "Other models (MOD)",
-    "text": "Other models (MOD)\n\n\n\n\n\n\nNoteOther models · at a glance\n\n\n\n\n\n\nType\nSupervised · a grouping of additional approaches\n\n\nKey idea\nSeveral distinct methods — kNN, SVM, naive Bayes — each with its own logic.\n\n\nStandards\nMOD\n\n\nKey terms\nk-nearest neighbors · support vector · margin · prior probability\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of the additional model types — kNN, SVM, naive Bayes, etc.)\n\nReadings\n(Add readings for MOD.)\n\n\nSlides\n(Add slide deck links for MOD.)\n\n\nHomework\n(Add homework for MOD.)\n\n\nLab\n(Add lab for MOD.)\n\n\nStandards\n(Add the MOD standards.)"
-  },
-  {
-    "objectID": "content/03-ALG.html#nn",
-    "href": "content/03-ALG.html#nn",
-    "title": "Algorithms",
-    "section": "Neural networks (NN)",
-    "text": "Neural networks (NN)\n\n\n\n\n\n\nNoteNeural networks · at a glance\n\n\n\n\n\n\nType\nSupervised · flexible, high-capacity models\n\n\nKey idea\nStacked layers of simple units learn complex patterns from lots of data.\n\n\nStandards\nNN\n\n\nKey terms\nneuron · layer · weight · activation · training\n\n\nMaterials\nreadings · slides · homework · lab\n\n\n\n\n\n(Overview of neural networks goes here.)\n\nReadings\n(Add readings for NN.)\n\n\nSlides\n(Add slide deck links for NN.)\n\n\nHomework\n(Add homework for NN.)\n\n\nLab\n(Add lab for NN.)\n\n\nStandards\n(Add the NN standards.)"
-  },
-  {
-    "objectID": "content/03-ALG.html#see-also",
-    "href": "content/03-ALG.html#see-also",
-    "title": "Algorithms",
-    "section": "See also",
-    "text": "See also\n\nStep 1 · EDA — understanding the data before choosing a model.\nStep 2 · Data Preparation — preparing data for these algorithms.\nStep 3 · Algorithms — you are here.\nStep 4 · Train — fitting the algorithm you choose here.\nStep 5 · Evaluation — measuring how well the chosen model works."
-  },
-  {
-    "objectID": "content/06-OTHER.html",
-    "href": "content/06-OTHER.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Below are some helpful resources for machine learning:",
+    "text": "NoteExploring Data · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 1 of 5 · Explore\n\n\nWhat you’ll learn\nHow to summarize a dataset, read its distributions, and reason about feature types.\n\n\nStandards assessed\nFLOW · EDA-STAT\n\n\nKey terms\ntarget · features · distribution · feature type · summary statistic · skew\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nExploratory data analysis (EDA) (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)",
     "crumbs": [
-      "Resources"
+      "Course Wiki",
+      "Exploring Data"
     ]
   },
   {
-    "objectID": "content/06-OTHER.html#intro-lab",
-    "href": "content/06-OTHER.html#intro-lab",
-    "title": "Machine Learning",
-    "section": "Intro: Lab",
-    "text": "Intro: Lab\nIn this lab, we explore how to build our own Python dictionaries and functions to store and summarize data. Using a national policing dataset, we examine the impact of policing on Black Americans. Click to view Colab Notebook",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/06-OTHER.html#python-libraries",
-    "href": "content/06-OTHER.html#python-libraries",
-    "title": "Machine Learning",
-    "section": "Python libraries",
-    "text": "Python libraries\nReading the documentation pages for various libraries is standard practice.\nnumpy pandas matplotlib plotnine seaborn scikit-learn tensorflow",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/06-OTHER.html#yt-channels",
-    "href": "content/06-OTHER.html#yt-channels",
-    "title": "Machine Learning",
-    "section": "YT channels",
-    "text": "YT channels\n3Blue1Brown Computerfile Veritasium others?\n\nLive coding\nI find it quite helpful to watch people live code as you follow along as they logic their way through a problem. Do some searching for tutorials and once you find a host you like, binge all their content.",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/06-OTHER.html#textbooks",
-    "href": "content/06-OTHER.html#textbooks",
-    "title": "Machine Learning",
-    "section": "textbooks",
-    "text": "textbooks\nThere are quite a few textbooks out there.",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/04-TRAIN.html",
-    "href": "content/04-TRAIN.html",
-    "title": "Train",
-    "section": "",
-    "text": "NoteTrain · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 4 of 5 · Train\n\n\nWhat you’ll learn\nHow a model actually learns from data, and what can go wrong during training.\n\n\nStandards assessed\nESB\n\n\nKey terms\ntraining set · loss · ensemble · generalization\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nTraining is where a model learns. You feed prepared data to an algorithm, and it adjusts itself to fit the patterns in that data. This chapter covers what “fitting” really means and how ensembles combine many models into a stronger one."
-  },
-  {
-    "objectID": "content/04-TRAIN.html#overview",
-    "href": "content/04-TRAIN.html#overview",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#overview",
+    "href": "content/01-EDA.html#overview",
+    "title": "Exploring Data",
     "section": "Overview",
-    "text": "Overview\nTraining takes the algorithm you chose in Step 3 and the data you prepared in Step 2, and produces a fitted model. The central tension is generalization: a model that fits its training data perfectly may still fail on new data.\n(Flesh this out later.)"
+    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#key-ideas",
-    "href": "content/04-TRAIN.html#key-ideas",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#key-ideas",
+    "href": "content/01-EDA.html#key-ideas",
+    "title": "Exploring Data",
     "section": "Key ideas",
-    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea: fitting the training data is not the goal\n\n\n\nThe goal is performance on new data. A model that memorizes the training set has learned nothing useful.\n\n\n\nTraining vs. generalization — why fitting the data isn’t the same as learning.\nLoss — how a model measures how wrong it currently is.\nEnsembles — combining many weak models into one strong model.\n\n(Expand each as you flesh out.)"
+    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#readings",
-    "href": "content/04-TRAIN.html#readings",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#readings",
+    "href": "content/01-EDA.html#readings",
+    "title": "Exploring Data",
     "section": "Readings",
-    "text": "Readings\nBefore class, read the assigned material on ensembles and training.\n\nRequired: add reading + link"
+    "text": "Readings\nBefore class, read the assigned material and take notes.\n\nRelated articles\n\nStats distributions describes how by only knowing statistical properties we may be making inaccurate assumptions of what our data actually looks like visually. \nImplications behind visualizations (excusing the explicit language) has loads of examples of how biases can creep into our data insights. This article shows how we can initially interpret visualizations, and perhaps how to start questioning if the visualization is telling the story we think it is. \nUsing LLMs to storyboard goes through the process of how a data-driven story is created at The Pudding, but using an LLM. This article is a great way to understand how data-driven stories are put together, and how good (or not so good) LLMs are at replicating tasks associated with the design and implementation process. \nggplot vs plotnine compares the graphing power of R’s ggplot to Python’s plotnine (R wrapper for ggplot). Useful for those who have experience with creating visualizations in R, or for those who are unimpressed by matplotlib’s capabilities. Only read if you have a background using R.\nStatistics for ML walks through basic definitions of statistical measures, charts, and distributions.\n\n\n\nCheat sheets\nThe following cheatsheets may be helpful for your reference: data storytelling, data visualizations, matplotlib, plotly, seaborn.",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#slides",
-    "href": "content/04-TRAIN.html#slides",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#slides",
+    "href": "content/01-EDA.html#slides",
+    "title": "Exploring Data",
     "section": "Slides",
-    "text": "Slides\nIn class we’ll work through these decks:\n\nSlide deck links go here (ESB1, ESB2, ESB3)"
+    "text": "Slides\n\nModel workflow\nEDA1: Overview of the 5step workflow, learning paradigms, and features types. Open in new tab\n\n\nstatistics\nEDA2: Descriptive statistics (mean, median, standard deviation), statistical tests and hypothesis testing.  Open in new tab\n\n\nVisualizations\nEDA3: How to tell a story, and creating visualizations with mathplotlib, plotnine, seaborn. Open in new tab",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#homework",
-    "href": "content/04-TRAIN.html#homework",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#homework",
+    "href": "content/01-EDA.html#homework",
+    "title": "Exploring Data",
     "section": "Homework",
-    "text": "Homework\n\nAssignment: link\nWhat it assesses: training a model and diagnosing under/overfitting."
+    "text": "Homework\nThis homework goes over looking at summary tables for a dataset, explaining statistical terms to non-tech folks, exploring statistics, and interpretting statistical tests. Click to view pdf.",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#lab",
-    "href": "content/04-TRAIN.html#lab",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#lab",
+    "href": "content/01-EDA.html#lab",
+    "title": "Exploring Data",
     "section": "Lab",
-    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\nBuild an ensemble in the lab and compare it to a single model.\n\n\n\nLab: link\nObjectives: add objectives"
+    "text": "Lab\nIn this lab, we will explore how to critic and refine code outputted by a language model, and practice a bit of prompt engineering. We will be using the Titanic dataset to perform exploratory data analysis tasks, including calculating statistical measures, conducting statistical tests, and creating visualizations. Click to view Colab Notebook.",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#quiz",
-    "href": "content/04-TRAIN.html#quiz",
-    "title": "Train",
+    "objectID": "content/01-EDA.html#standards",
+    "href": "content/01-EDA.html#standards",
+    "title": "Exploring Data",
     "section": "Self-quiz",
-    "text": "Self-quiz\nUse the standards as a checklist, then try the practice questions.\n\nStandards\nESB — Explain how ensembles improve on single models, and train one on a dataset.\nYou should be able to:\n\nDescribe why combining models can outperform any single model.\nDistinguish training performance from generalization performance.\n\n(Add any additional training-related standards.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. Why can an ensemble of “weak” models outperform a single strong model?\n\n\n\n\n\nDifferent models make different errors. Averaging or voting across them cancels out individual mistakes, so the combined prediction is more reliable than any one model.\n\n\n\n\n\n\n\n\n\nNoteQ2. Your model’s training accuracy keeps rising but validation accuracy starts falling. What does this signal?\n\n\n\n\n\nOverfitting: the model is memorizing the training data at the expense of generalizing. It’s time to stop training, simplify, or regularize.\n\n\n\n\n\n\n\n\n\nNoteQ3. (Add your own practice question here.)\n\n\n\n\n\n(Answer goes here.)"
+    "text": "Self-quiz\nUse the standards below as a checklist, then try the practice questions to test yourself.\n\nStandards\n\nFLOW\nYou should be able to:\n\nDefine learning approaches (supervised vs. unsupervised learning) and learning tasks (regression, classification, and clustering).\nInterpret a dataset summary table.\nDescribe a model’s goal and explain who might benefit from the model.\nDescribe the five steps ML workflow and give a few examples of tasks for each step\n\n\n\nEDA-STAT\nYou should be able to:\n\nUnderstand and describe statistical measures, distributions, and tests\nRead and interpret charts, including identifying key features (skew, balance, shape) and chart types (histogram, boxplot, scatterplot)\nIdentify different feature types (numeric, discrete, continuous, ordinal, categorical, binary, or none).\nExplain what factors to consider when deciding whether a feature type is appropriate to include in a machine learning model.\n\n\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)",
+    "crumbs": [
+      "Course Wiki",
+      "Exploring Data"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#glossary",
-    "href": "content/04-TRAIN.html#glossary",
-    "title": "Train",
+    "objectID": "content/02-DATA.html",
+    "href": "content/02-DATA.html",
+    "title": "Data Preparation",
+    "section": "",
+    "text": "NoteData Preparation · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 2 of 5 · Data Prep\n\n\nWhat you’ll learn\nHow to clean, transform, and structure data so it’s ready to model.\n\n\nStandards assessed\nDATA\n\n\nKey terms\ncleaning · transformation · encoding · missing values\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nData preparation (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#overview",
+    "href": "content/02-DATA.html#overview",
+    "title": "Data Preparation",
+    "section": "Overview",
+    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#key-ideas",
+    "href": "content/02-DATA.html#key-ideas",
+    "title": "Data Preparation",
+    "section": "Key ideas",
+    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#readings",
+    "href": "content/02-DATA.html#readings",
+    "title": "Data Preparation",
+    "section": "Readings",
+    "text": "Readings\nBefore class, read the assigned material.\n\nRequired: add reading + link\nOptional / going deeper: add reading + link",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#slides",
+    "href": "content/02-DATA.html#slides",
+    "title": "Data Preparation",
+    "section": "Slides",
+    "text": "Slides\nIn class we’ll work through these decks:\n\nadd slide deck links",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#homework",
+    "href": "content/02-DATA.html#homework",
+    "title": "Data Preparation",
+    "section": "Homework",
+    "text": "Homework\n\nAssignment: link\nWhat it assesses: short description",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#lab",
+    "href": "content/02-DATA.html#lab",
+    "title": "Data Preparation",
+    "section": "Lab",
+    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\n(One-line pointer to the hands-on lab.)\n\n\n\nLab: link\nObjectives: add objectives",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#standards",
+    "href": "content/02-DATA.html#standards",
+    "title": "Data Preparation",
+    "section": "Self-quiz",
+    "text": "Self-quiz\nUse the standards below as a checklist — you should be able to do each — then try the practice questions to test yourself.\n\nStandards\n(Add the standards for this unit, each framed as “you should be able to…”.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
+  },
+  {
+    "objectID": "content/02-DATA.html#glossary",
+    "href": "content/02-DATA.html#glossary",
+    "title": "Data Preparation",
     "section": "Key terms",
-    "text": "Key terms\n\nTraining set\n\nThe data a model learns from.\n\nLoss\n\nA number measuring how wrong a model’s current predictions are; training tries to minimize it.\n\nEnsemble\n\nA model built by combining the predictions of several models.\n\nGeneralization\n\nHow well a model performs on data it has never seen."
+    "text": "Key terms\n\nTerm\n\n(definition)\n\nTerm\n\n(definition)",
+    "crumbs": [
+      "Course Wiki",
+      "Data Preparation"
+    ]
   },
   {
-    "objectID": "content/04-TRAIN.html#see-also",
-    "href": "content/04-TRAIN.html#see-also",
-    "title": "Train",
-    "section": "See also",
-    "text": "See also\n\nStep 1 · EDA — understanding the data you’re training on.\nStep 2 · Data Preparation — preparing the data you train with.\nStep 3 · Algorithms — choosing the model you train here.\nStep 4 · Train — you are here.\nStep 5 · Evaluation — judging the model once it’s trained."
+    "objectID": "content/05-EVAL.html",
+    "href": "content/05-EVAL.html",
+    "title": "Evaluation",
+    "section": "",
+    "text": "NoteEvaluation · at a glance\n\n\n\n\n\n\nWorkflow step\nStep 5 of 5 · Evaluate\n\n\nWhat you’ll learn\nHow to measure whether a model is any good, and how to compare models fairly.\n\n\nStandards assessed\nEVL\n\n\nKey terms\naccuracy · precision · recall · overfitting\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →\nEvaluation (one-sentence definition goes here — bold the term, define it plainly.) (Then 1–2 more sentences previewing what this chapter covers. This lead should stand alone as a summary.)",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
   },
   {
-    "objectID": "content/00-INTRO.html",
-    "href": "content/00-INTRO.html",
+    "objectID": "content/05-EVAL.html#overview",
+    "href": "content/05-EVAL.html#overview",
+    "title": "Evaluation",
+    "section": "Overview",
+    "text": "Overview\n(1–3 short paragraphs: what this is, why it matters, and where it sits in the five-step workflow. Flesh out later.)",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#key-ideas",
+    "href": "content/05-EVAL.html#key-ideas",
+    "title": "Evaluation",
+    "section": "Key ideas",
+    "text": "Key ideas\n\n\n\n\n\n\nNoteKey idea\n\n\n\n(State the single most important takeaway of this chapter.)\n\n\n(List or briefly explain the 2–4 core concepts. Split into ### subsections as you flesh out.)",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#readings",
+    "href": "content/05-EVAL.html#readings",
+    "title": "Evaluation",
+    "section": "Readings",
+    "text": "Readings\nBefore class, read the assigned material.\n\nRequired: add reading + link\nOptional / going deeper: add reading + link",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#slides",
+    "href": "content/05-EVAL.html#slides",
+    "title": "Evaluation",
+    "section": "Slides",
+    "text": "Slides\nIn class we’ll work through these decks:\n\nadd slide deck links",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#homework",
+    "href": "content/05-EVAL.html#homework",
+    "title": "Evaluation",
+    "section": "Homework",
+    "text": "Homework\n\nAssignment: link\nWhat it assesses: short description",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#lab",
+    "href": "content/05-EVAL.html#lab",
+    "title": "Evaluation",
+    "section": "Lab",
+    "text": "Lab\n\n\n\n\n\n\nTipTry it\n\n\n\n(One-line pointer to the hands-on lab.)\n\n\n\nLab: link\nObjectives: add objectives",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#standards",
+    "href": "content/05-EVAL.html#standards",
+    "title": "Evaluation",
+    "section": "Self-quiz",
+    "text": "Self-quiz\nUse the standards below as a checklist — you should be able to do each — then try the practice questions to test yourself.\n\nStandards\n(Add the standards for this unit, each framed as “you should be able to…”.)\n\n\nPractice questions\nClick a question to reveal the answer.\n\n\n\n\n\n\nNoteQ1. (Add a practice question.)\n\n\n\n\n\n(Answer — students click to reveal.)\n\n\n\n\n\n\n\n\n\nNoteQ2. (Add a practice question.)\n\n\n\n\n\n(Answer.)",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "02-EVL/rr-EVL.html",
+    "href": "02-EVL/rr-EVL.html",
+    "title": "EVL readings",
+    "section": "",
+    "text": "Dive deeper in the content we’ll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. \n\nIntro to ML section 2.1 \nModel Accuracy section 2.2 \nCross-validation section 5.1 \nBootstrap section 5.2\n\n\n\n\n\nAccountable algorithms describes principles for investigating algorithms and holding them accountable. \nAlgorithm guidance expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples."
+  },
+  {
+    "objectID": "02-EVL/rr-EVL.html#islp-selected-readings",
+    "href": "02-EVL/rr-EVL.html#islp-selected-readings",
+    "title": "EVL readings",
+    "section": "",
+    "text": "Dive deeper in the content we’ll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. \n\nIntro to ML section 2.1 \nModel Accuracy section 2.2 \nCross-validation section 5.1 \nBootstrap section 5.2"
+  },
+  {
+    "objectID": "02-EVL/rr-EVL.html#related-articles",
+    "href": "02-EVL/rr-EVL.html#related-articles",
+    "title": "EVL readings",
+    "section": "",
+    "text": "Accountable algorithms describes principles for investigating algorithms and holding them accountable. \nAlgorithm guidance expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples."
+  },
+  {
+    "objectID": "02-EVL/std-EVL.html",
+    "href": "02-EVL/std-EVL.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "Step 1\n      Exploring Data\n    \n    \n      ×\n      Step 1\n      Exploring Data\n      Understand the shape, distributions, and quirks of your data before modeling.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 2\n      Data Preparation\n    \n    \n      ×\n      Step 2\n      Data Preparation\n      Clean, transform, and structure the data so it's ready to model.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 3\n      Algorithms\n    \n    \n      ×\n      Step 3\n      Algorithms\n      \n        kmeans\n        tree-based\n        linear-based\n        kNN\n        neural nets\n        SVM\n        naive bayes\n        regularized\n      \n      Open page →\n    \n  \n\n  \n  \n    \n      Step 4\n      Train\n    \n    \n      ×\n      Step 4\n      Train\n      Fit the chosen model to the prepared data.\n      Open page →\n    \n  \n\n  \n  \n    \n      Step 5\n      Evaluation\n    \n    \n      ×\n      Step 5\n      Evaluation\n      Measure how well the model performs, then iterate.\n      Open page →\n    \n  \n\n  \n  5-stepworkflow\n\n\n\n\n\n\n\n\nThe machine learning workflow is comprised of five steps, and often includes iteration after the last step to find optimal solutions. Click on any of the steps to learn more. The most important part of this process is something not listed: identifying your workflow’s goal. This is done by completing relevant background research, talking to stakeholders, and identifying what data you have available to you.\nSometimes goals are not able to come to fruition. This is normal, and requires you to rescope your goal to something that is doable within your time frame.",
-    "crumbs": [
-      "Course Content"
-    ]
+    "text": "The following standards will be assessed on the EVL quiz:"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CSCI 279 - Fall 2026",
+    "objectID": "02-EVL/std-EVL.html#eval",
+    "href": "02-EVL/std-EVL.html#eval",
+    "title": "Machine Learning",
+    "section": "EVAL",
+    "text": "EVAL\nYou should be able to:\n\nIdentify which evaluation metrics to use for various ML tasks\nCompute metrics (formulas provided)\nInterpret metrics in an accessible way"
+  },
+  {
+    "objectID": "02-EVL/std-EVL.html#train",
+    "href": "02-EVL/std-EVL.html#train",
+    "title": "Machine Learning",
+    "section": "TRAIN",
+    "text": "TRAIN\nYou should be able to:\n\nKnow ways to separate train, validation, and test sets\nDefine overfitting, underfitting, cross-fold validation\nUnderstand and give examples of the bias(underfitting) - variance (overfitting) tradeoff"
+  },
+  {
+    "objectID": "02-EVL/std-EVL.html#study-tips",
+    "href": "02-EVL/std-EVL.html#study-tips",
+    "title": "Machine Learning",
+    "section": "Study Tips",
+    "text": "Study Tips\nReview the lecture slides, workbooks, homework assignments, and the associated lab.\nQuiz questions are similar (though not identical) to the types of questions covered in these materials. You should be able to use appropriate terminology and apply the concepts covered in class to a variety of new scenarios.\nThe primary goal of each quiz is to give you an opportunity to apply concepts with clear and well-explained reasoning.\nQuizzes are also a valuable opportunity to receive feedback on your reasoning skills."
+  },
+  {
+    "objectID": "02-EVL/std-EVL.html#formulas-given",
+    "href": "02-EVL/std-EVL.html#formulas-given",
+    "title": "Machine Learning",
+    "section": "Formulas given",
+    "text": "Formulas given\n\\(\\text{Accuracy} = \\frac{TP + TN}{TP + FP + FN + TN}\\)\n\\(\\text{Precision} = \\frac{TP}{TP + FP}\\)\n\\(\\text{Recall} = \\frac{TP}{TP + FN}\\)\n\\(F1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}\\)\n\\(MAE = \\frac{1}{n} \\sum |y_{obs} - y_{pred}|\\)\n\\(MSE = \\frac{1}{n} \\sum (y_{obs} - y_{pred})^2\\)\n\\(RMSE = \\sqrt{MSE}\\)"
+  },
+  {
+    "objectID": "course_information/project.html",
+    "href": "course_information/project.html",
+    "title": "Overview",
     "section": "",
-    "text": "Welcome to Machine Learning!\nMachine learning algorithms are used to make decisions in a wide variety of applications, including recommendation systems, criminal justice, healthcare, and more. This course explores several common machine learning algorithms: how they work, their strengths and limitations, their applications to real-world datasets, their implementation via Python frameworks, and the ethical and societal consequences of their use.\n\n\n\n\nInstructor: Prof. Kim Mandery Office: RMS 407 Office Hours: W 10:20-12:30am, or by appt.  Email: mander1@stolaf.edu\n\n\n\n\n\nTA: Brooke Barenz TA Hours: TBD  Drop-in lab: RNS202/203\n\n\nAdditional help can often be found in the drop-in lab from Sunday-Thursdays around 6-9pm.\n\nWe will be using this site for most of our course content. View the schedule or navigate through our course content on the left.\n\nTesting content pages: INTRO 01-EDA 02-DATA 03-ALG 04-TRAIN 05-EVAL MORE",
+    "text": "Overview\nYou may choose to work on any machine learning project of your choice. This could be similar to the types of regression, classification, or clustering that we will cover in class, or could be on machine learning related to text (things like sentiment analysis, or text generation), or could be on machine learning related to images (things like image recognition, or image generation), or another area of machine learning altogether.\nYou must complete this project individually.\n\n\nRequirements\nThe first requirement for the project is that you have created a workflow plan for each section of the ML workflow process, and have code that implements that plan. You will want to create a colab workbook, and include this plan at the beginning of your code notebook.\nYour plan should include the following:\n\nWhat will be your goal in working on this project?\nWhat will be your source for data for the project? If this requires you to gather data, how will you go about this?\nWhat data cleaning, conversion, or preparation will you need to do to prepare your data set?\nWhat kinds of exploratory data analysis will you do?\nWhich machine learning algorithms will you use to train models? Why are you choosing these algorithms?\nHow will you attempt to optimize your models?\nHow will you analyze the accuracy of your models?\n\nYour workflow should have some form of data pre-processing, some kind of exploratory data analysis, training and testing of machine learning algorithms (including some parameter tuning), and evaluating the performance of your models. It is very important that your plan is complete and very detailed, in order to show a thorough understanding of the process of training a model using machine learning, in case you don’t have time to fully complete your project.\nThe second requirement for the project is that it use one of the following datasets. These datasets cover a variety of topics and have enough records to build substantial models. If you wish, you may choose your own data set (both the UCI repo or data.world are good places to start) that is not on this list, but you’ll need to check with your instructor first (look for data &gt;5k records with both numeric and categorial features)\n\nCardiotocography\nHuman Activity Recognition Using Smartphones\nLetter Recognition\nTurkiye Student Evaluation\nBank Marketing Data Set\nContraceptive Method Choice Data Set\nCrimes in Chicago\nDefault of Credit Card Clients Data Set\nOnline Shoppers Purchasing Intention Dataset\nSynthetic Financial Datasets for Fraud Detection (fake data set, but should still provide useful practice)\nRice Variety Recognition\nMice Protein Expression\n\n\n\nProject Check-ins\nThere are nine progress checks during the semester, each worth 4 points. To receive full credit for a progress check, you must submit work before the deadline as indicated on the schedule.\n\nPC0\nRead over the project, taking a look at deadlines and deliverables. Then start to look at datasets you’re interested in. You can certainly use the ones given, but it is a requirement to find an outside datasource and post on the Forum under “Places to find additional data sources”\n\n\nPC1\nIdentify three data sets that you’re interested in. Include a link, a two sentence description, and the reasoning behind selection for each dataset. Post on the Forum under “Three datasets of interest” \n\n\nPC2\nCreate a Colab workbook and copy-paste the workflow plan above into a text box. Identify the dataset you’d like to use for your project, and fill out the project goal (first question). You may have to do some background research on your topic. Then fill out the next three questions.\nNext, make sure your data is accessible on a git repo somewhere so you can get started on the next PC. Depending on your project, this might be as simple as locating a git repo that has your data set, or it might require you to upload the dataset to your personal git repo.\nSubmit the link to your colab workbook to the Moodle submission.\n\n\nPC3\nPerform some exploratory data analysis using your workbook. Discuss the results, and what this tells you about your data, as well as your expectations for your results. This should include some data visualizations that go beyond a basic chart.\nSubmit a picture of a plot you made along with a quick relection to the Moodle submission\n\n\n\nPC4\nTime to do some more background research. By now, hopefully you have identified what the goal of the model you plan to build is. Your task is to see if something similar been done with this type of data. Do a brief write up of background information (one paragraph) making sure to link sources.\nYou should also continue to build out your workflow plan, adding more details as you learn new material in class.\n\n\nPC5\nPrepare your data set for training. This might include handling missing or categorical values, basic conversions, or more extensive conversions. Any choices that you make should be explained. Additionally, you may want to consider creating more visualizations using this pre-processed (or what we call “clean”) data.\n\n\nPC6\nFinish laying out your project workflow and begin building your presentation. Think about how to make the insights from your analysis, your model goal, or the background information engaging for a general audience. Use this checkpoint to explore what makes a story compelling and experiment with ways to bring that story to life in your presentation.\n\n\nPC7\nTrain models using machine learning algorithms. Although you should not use every algorithm that we’ve covered, you should use those that make sense for your data set. You should explain your choices, and perform parameter tuning in order to optimize their performance.\nAdd a slide to your presentation describing the algorithms and tuning you did, making sure to make it relatable for a general audience.\n\n\nPC8\nDiscussion of results. Compare the performance of your models, and discuss the results. Do you consider your results successful? Explain why or why not, and discuss how further improvements might be made.\nContinue working on your final presentation. You want a presentation that is digestible to a non-technical audidence and is interesting (visualizations, insights, models, data).\n\n\nPC9\nEvaluation of your plan. Discuss how closely you were able to follow your workflow. What unexpected issues did you encounter? What adjustments did you need to make? How would this affect planning a future machine learning project? Finalize your presentation, and submit your link along with a screenshot to Moodle.\n\n\n\nFinal Submission\nThe final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. Submissions are due by the last day of class.\nA detailed grading rubric can be found on the left.\n\n\nPresentations\n(12 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. Grading is based on the quality of your peer review during these rounds.\nThe peer review forms are available up on Moodle",
     "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#staff-information",
-    "href": "index.html#staff-information",
-    "title": "CSCI 279 - Fall 2026",
-    "section": "",
-    "text": "Instructor: Prof. Kim Mandery Office: RMS 407 Office Hours: W 10:20-12:30am, or by appt.  Email: mander1@stolaf.edu",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#ta-information",
-    "href": "index.html#ta-information",
-    "title": "CSCI 279 - Fall 2026",
-    "section": "",
-    "text": "TA: Brooke Barenz TA Hours: TBD  Drop-in lab: RNS202/203",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#september",
-    "href": "course_information/schedule.html#september",
-    "title": "Machine Learning",
-    "section": "September",
-    "text": "September\nINTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus Lab: Intro\nINTRO lab due SaturdaySkim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Wednesday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\nPC1 due Saturday\n\n\nT Sept 22\nEDA3 Lab: EDA\nArticle review 1 due Saturday  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA HW + Lab due SaturdayStudy for EDA quiz\n\n\nT Sept 29\nEVL2 HW: EVL Quiz: EDA\nPC2 due Wednesday",
-    "crumbs": [
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#october",
-    "href": "course_information/schedule.html#october",
-    "title": "Machine Learning",
-    "section": "October",
-    "text": "October\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Oct 1\nEVL3 Lab: EVL\nEVAL HW + Lab due SaturdayStudy for EVL quiz  Skim next module\n\n\n\nCLS\n\n\n\nT Oct 6\nCLS1 PC3 Quiz: EVL\nPC3 due Wednesday\n\n\nTh Oct 8\nCLS2 HW: CLS\n\n\n\nT Oct 13\nFall Break\n\n\n\nTh Oct 15\nCLS3 Lab: CLS\nCLS HW + Lab due SaturdayStudy for CLS quiz  Skim next module\n\n\n\nDATA\n\n\n\nT Oct 20\nDATA1 Quiz: CLS\nSign up for retakes if applicable\n\n\nW Oct 21\nQuiz Retakes: INTRO EDA EVL\n\n\n\nTh Oct 22\nDATA2 HW: DATA PC4\nPC4 due Saturday  Skim next module\n\n\n\nTREE\n\n\n\nT Oct 27\nTREE1 Lab: DATA\nArticle review 2 due Wednesday\n\n\nTh Oct 29\nTREE2 HW: TREE PC5\nDATA HW + Lab due SaturdayStudy for DATA quiz",
-    "crumbs": [
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#november",
-    "href": "course_information/schedule.html#november",
-    "title": "Machine Learning",
-    "section": "November",
-    "text": "November\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nT Nov 3\nTREE3 Quiz: DATA\nPC5 due Wednesday Skim next module\n\n\n\nLIN\n\n\n\nTh Nov 5\nLIN1 Lab: TREE\nTREE HW + Lab due SaturdayStudy for TREE quiz\n\n\nT Nov 10\nLIN2 HW: LIN Quiz: TREE\nSkim next module\n\n\n\nMOD\n\n\n\nTh Nov 12\nMOD1 Lab: LIN\nLIN HW due Saturday\n\n\nT Nov 17\nMOD2 HW: MOD Quiz: LIN\nMOD HW due SaturdayStudy for LIN quiz  Skim next module\n\n\n\nESB\n\n\n\nTh Nov 19\nESB1 HW: ESB PC6\nESB HW due Tuesday\n\n\nT Nov 24\nESB2 Lab: ESB Part 1\nESB LAB Part1 due Monday\n\n\nTh Nov 26\n\nThanksgiving Break",
-    "crumbs": [
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course_information/schedule.html#december",
-    "href": "course_information/schedule.html#december",
-    "title": "Machine Learning",
-    "section": "December",
-    "text": "December\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nT Dec 1\nESB3 Lab: ESB Part 2\nPC6 due Thursday Sign up for retakes if applicable\n\n\nW Dec 2\nQuiz Retakes CLS DATA TREE LIN\nskim next module\n\n\n\nNN\n\n\n\nTh Dec 3\nNN1 HW: NN PC7-9\nESB LAB Part2 due Saturday  Study for ESB quiz\n\n\nT Dec 8\nNN2 HW: NN Quiz: ESB\nNN HW due WednesdayPC7 due FridayStudy for NN quiz\n\n\nTh Dec 10\nNN3 Quiz: NN\nPC8 and PC9 due Monday\n\n\nT Dec 15\nPresentations\nSign-up for retakes if applicable\n\n\n\nMake sure to fill out course evaluation!\n\n\n\n\n\n\n\n\nM Dec 21\nQuiz Retakes ESB + NN or any previous\nHave a great break :)",
-    "crumbs": [
-      "Schedule"
+      "Project",
+      "Overview"
     ]
   },
   {
