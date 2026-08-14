@@ -47,8 +47,8 @@ need to check with your instructor first (look for data >5k records with both nu
 
 
 # Project Check-ins
-There are nine progress checks during the semester, each worth 4 points (see the schedule).
-To receive full credit for a progress check, you must submit work before the next lecture's afternoon session.
+There are nine progress checks during the semester, each worth 4 points. 
+To receive full credit for a progress check, you must submit work before the deadline as indicated on the schedule.
 
 ### PC0
 Read over the project, taking a look at deadlines and deliverables. Then start to look at datasets you're interested in. You can certainly use the ones given, but it is 
@@ -118,12 +118,10 @@ machine learning project? Finalize your presentation, and submit your link along
 The final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. 
 Submissions are due by the last day of class.
 
-A detailed grading [rubric](course_information/project_rubric.qmd)
+A detailed grading rubric can be found on the left.
 
 # Presentations
 (12 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
 Grading is based on the quality of your peer review during these rounds. 
 
 The peer review forms are available up on [Moodle](https://mdl.stolaf.edu/course/section.php?id=1467353)
-
-![](static/art1.jpg)

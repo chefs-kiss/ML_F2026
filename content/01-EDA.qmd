@@ -120,12 +120,3 @@ Click a question to reveal the answer.
 *(Answer.)*
 :::
 
-
-
-## See also {#see-also}
-
-- **Step 1 · EDA** — *you are here*.
-- [Step 2 · Data Preparation](../content/02-DATA.qmd) — the next step: cleaning and transforming what you explored.
-- [Step 3 · Algorithms](../content/03-ALG.qmd) — the models your prepared data will feed.
-- [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the models to data.
-- [Step 5 · Evaluation](../content/05-EVAL.qmd) — judging how well the models performed.

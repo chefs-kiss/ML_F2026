@@ -108,25 +108,3 @@ It's time to stop training, simplify, or regularize.
 ## Q3. *(Add your own practice question here.)*
 *(Answer goes here.)*
 :::
-
-## Key terms {#glossary}
-
-Training set
-: The data a model learns from.
-
-Loss
-: A number measuring how wrong a model's current predictions are; training tries to minimize it.
-
-Ensemble
-: A model built by combining the predictions of several models.
-
-Generalization
-: How well a model performs on data it has never seen.
-
-## See also {#see-also}
-
-- [Step 1 · EDA](../content/01-EDA.qmd) — understanding the data you're training on.
-- [Step 2 · Data Preparation](../content/02-DATA.qmd) — preparing the data you train with.
-- [Step 3 · Algorithms](../content/03-ALG.qmd) — choosing the model you train here.
-- **Step 4 · Train** — *you are here*.
-- [Step 5 · Evaluation](../content/05-EVAL.qmd) — judging the model once it's trained.

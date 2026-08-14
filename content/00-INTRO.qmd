@@ -1,7 +1,11 @@
-:::{columns}
-![](../static/art3.png)
+---
+title: "5 Step Workflow"
+toc: false
+---
 
-::: {.column width="60%"}
+:::{columns}
+
+::: {.column width="65%"}
 
 ```{=html}
 <style>
@@ -369,11 +373,15 @@
 ```
 :::
 
-::: {.column width="35%"}
-
+:::{.column width="30%"}
 The machine learning workflow is comprised of five steps, and often includes iteration after the last step to find optimal solutions.
+
 Click on any of the steps to learn more.
-The most important part of this process is something not listed: identifying your workflow's goal. This is done by completing relevant background research, talking to stakeholders, and identifying what data you have available to you.
+:::
+
+The most important part of this process is something not listed: identifying your workflow's goal. 
+
+This is done by completing relevant background research, talking to stakeholders, and identifying what data you have available to you.
 
 Sometimes goals are not able to come to fruition. This is normal, and requires you to rescope your goal to something that is doable within your time frame.
 

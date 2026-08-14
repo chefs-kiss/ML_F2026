@@ -2,7 +2,6 @@
 toc: false
 ---
 # CSCI 279 - Fall 2026
-![](static/art3.png)
 
 Welcome to Machine Learning!
 
@@ -32,9 +31,10 @@ Additional help can often be found in the drop-in lab from Sunday-Thursdays arou
 
 --- 
 
-We will be using this site for most of our course content. View the schedule or navigate through our course content on the left.
+We will be using this site for most of our course content. Navigate to the schedule or course content using the wiki at the top of this page. You can read the syllabus [here](course_information/syllabus.qmd).
 
 ---
+This site was made using [Quarto](https://quarto.org/docs/websites/)! If you are interested in building your own site to host your portfolio, reach out to Prof. Kim and she'll help you get started.
 
 Testing content pages:
 [INTRO](content/00-INTRO.html)

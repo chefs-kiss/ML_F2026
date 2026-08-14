@@ -3,42 +3,64 @@ project:
   output-dir: docs
 
 website:
-  title: "Machine Learning"
-  favicon: "static/favicon_32.png"
-  search:
-    type: textbox
-  sidebar:
+  title: Machine Learning
+  navbar:
     background: primary
-    logo: "static/ml_green.png"
-    pinned: true
-    align: center
-    tools:
-      - icon: house
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Schedule"
         href: course_information/schedule.qmd
-        text: Home
-      - icon: file-earmark-pdf
-        href: https://chefs-kiss.github.io/ML_J2026/files/ISLP.pdf
-        text: ISLP
-      - icon: chat-heart
-        href: https://mdl.stolaf.edu/course/view.php?id=56310
-        text: Moodle
-      - icon: github
-        href: https://github.com/chefs-kiss/ML_J2026
-        text: GitHub
-    style: docked
-    contents:
-    - href: index.qmd
-      text: Home
-    - href: course_information/schedule.qmd
-      text: Schedule
-    - href: content/00-INTRO.qmd
-      text: Course Content
-    - href: project.qmd
-      text: Project
-    - href: articles.qmd
-      text: Article Reviews
-    - href: content/06-OTHER.qmd
-      text: Resources
+      - text: "Course Wiki"
+        href: content/00-INTRO.qmd
+      - text: "Project"
+        href: course_information/project.qmd
+
+  sidebar:
+    - title: "Course Wiki"
+      style: "docked"
+      search: true
+      collapse-level: 1
+      contents:
+        - content/00-INTRO.qmd
+        - content/01-EDA.qmd
+        - content/02-DATA.qmd
+        - section: content/03-ALG.qmd
+          contents:
+            - href: content/03-ALG.qmd#tree
+              text: "Tree-based"
+            - href: content/03-ALG.qmd#lin
+              text: "Linear-based"
+            - href: content/03-ALG.qmd#mod
+              text: "Other models"
+            - href: content/03-ALG.qmd#nn
+              text: "Neural Networks"
+        - content/04-TRAIN.qmd
+        - content/05-EVAL.qmd
+        - content/06-OTHER.qmd
+      footer: |
+          Use the site search to look for particular content.
+
+
+
+    - title: "Project"
+      contents:
+        - course_information/project.qmd
+        - course_information/project_rubric.qmd
+      footer: |
+          View the table of contents on the right to find project check-ins
+
+    - title: "Schedule"
+      contents:
+        - href: course_information/schedule.qmd
+          text: "CSCI279 Fall 2026"
+        - href: https://wp.stolaf.edu/registrar/files/2026/03/2026-27-Academic-Calendar-FINAL-3.9.26.pdf
+          text: "Academic Calendar 2026-2027"
+      footer: |
+          
+
+    
 
 format:
   html:

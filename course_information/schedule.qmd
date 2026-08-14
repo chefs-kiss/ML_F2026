@@ -27,8 +27,6 @@
 </style>
 ```
 
-![](../static/art3.png)
-
 ## September
 
 [INTRO]{.topic-btn .step1} 

@@ -255,12 +255,3 @@ know where to look:
 
 *(Add the NN standards.)*
 
----
-
-## See also {#see-also}
-
-- [Step 1 · EDA](../content/01-EDA.qmd) — understanding the data before choosing a model.
-- [Step 2 · Data Preparation](../content/02-DATA.qmd) — preparing data for these algorithms.
-- **Step 3 · Algorithms** — *you are here*.
-- [Step 4 · Train](../content/04-TRAIN.qmd) — fitting the algorithm you choose here.
-- [Step 5 · Evaluation](../content/05-EVAL.qmd) — measuring how well the chosen model works.
