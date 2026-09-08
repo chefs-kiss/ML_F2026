@@ -58,14 +58,14 @@ website:
         - href: https://wp.stolaf.edu/registrar/files/2026/03/2026-27-Academic-Calendar-FINAL-3.9.26.pdf
           text: "Academic Calendar 2026-2027"
       footer: |
-          
+          Spot an error? Let Prof Kim know.
 
     
 
 format:
   html:
     theme: lux  #yeti #materia #lux #sandstone #spacelab #vapor   #litera
-    #css: styles.css
+    css: styles.css
     toc: true
 
 execute:

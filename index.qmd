@@ -1,9 +1,8 @@
 ---
 toc: false
 ---
-# CSCI 279 - Fall 2026
-
-Welcome to Machine Learning!
+Introduction to <br>
+[Machine Learning]{style="font-family: 'Press Start 2P', monospace; font-size: 2.5em; color: #c668eb;"}
 
 Machine learning algorithms are used to make decisions in a wide variety of applications, 
 including recommendation systems, criminal justice, healthcare, and more. This course explores 
@@ -11,21 +10,20 @@ several common machine learning algorithms: how they work, their strengths and l
 applications to real-world datasets, their implementation via Python frameworks, and the ethical 
 and societal consequences of their use.
 
+--- 
 
-:::{columns}
-::: {.column width="50%"}
-## Staff Information
+## Staff 
 Instructor: Prof. Kim Mandery<br>
-Office: RMS 407<br>
-Office Hours: W 10:20-12:30am, or by appt. <br>
 Email: mander1@stolaf.edu<br>
-:::
-::: {.column width="45%"}
-## TA Information
+Office: RMS 407<br>
+Office Hours: M 12-2pm (virtual, [sign-up](https://calendar.app.google/Es7tf9wEG8h8N9Pw6)); T 2-3pm; W 10:20-12:30am, or by appt. <br>
+
+
+## TA 
 TA: Brooke Barenz<br>
 TA Hours: TBD <br>
 Drop-in lab: RNS202/203<br>
-:::
+
 
 Additional help can often be found in the drop-in lab from Sunday-Thursdays around 6-9pm.
 
@@ -35,12 +33,3 @@ We will be using this site for most of our course content. Navigate to the sched
 
 ---
 This site was made using [Quarto](https://quarto.org/docs/websites/)! If you are interested in building your own site to host your portfolio, reach out to Prof. Kim and she'll help you get started.
-
-Testing content pages:
-[INTRO](content/00-INTRO.html)
-[01-EDA](content/01-EDA.qmd)
-[02-DATA](content/02-DATA.qmd)
-[03-ALG](content/03-ALG.qmd)
-[04-TRAIN](content/04-TRAIN.qmd)
-[05-EVAL](content/05-EVAL.qmd)
-[MORE](content/06-OTHER.qmd)

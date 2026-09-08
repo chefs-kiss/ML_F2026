@@ -18,24 +18,12 @@ toc: true
 
 :::
 
-**Exploratory data analysis (EDA)** *(one-sentence definition goes here — bold the term, define it plainly.)*
-*(Then 1–2 more sentences previewing what this chapter covers. This lead should stand
-alone as a summary.)*
-
 ## Overview {#overview}
-
-*(1–3 short paragraphs: what this is, why it matters, and where it sits in the
-five-step workflow. Flesh out later.)*
-
-## Key ideas {#key-ideas}
-
-::: {.callout-note}
-## Key idea
-*(State the single most important takeaway of this chapter.)*
-:::
-
-*(List or briefly explain the 2–4 core concepts. Split into ### subsections as you
-flesh out.)*
+**Exploratory data analysis** (EDA) is the first step in our machine learning workflow. 
+It involves running general statistical tests to see whether our target variable is worth pursuing, 
+checking for oddities in the data such as missingness, outliers, and correlations, 
+and designing visualizations to help us explore the data further. 
+Together, these steps provide evidence for supporting our research goal, while also offering key insights into how best to work with our data moving forward.
 
 ## Readings {#readings}
 
@@ -57,15 +45,15 @@ The following cheatsheets may be helpful for your reference: [data storytelling]
 
 ## Slides {#slides}
 
-### Model workflow 
+#### Model workflow 
 EDA1: Overview of the 5step workflow, learning paradigms, and features types.<br>
 [Open in new tab](../01-EDA/slides-EDA.pdf){target="_blank"}
 
-### statistics
+#### Statistics
 EDA2: Descriptive statistics (mean, median, standard deviation), statistical tests and hypothesis testing. <br>
 [Open in new tab](../01-EDA/slides-EDA.pdf#page=17){target="_blank"}
 
-### Visualizations 
+#### Visualizations 
 EDA3: How to tell a story, and creating visualizations with mathplotlib, plotnine, seaborn.<br>
 [Open in new tab](../01-EDA/slides-EDA.pdf#page=37){target="_blank"}
 
@@ -111,12 +99,15 @@ You should be able to:
 Click a question to reveal the answer.
 
 ::: {.callout-note collapse="true"}
-## Q1. *(Add a practice question.)*
-*(Answer — students click to reveal.)*
+## FLOW. <br>Explain the difference between **supervised** and **unsupervised** learning to a friend who has never taken a stats or CS class. Write a 2–3 sentence explanation using no technical jargon. Then, come up with your own real-world analogy that captures the difference.
+*Supervised learning means we have labels for each of our observations. The model learns general characteristics for each type of label, and then predicts a label for an unseen observation. Unsupervised learning has no labels, so we group observations based on how similar they are. <br>
+Analogies may vary. *
 :::
 
 ::: {.callout-note collapse="true"}
-## Q2. *(Add a practice question.)*
-*(Answer.)*
+## EDA-STAT. <br>You are given a histogram of "hours of sleep per night" for 200 college students, and it shows a long tail stretching toward lower values (most students cluster around 7–8 hours, with a few reporting 1–3 hours). <br>(a) Describe the skew and shape of this distribution.<br>(b) Would the mean or median better represent the "typical" student in this dataset? Explain why.<br>(c) What is one other chart type you could use to visualize this same feature, and what additional information might it reveal (e.g., outliers)?<br>
+*(a) The distribution is left-skewed (mean < median), unimodal (one main peak), and not symmetric <br>
+(b) The median would be a better representations since the mean gets pulled in the direction of the tail. This means that it will looks like the average student sleeps less than they actually do. With heavy skews, the median is more robust to outliers/extremes.<br>
+(c) A boxplot would be good since it shows the median and IQR (middle 50% range) as well as the mean. This allows us to see general percentage cutoffs (25%, 50%, 75%)*
 :::
 

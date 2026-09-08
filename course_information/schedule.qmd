@@ -41,29 +41,29 @@
 
 |||
 |:---:|:---|:----|
-| T Sept 15 |  [EDA1](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [PC0](../project.qmd#pc0){.ag-btn .ag-grey} [Quiz: INTRO]{.ag-btn .step1} | PC0 due Wednesday |
-| Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
+| T Sept 15 |  [EDA1](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [PC0](../course_information/project.qmd#pc0){.ag-btn .ag-grey} [Quiz: INTRO]{.ag-btn .step1} | PC0 due Wednesday |
+| Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../course_information/project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
 | T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | Article review 1 due Saturday <br> Skim next module  |
 
 [EVL](../content/05-EVAL.qmd){.topic-btn .step5} 
 
 |||
 |:---:|:---|:----|
-| Th Sept 24 |   [EVL1](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [PC2](../project.qmd#pc2){.ag-btn .ag-grey}| EDA HW + Lab due Saturday<br>Study for EDA quiz |
+| Th Sept 24 |   [EVL1](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [PC2](../course_information/project.qmd#pc2){.ag-btn .ag-grey}| EDA HW + Lab due Saturday<br>Study for EDA quiz |
 | T Sept 29 |   [EVL2](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [Quiz: EDA](../content/01-EDA.qmd#standards){.ag-btn .step1} | PC2 due Wednesday |
 
 ## October
 
 | **date**  | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL HW + Lab due Saturday<br>Study for EVL quiz <br> Skim next module |
+| Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL HW + Lab due Saturday<br> Quiz rewrites due next Tuesday<br> Skim next module |
 
 [CLS](../content/03-ALG.qmd#cls){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
-| T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday |
-| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} |  |
+| T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../course_information/project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday |
+| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | Quiz rewrites due next Thursday |
 | T Oct 13 |  **Fall Break** |  |
 | Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW + Lab due Saturday<br>Study for CLS quiz <br> Skim next module |
 
@@ -73,14 +73,14 @@
 |:---:|:---|:---|
 | T Oct 20 |  [DATA1](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [Quiz: CLS](../content/03-ALG.qmd#cls-standards){.ag-btn .step3} | [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSfR-lWP6ZGMbUYw_Zq4Pw8kJn8gYsjL5nun4cvbkPWpYRipSA/viewform?usp=share_link&ouid=101535206594689312428) for retakes if applicable |
 | W Oct 21 |  [Quiz Retakes: INTRO EDA EVL]{.ag-btn .ag-grey} |  |
-| Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} [PC4](../project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Skim next module |
+| Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} [PC4](../course_information/project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Quiz rewrites due next Tuesday<br> Skim next module |
 
 [TREE](../content/03-ALG.qmd#tree){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
 | T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} | Article review 2 due Wednesday |
-| Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
+| Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../course_information/project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
 
 ## November
 
@@ -106,7 +106,7 @@
 
 |||
 |:---:|:---|:---|
-| Th Nov 19 |  [ESB1](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [HW: ESB](../content/04-TRAIN.qmd){.ag-btn .ag-grey} [PC6](../project.qmd#pc6){.ag-btn .ag-grey} | ESB HW due Tuesday |
+| Th Nov 19 |  [ESB1](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [HW: ESB](../content/04-TRAIN.qmd){.ag-btn .ag-grey} [PC6](../course_information/project.qmd#pc6){.ag-btn .ag-grey} | ESB HW due Tuesday |
 | T Nov 24 |  [ESB2](../content/04-TRAIN.qmd#slides){.ag-btn .ag-grey} [Lab: ESB Part 1](../content/04-TRAIN.qmd){.ag-btn .ag-grey} | ESB LAB Part1 due Monday |
 | Th Nov 26 | | **Thanksgiving Break**  |  |
 
@@ -121,7 +121,7 @@
 
 |||
 |:---:|:---|:---|
-| Th Dec 3  | [NN1](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [HW: NN](../content/03-ALG.qmd#nn){.ag-btn .ag-grey} [PC7-9](../project.qmd#pc7){.ag-btn .ag-grey} | ESB LAB Part2 due Saturday <br> Study for ESB quiz |
+| Th Dec 3  | [NN1](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [HW: NN](../content/03-ALG.qmd#nn){.ag-btn .ag-grey} [PC7-9](../course_information/project.qmd#pc7){.ag-btn .ag-grey} | ESB LAB Part2 due Saturday <br> Study for ESB quiz |
 | T Dec 8 | [NN2](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [HW: NN](../content/03-ALG.qmd#nn){.ag-btn .ag-grey} [Quiz: ESB](../content/04-TRAIN.qmd#standards){.ag-btn .step4} | NN HW due Wednesday<br>PC7 due Friday<br>Study for NN quiz |
 | Th Dec 10 |  [NN3](../content/03-ALG.qmd#nn-slides){.ag-btn .ag-grey} [Quiz: NN](../content/03-ALG.qmd#nn-standards){.ag-btn .step3} | PC8 and PC9 due Monday |
 | T Dec 15 | **Presentations**  | Sign-up for retakes if applicable |
