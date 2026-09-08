@@ -199,7 +199,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="requirements" class="level1">
 <h1>Requirements</h1>
-<p>The first requirement for the project is that you have created a workflow plan for each section of the ML workflow process, and have code that implements that plan. You will want to create a colab workbook, and include this plan at the beginning of your code notebook.</p>
+<p>The first requirement for the project is that it uses an appropriate dataset. There are many places to find datasets that cover a variety of topics. You can use this <a href="https://tellingstorieswithdata.com/23-datasets.html">list of dataset resources</a> to identify data sources you would be interested in. I have found that <a href="https://www.data-is-plural.com/">Data is Plural</a>, <a href="https://catalog.data.gov/?sort=popularity">data.gov</a> (at least up until last year, the site seems to have bugs now :/), <a href="https://github.com/rfordatascience/tidytuesday#datasets">TidyTuesday</a>, and <a href="https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active">OpenML</a> have a fairly good selection to choose from.</p>
+<p>Your selected dataset should have the following characteristics: - it is not available on kaggle (better for your personal portfolio that the dataset is unique) - it has enough records (&gt;4,000) in order to build substantial models - it has both categorical and numerical features</p>
+<p>To help illustrate, below are a selection of datasets that would work:</p>
+<ul>
+<li><a href="https://www.openml.org/search?type=data&amp;status=active&amp;id=45950">Heart Failure Prediction</a></li>
+<li><a href="https://www.openml.org/search?type=data&amp;sort=runs&amp;id=4534&amp;status=active">Phishing Websites</a></li>
+</ul>
+<p>The second requirement for the project is that you have created a workflow plan for each section of the ML workflow process, and have code that implements that plan. You will want to create a colab workbook, and include this plan at the beginning of your code notebook. Filling in answers to these questions is required for final submission.</p>
 <p>Your plan should include the following:</p>
 <ul>
 <li>What will be your goal in working on this project?</li>
@@ -211,32 +218,17 @@ ul.task-list li input[type="checkbox"] {
 <li>How will you analyze the accuracy of your models?</li>
 </ul>
 <p>Your workflow should have some form of data pre-processing, some kind of exploratory data analysis, training and testing of machine learning algorithms (including some parameter tuning), and evaluating the performance of your models. It is very important that your plan is complete and very detailed, in order to show a thorough understanding of the process of training a model using machine learning, in case you don’t have time to fully complete your project.</p>
-<p>The second requirement for the project is that it use one of the following datasets. These datasets cover a variety of topics and have enough records to build substantial models. If you wish, you may choose your own data set (both the UCI repo or data.world are good places to start) that is not on this list, but you’ll need to check with your instructor first (look for data &gt;5k records with both numeric and categorial features)</p>
-<ul>
-<li><a href="https://archive.ics.uci.edu/dataset/193/cardiotocography">Cardiotocography</a></li>
-<li><a href="https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones">Human Activity Recognition Using Smartphones</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/Letter+Recognition">Letter Recognition</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/Turkiye+Student+Evaluation">Turkiye Student Evaluation</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing">Bank Marketing Data Set</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice">Contraceptive Method Choice Data Set</a></li>
-<li><a href="https://www.kaggle.com/currie32/crimes-in-chicago">Crimes in Chicago</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients">Default of Credit Card Clients Data Set</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset">Online Shoppers Purchasing Intention Dataset</a></li>
-<li><a href="https://www.kaggle.com/datasets/ealaxi/paysim1">Synthetic Financial Datasets for Fraud Detection</a> (fake data set, but should still provide useful practice)</li>
-<li><a href="https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik">Rice Variety Recognition</a></li>
-<li><a href="https://archive.ics.uci.edu/dataset/342/mice+protein+expression">Mice Protein Expression</a></li>
-</ul>
 </section>
 <section id="project-check-ins" class="level1">
 <h1>Project Check-ins</h1>
 <p>There are nine progress checks during the semester, each worth 4 points. To receive full credit for a progress check, you must submit work before the deadline as indicated on the schedule.</p>
 <section id="pc0" class="level3">
 <h3 class="anchored" data-anchor-id="pc0">PC0</h3>
-<p>Read over the project, taking a look at deadlines and deliverables. Then start to look at datasets you’re interested in. You can certainly use the ones given, but it is a requirement to find an outside datasource and post on the Forum under <a href="https://mdl.stolaf.edu/mod/forum/discuss.php?d=134318">“Places to find additional data sources”</a></p>
+<p>Read over the project, taking a look at deadlines and deliverables. Then start to look at various sites where you can find datasets that you’re interested in. You can use 1-2 sites from the resources given, but you must find at least one resources not listed to share out. For each site, describe generally the kind of datasets that can be found there. You will post your response on the Moodle forum under “PC0: data sources”</p>
 </section>
 <section id="pc1" class="level3">
 <h3 class="anchored" data-anchor-id="pc1">PC1</h3>
-<p>Identify three data sets that you’re interested in. Include a link, a two sentence description, and the reasoning behind selection for each dataset. Post on the Forum under <a href="https://mdl.stolaf.edu/mod/forum/discuss.php?d=134509">“Three datasets of interest”</a> <br></p>
+<p>Identify three data sets that you’re interested in. Include a link, a two sentence description, and the reasoning behind selection for each dataset. Post on the Forum under “PC1: interesting datasets” <br></p>
 </section>
 <section id="pc2" class="level3">
 <h3 class="anchored" data-anchor-id="pc2">PC2</h3>
@@ -246,14 +238,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="pc3" class="level3">
 <h3 class="anchored" data-anchor-id="pc3">PC3</h3>
-<p>Perform some exploratory data analysis using your workbook. Discuss the results, and what this tells you about your data, as well as your expectations for your results. This should include some data visualizations that go beyond a basic chart.</p>
-<p>Submit a picture of a plot you made along with a quick relection to the <a href="https://mdl.stolaf.edu/mod/assign/view.php?id=528573">Moodle submission</a></p>
-<!-- Switch PC3 with PC4  -->
+<p>Time to do some more background research. By now, hopefully you have identified what the goal of the model you plan to build is. Your task is to see if something similar been done with this type of data. Do a brief write up of background information (one paragraph) making sure to link sources.</p>
+<p>You should also build out some of your workflow plan, adding more details as you learn new concepts in class.</p>
 </section>
 <section id="pc4" class="level3">
 <h3 class="anchored" data-anchor-id="pc4">PC4</h3>
-<p>Time to do some more background research. By now, hopefully you have identified what the goal of the model you plan to build is. Your task is to see if something similar been done with this type of data. Do a brief write up of background information (one paragraph) making sure to link sources.</p>
-<p>You should also continue to build out your workflow plan, adding more details as you learn new material in class.</p>
+<p>Perform some exploratory data analysis using your workbook. Discuss the results, and what this tells you about your data, as well as your expectations for your results. This should include some data visualizations that go beyond a basic chart.</p>
+<p>Submit a picture of a plot you made along with a quick relection to the <a href="https://mdl.stolaf.edu/mod/assign/view.php?id=528573">Moodle submission</a></p>
+<!-- Switch PC3 with PC4  -->
 </section>
 <section id="pc5" class="level3">
 <h3 class="anchored" data-anchor-id="pc5">PC5</h3>

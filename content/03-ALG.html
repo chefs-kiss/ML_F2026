@@ -226,47 +226,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview: choosing an algorithm</a></li>
-  <li><a href="#organization" id="toc-organization" class="nav-link" data-scroll-target="#organization">How this chapter is organized</a></li>
-  <li><a href="#cls" id="toc-cls" class="nav-link" data-scroll-target="#cls">Classification (CLS)</a>
-  <ul class="collapse">
-  <li><a href="#cls-readings" id="toc-cls-readings" class="nav-link" data-scroll-target="#cls-readings">Readings</a></li>
-  <li><a href="#cls-slides" id="toc-cls-slides" class="nav-link" data-scroll-target="#cls-slides">Slides</a></li>
-  <li><a href="#cls-homework" id="toc-cls-homework" class="nav-link" data-scroll-target="#cls-homework">Homework</a></li>
-  <li><a href="#cls-lab" id="toc-cls-lab" class="nav-link" data-scroll-target="#cls-lab">Lab</a></li>
-  <li><a href="#cls-standards" id="toc-cls-standards" class="nav-link" data-scroll-target="#cls-standards">Standards</a></li>
-  </ul></li>
-  <li><a href="#tree" id="toc-tree" class="nav-link" data-scroll-target="#tree">Trees (TREE)</a>
-  <ul class="collapse">
-  <li><a href="#tree-readings" id="toc-tree-readings" class="nav-link" data-scroll-target="#tree-readings">Readings</a></li>
-  <li><a href="#tree-slides" id="toc-tree-slides" class="nav-link" data-scroll-target="#tree-slides">Slides</a></li>
-  <li><a href="#tree-homework" id="toc-tree-homework" class="nav-link" data-scroll-target="#tree-homework">Homework</a></li>
-  <li><a href="#tree-lab" id="toc-tree-lab" class="nav-link" data-scroll-target="#tree-lab">Lab</a></li>
-  <li><a href="#tree-standards" id="toc-tree-standards" class="nav-link" data-scroll-target="#tree-standards">Standards</a></li>
-  </ul></li>
-  <li><a href="#lin" id="toc-lin" class="nav-link" data-scroll-target="#lin">Linear models (LIN)</a>
-  <ul class="collapse">
-  <li><a href="#lin-readings" id="toc-lin-readings" class="nav-link" data-scroll-target="#lin-readings">Readings</a></li>
-  <li><a href="#lin-slides" id="toc-lin-slides" class="nav-link" data-scroll-target="#lin-slides">Slides</a></li>
-  <li><a href="#lin-homework" id="toc-lin-homework" class="nav-link" data-scroll-target="#lin-homework">Homework</a></li>
-  <li><a href="#lin-lab" id="toc-lin-lab" class="nav-link" data-scroll-target="#lin-lab">Lab</a></li>
-  <li><a href="#lin-standards" id="toc-lin-standards" class="nav-link" data-scroll-target="#lin-standards">Standards</a></li>
-  </ul></li>
-  <li><a href="#mod" id="toc-mod" class="nav-link" data-scroll-target="#mod">Other models (MOD)</a>
-  <ul class="collapse">
-  <li><a href="#mod-readings" id="toc-mod-readings" class="nav-link" data-scroll-target="#mod-readings">Readings</a></li>
-  <li><a href="#mod-slides" id="toc-mod-slides" class="nav-link" data-scroll-target="#mod-slides">Slides</a></li>
-  <li><a href="#mod-homework" id="toc-mod-homework" class="nav-link" data-scroll-target="#mod-homework">Homework</a></li>
-  <li><a href="#mod-lab" id="toc-mod-lab" class="nav-link" data-scroll-target="#mod-lab">Lab</a></li>
-  <li><a href="#mod-standards" id="toc-mod-standards" class="nav-link" data-scroll-target="#mod-standards">Standards</a></li>
-  </ul></li>
-  <li><a href="#nn" id="toc-nn" class="nav-link" data-scroll-target="#nn">Neural networks (NN)</a>
-  <ul class="collapse">
-  <li><a href="#nn-readings" id="toc-nn-readings" class="nav-link" data-scroll-target="#nn-readings">Readings</a></li>
-  <li><a href="#nn-slides" id="toc-nn-slides" class="nav-link" data-scroll-target="#nn-slides">Slides</a></li>
-  <li><a href="#nn-homework" id="toc-nn-homework" class="nav-link" data-scroll-target="#nn-homework">Homework</a></li>
-  <li><a href="#nn-lab" id="toc-nn-lab" class="nav-link" data-scroll-target="#nn-lab">Lab</a></li>
-  <li><a href="#nn-standards" id="toc-nn-standards" class="nav-link" data-scroll-target="#nn-standards">Standards</a></li>
-  </ul></li>
+  <li><a href="#cls" id="toc-cls" class="nav-link" data-scroll-target="#cls">Classification (CLS)</a></li>
+  <li><a href="#tree" id="toc-tree" class="nav-link" data-scroll-target="#tree">Trees (TREE)</a></li>
+  <li><a href="#lin" id="toc-lin" class="nav-link" data-scroll-target="#lin">Linear models (LIN)</a></li>
+  <li><a href="#mod" id="toc-mod" class="nav-link" data-scroll-target="#mod">Other models (MOD)</a></li>
+  <li><a href="#nn" id="toc-nn" class="nav-link" data-scroll-target="#nn">Neural networks (NN)</a></li>
   </ul>
 </nav>
     </div>
@@ -321,17 +285,17 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </div>
 </div>
-<p><strong>Algorithms</strong> are the procedures that turn prepared data into a model — the engines of machine learning. Where earlier steps got your data ready, this step is where a model is actually chosen and its shape decided. This chapter surveys the main <em>families</em> of algorithms used in this course.</p>
+<p><strong>Algorithms</strong> are the procedures that turn prepared data into a model. You can think of these like the engines of machine learning. Where earlier steps got your data ready, this step is where a model is actually chosen and its shape decided. This chapter surveys the main <em>families</em> of algorithms used in this course.</p>
 <p>There is no single best algorithm. Each family makes different assumptions about what patterns in data look like, and each trades off differently between accuracy, interpretability, speed, and how much data it needs. Much of the craft of machine learning is matching an algorithm’s assumptions to the problem in front of you.</p>
 <p>This chapter is organized as a reference: a short guide to <em>choosing</em> among the families, followed by a self-contained section for each algorithm. You can read it straight through, or jump to whichever algorithm you need from the list above.</p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview: choosing an algorithm</h2>
 <p>Before reaching for any specific model, it helps to narrow the field by asking a few questions about your problem and your data.</p>
 <ul>
-<li><strong>What kind of task is it?</strong> Classification, regression, or clustering? This alone rules out whole families.</li>
-<li><strong>How much do you value interpretability?</strong> A <a href="#tree">tree</a> you can read end-to-end is very different from a <a href="#nn">neural network</a> whose reasoning is opaque.</li>
-<li><strong>How much data do you have?</strong> Some families (<a href="#nn">neural nets</a>) are data-hungry; others work well on small datasets.</li>
-<li><strong>How much compute and time?</strong> Simpler models train in seconds; others take much longer.</li>
+<li><strong>What kind of task is it?</strong> Classification, regression, or clustering?</li>
+<li><strong>How much do you value interpretability?</strong> Some stakeholders will only be on board with your recommendations if there is full transparency about the decisions being made.</li>
+<li><strong>How much data do you have?</strong> Some algorithms require immense amounts of data, while others work best on limited data.</li>
+<li><strong>How much compute and time?</strong> Sometimes a simple model is best because of limited resources and turn-around.</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -339,331 +303,35 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Key idea: match the algorithm to the problem, not the hype
+<span class="screen-reader-only">Note</span>Key idea: match the algorithm to the problem rather than how “flashy” it is
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>The most powerful model is not always the right one. A simple, interpretable model that is “good enough” often beats a complex one that no one can explain or maintain.</p>
 </div>
 </div>
-</section>
-<section id="organization" class="level2">
-<h2 class="anchored" data-anchor-id="organization">How this chapter is organized</h2>
-<p>Each algorithm below is a self-contained section with the same structure, so you always know where to look:</p>
-<ul>
-<li><strong>Readings</strong> — do before class to build intuition.</li>
-<li><strong>Slides</strong> — what we work through in class.</li>
-<li><strong>Homework</strong> — apply the algorithm yourself.</li>
-<li><strong>Lab</strong> — hands-on practice.</li>
-<li><strong>Standards</strong> — what you should be able to do (assessed on the quiz).</li>
-</ul>
 <hr>
 </section>
 <section id="cls" class="level2">
 <h2 class="anchored" data-anchor-id="cls">Classification (CLS)</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Classification · at a glance
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>Supervised · predicts discrete categories</td>
-</tr>
-<tr class="even">
-<td><strong>Key idea</strong></td>
-<td>Learn a decision boundary that separates classes.</td>
-</tr>
-<tr class="odd">
-<td><strong>Standards</strong></td>
-<td>CLS</td>
-</tr>
-<tr class="even">
-<td><strong>Key terms</strong></td>
-<td>classifier · decision boundary · class · label</td>
-</tr>
-<tr class="odd">
-<td><strong>Materials</strong></td>
-<td><a href="#cls-readings">readings</a> · <a href="#cls-slides">slides</a> · <a href="#cls-homework">homework</a> · <a href="#cls-lab">lab</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><em>(Overview of classification goes here — what it is, when to use it, the core idea.)</em></p>
-<section id="cls-readings" class="level3">
-<h3 class="anchored" data-anchor-id="cls-readings">Readings</h3>
-<p><em>(Add readings for CLS.)</em></p>
-</section>
-<section id="cls-slides" class="level3">
-<h3 class="anchored" data-anchor-id="cls-slides">Slides</h3>
-<p><em>(Add slide deck links for CLS.)</em></p>
-</section>
-<section id="cls-homework" class="level3">
-<h3 class="anchored" data-anchor-id="cls-homework">Homework</h3>
-<p><em>(Add homework for CLS.)</em></p>
-</section>
-<section id="cls-lab" class="level3">
-<h3 class="anchored" data-anchor-id="cls-lab">Lab</h3>
-<p><em>(Add lab for CLS.)</em></p>
-</section>
-<section id="cls-standards" class="level3">
-<h3 class="anchored" data-anchor-id="cls-standards">Standards</h3>
-<p><em>(Add the CLS standards — “you should be able to…”.)</em></p>
 <hr>
-</section>
 </section>
 <section id="tree" class="level2">
 <h2 class="anchored" data-anchor-id="tree">Trees (TREE)</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Trees · at a glance
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>Supervised · classification or regression</td>
-</tr>
-<tr class="even">
-<td><strong>Key idea</strong></td>
-<td>Split data with a sequence of yes/no questions.</td>
-</tr>
-<tr class="odd">
-<td><strong>Standards</strong></td>
-<td>TREE</td>
-</tr>
-<tr class="even">
-<td><strong>Key terms</strong></td>
-<td>node · split · leaf · depth · overfitting</td>
-</tr>
-<tr class="odd">
-<td><strong>Materials</strong></td>
-<td><a href="#tree-readings">readings</a> · <a href="#tree-slides">slides</a> · <a href="#tree-homework">homework</a> · <a href="#tree-lab">lab</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><em>(Overview of tree-based models goes here.)</em></p>
-<section id="tree-readings" class="level3">
-<h3 class="anchored" data-anchor-id="tree-readings">Readings</h3>
-<p><em>(Add readings for TREE.)</em></p>
-</section>
-<section id="tree-slides" class="level3">
-<h3 class="anchored" data-anchor-id="tree-slides">Slides</h3>
-<p><em>(Add slide deck links for TREE.)</em></p>
-</section>
-<section id="tree-homework" class="level3">
-<h3 class="anchored" data-anchor-id="tree-homework">Homework</h3>
-<p><em>(Add homework for TREE.)</em></p>
-</section>
-<section id="tree-lab" class="level3">
-<h3 class="anchored" data-anchor-id="tree-lab">Lab</h3>
-<p><em>(Add lab for TREE.)</em></p>
-</section>
-<section id="tree-standards" class="level3">
-<h3 class="anchored" data-anchor-id="tree-standards">Standards</h3>
-<p><em>(Add the TREE standards.)</em></p>
 <hr>
-</section>
 </section>
 <section id="lin" class="level2">
 <h2 class="anchored" data-anchor-id="lin">Linear models (LIN)</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Linear models · at a glance
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>Supervised · regression or classification</td>
-</tr>
-<tr class="even">
-<td><strong>Key idea</strong></td>
-<td>Fit a straight-line (linear) relationship between features and target.</td>
-</tr>
-<tr class="odd">
-<td><strong>Standards</strong></td>
-<td>LIN</td>
-</tr>
-<tr class="even">
-<td><strong>Key terms</strong></td>
-<td>coefficient · weight · intercept · regularization</td>
-</tr>
-<tr class="odd">
-<td><strong>Materials</strong></td>
-<td><a href="#lin-readings">readings</a> · <a href="#lin-slides">slides</a> · <a href="#lin-homework">homework</a> · <a href="#lin-lab">lab</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><em>(Overview of linear models goes here.)</em></p>
-<section id="lin-readings" class="level3">
-<h3 class="anchored" data-anchor-id="lin-readings">Readings</h3>
-<p><em>(Add readings for LIN.)</em></p>
-</section>
-<section id="lin-slides" class="level3">
-<h3 class="anchored" data-anchor-id="lin-slides">Slides</h3>
-<p><em>(Add slide deck links for LIN.)</em></p>
-</section>
-<section id="lin-homework" class="level3">
-<h3 class="anchored" data-anchor-id="lin-homework">Homework</h3>
-<p><em>(Add homework for LIN.)</em></p>
-</section>
-<section id="lin-lab" class="level3">
-<h3 class="anchored" data-anchor-id="lin-lab">Lab</h3>
-<p><em>(Add lab for LIN.)</em></p>
-</section>
-<section id="lin-standards" class="level3">
-<h3 class="anchored" data-anchor-id="lin-standards">Standards</h3>
-<p><em>(Add the LIN standards.)</em></p>
 <hr>
-</section>
 </section>
 <section id="mod" class="level2">
 <h2 class="anchored" data-anchor-id="mod">Other models (MOD)</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Other models · at a glance
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>Supervised · a grouping of additional approaches</td>
-</tr>
-<tr class="even">
-<td><strong>Key idea</strong></td>
-<td>Several distinct methods — kNN, SVM, naive Bayes — each with its own logic.</td>
-</tr>
-<tr class="odd">
-<td><strong>Standards</strong></td>
-<td>MOD</td>
-</tr>
-<tr class="even">
-<td><strong>Key terms</strong></td>
-<td>k-nearest neighbors · support vector · margin · prior probability</td>
-</tr>
-<tr class="odd">
-<td><strong>Materials</strong></td>
-<td><a href="#mod-readings">readings</a> · <a href="#mod-slides">slides</a> · <a href="#mod-homework">homework</a> · <a href="#mod-lab">lab</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><em>(Overview of the additional model types — kNN, SVM, naive Bayes, etc.)</em></p>
-<section id="mod-readings" class="level3">
-<h3 class="anchored" data-anchor-id="mod-readings">Readings</h3>
-<p><em>(Add readings for MOD.)</em></p>
-</section>
-<section id="mod-slides" class="level3">
-<h3 class="anchored" data-anchor-id="mod-slides">Slides</h3>
-<p><em>(Add slide deck links for MOD.)</em></p>
-</section>
-<section id="mod-homework" class="level3">
-<h3 class="anchored" data-anchor-id="mod-homework">Homework</h3>
-<p><em>(Add homework for MOD.)</em></p>
-</section>
-<section id="mod-lab" class="level3">
-<h3 class="anchored" data-anchor-id="mod-lab">Lab</h3>
-<p><em>(Add lab for MOD.)</em></p>
-</section>
-<section id="mod-standards" class="level3">
-<h3 class="anchored" data-anchor-id="mod-standards">Standards</h3>
-<p><em>(Add the MOD standards.)</em></p>
 <hr>
-</section>
 </section>
 <section id="nn" class="level2">
 <h2 class="anchored" data-anchor-id="nn">Neural networks (NN)</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Neural networks · at a glance
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td>Supervised · flexible, high-capacity models</td>
-</tr>
-<tr class="even">
-<td><strong>Key idea</strong></td>
-<td>Stacked layers of simple units learn complex patterns from lots of data.</td>
-</tr>
-<tr class="odd">
-<td><strong>Standards</strong></td>
-<td>NN</td>
-</tr>
-<tr class="even">
-<td><strong>Key terms</strong></td>
-<td>neuron · layer · weight · activation · training</td>
-</tr>
-<tr class="odd">
-<td><strong>Materials</strong></td>
-<td><a href="#nn-readings">readings</a> · <a href="#nn-slides">slides</a> · <a href="#nn-homework">homework</a> · <a href="#nn-lab">lab</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><em>(Overview of neural networks goes here.)</em></p>
-<section id="nn-readings" class="level3">
-<h3 class="anchored" data-anchor-id="nn-readings">Readings</h3>
-<p><em>(Add readings for NN.)</em></p>
-</section>
-<section id="nn-slides" class="level3">
-<h3 class="anchored" data-anchor-id="nn-slides">Slides</h3>
-<p><em>(Add slide deck links for NN.)</em></p>
-</section>
-<section id="nn-homework" class="level3">
-<h3 class="anchored" data-anchor-id="nn-homework">Homework</h3>
-<p><em>(Add homework for NN.)</em></p>
-</section>
-<section id="nn-lab" class="level3">
-<h3 class="anchored" data-anchor-id="nn-lab">Lab</h3>
-<p><em>(Add lab for NN.)</em></p>
-</section>
-<section id="nn-standards" class="level3">
-<h3 class="anchored" data-anchor-id="nn-standards">Standards</h3>
-<p><em>(Add the NN standards.)</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
