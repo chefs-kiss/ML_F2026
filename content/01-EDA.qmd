@@ -99,7 +99,7 @@ You should be able to:
 Click a question to reveal the answer.
 
 ::: {.callout-note collapse="true"}
-## FLOW. <br>Explain the difference between **supervised** and **unsupervised** learning to a friend who has never taken a stats or CS class. Write a 2–3 sentence explanation using no technical jargon. Then, come up with your own real-world analogy that captures the difference.
+## FLOW. <br>Explain the difference between **supervised** and **unsupervised** learning to a friend who has never taken a stats or CS class. Write a 2–3 sentence explanation using non-technical terms (or if you do, explain them). Then, come up with your own real-world analogy to help illustrate the difference.
 *Supervised learning means we have labels for each of our observations. The model learns general characteristics for each type of label, and then predicts a label for an unseen observation. Unsupervised learning has no labels, so we group observations based on how similar they are. <br>
 Analogies may vary. *
 :::
