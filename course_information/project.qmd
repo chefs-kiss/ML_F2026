@@ -44,7 +44,7 @@ of the process of training a model using machine learning, in case you don’t h
 your project.
 
 # Project Check-ins
-There are nine progress checks during the semester, each worth 4 points. 
+There are nine progress checks during the semester, each worth 5 points. 
 To receive full credit for a progress check, you must submit work before the deadline as indicated on the schedule.
 
 ### PC0
@@ -69,34 +69,39 @@ Next, make sure your data is accessible on a git repo somewhere so you can get s
 Depending on your project, this might be as simple as locating a git repo that has your data set, 
 or it might require you to upload the dataset to your personal git repo.
 
-Submit the link to your colab workbook to the [Moodle submission](https://mdl.stolaf.edu/mod/assign/view.php?id=526599).
+Submit the link to your colab workbook to the Moodle submission "PC2: colab workbook".
 
 
 ### PC3
 Time to do some more background research. By now, hopefully you have identified what the goal of the model you plan to build is. 
 Your task is to see if something similar been done with this type of data.
-Do a brief write up of background information (one paragraph) making sure to link sources. 
+Do a brief write up of background information (one paragraph) making sure to link sources. Add this information to your colab workbook.
 
 You should also build out some of your workflow plan, adding more details as you learn new concepts in class.
+
+Submit a brief progress reflection to the Moodle submission "PC3: project progress"
 
 ### PC4
 Perform some exploratory data analysis using your workbook.
 Discuss the results, and what this tells you about your data, as well as your expectations for your results. 
 This should include some data visualizations that go beyond a basic chart.
 
-Submit a picture of a plot you made along with a quick relection to the [Moodle submission](https://mdl.stolaf.edu/mod/assign/view.php?id=528573)
+Submit a picture of a plot you made along with a quick relection to the Moodle submission "PC4: EDA"
 
-<!-- Switch PC3 with PC4  -->
 
 ### PC5
 Prepare your data set for training. This might include handling missing or categorical values, basic conversions, or more extensive conversions.
 Any choices that you make should be explained. 
 Additionally, you may want to consider creating more visualizations using this pre-processed (or what we call "clean") data.
 
+Make a point to check in with Prof. Kim at some point to chat about your progress.
+
 ### PC6
 Finish laying out your project workflow and begin building your presentation. 
 Think about how to make the insights from your analysis, your model goal, or the background information engaging for a general audience. 
 Use this checkpoint to explore what makes a story compelling and experiment with ways to bring that story to life in your presentation.
+
+Submit a link to your initial presentation (it's okay if it's a rough draft) to the Moodle submission "PC6: initial presentation"
 
 ### PC7
 Train models using machine learning algorithms. 
@@ -104,25 +109,31 @@ Although you should not use every algorithm that we’ve covered, you should use
 You should explain your choices, and perform parameter tuning in order to optimize their performance.
 
 Add a slide to your presentation describing the algorithms and tuning you did, making sure to make it relatable for a general audience.
+Prof Kim will check your colab workbook and presentation as inidicated on the schedule.
 
 ### PC8
 Discussion of results. Compare the performance of your models, and discuss the results. Do you consider
 your results successful? Explain why or why not, and discuss how further improvements might be made. 
 
 Continue working on your final presentation. You want a presentation that is digestible to a non-technical audidence and is interesting (visualizations, insights, models, data).
+Prof Kim will check your colab workbook and presentation as inidicated on the schedule.
 
 ### PC9
 Evaluation of your plan. Discuss how closely you were able to follow your workflow. What unexpected issues did you encounter? What adjustments did you need to make? How would this affect planning a future
 machine learning project? Finalize your presentation, and submit your link along with a screenshot to Moodle.
+Prof Kim will check your colab workbook and presentation as inidicated on the schedule.
 
 # Final Submission
-The final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. 
-Submissions are due by the last day of class.
+The final submission evaluates the overall quality of your project and presentation, based on the materials (final code workbook and presentation) submitted.
 
 A detailed grading rubric can be found on the left.
 
 # Presentations
-(12 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
+(15 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
 Grading is based on the quality of your peer review during these rounds. 
 
-The peer review forms are available up on [Moodle](https://mdl.stolaf.edu/course/section.php?id=1467353)
+The peer review forms will be available on Moodle.
+
+# Reflection
+(5 pts): A final reflection of the process of the project, including what went well and what you would change were you to begin a new project. 
+These are due by the end of our final exam period. The reflection is available on Moodle.

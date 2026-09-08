@@ -43,7 +43,7 @@
 |:---:|:---|:----|
 | T Sept 15 |  [EDA1](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [PC0](../course_information/project.qmd#pc0){.ag-btn .ag-grey} [Quiz: INTRO]{.ag-btn .step1} | PC0 due Wednesday |
 | Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../course_information/project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
-| T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | Article review 1 due Saturday <br> Skim next module  |
+| T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | [Article review 1](/articles.qmd) due Saturday <br> Skim next module  |
 
 [EVL](../content/05-EVAL.qmd){.topic-btn .step5} 
 
@@ -79,7 +79,7 @@
 
 |||
 |:---:|:---|:---|
-| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} | Article review 2 due Wednesday |
+| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} | [Article review 2](/articles.qmd) due Wednesday |
 | Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../course_information/project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
 
 ## November

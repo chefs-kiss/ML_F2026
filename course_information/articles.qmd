@@ -1,6 +1,6 @@
-![](static/art3.png)
+## Article reviews
 
-You will complete **one (1) review** of an article related to **machine learning**. The review is worth 5 points.
+You will complete **two (2) reviews** of articles related to **machine learning**. Each review is worth 5 points.
 
 These assignments are designed to help you:  
 
@@ -10,6 +10,7 @@ These assignments are designed to help you:
 
 The review should demonstrate that you have read and understood the article, and thoughtfully reflected on its content. 
 Most importantly, I should be able to get to know you personally through your writing of the review. 
+This is not an english course, so I will not mark you down for improper grammar usage.
 
 ---
 
@@ -20,7 +21,8 @@ You are encouraged to find an article from reputable sources. Some suggestions i
 - **The Pudding** has data-driven [storytelling examples](https://pudding.cool/)
 - **YouTube channels** like [3Blue1Brown](https://www.youtube.com/c/3blue1brown) or [Veritasium](https://www.youtube.com/user/1veritasium)  
 - **Other sources** such as academic blogs, news outlets, Medium posts, or scientific publications  
-- Any chapter from Weapons of Math Destruction by Cathy O'Neil (Prof Kim has multiple copies, and so does the library)
+- Any chapter from Weapons of Math Destruction by Cathy O'Neil (Prof Kim has multiple copies, and so does the library, here's the [pdf](../files/WeaponsOfMathDestruction.pdf) shhhh!)
+- Any items from this spreadsheet of [AI and ethics articles](https://docs.google.com/spreadsheets/d/11Ps8ILDHH-vojJGyIx7CcaoB5l1mBRHy3OQAgWkm0W4/edit?gid=0#gid=0) (this list was last updated in Jan 2026-- look at sources for more current articles)
 
 **Tip:** Pick an article that genuinely interest you. You will write better reflections if the topic captures your attention.  
 
@@ -73,5 +75,3 @@ The review is due by the last day of class, though it is encouraged to complete 
 - Think critically about the societal and personal implications.  
 - Use your own words to demonstrate understanding.  
 - Choose a mix of technical and non-technical articles for variety.
-
-![](static/art2.jpg)

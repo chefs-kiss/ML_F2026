@@ -1,8 +1,7 @@
 # Syllabus
-CSCI 200B Interim 2026
-Special Topics: Machine Learning
-Morning Sessions: 10:40-12:40 in RNS 203
-Afternoon Sessions: 1-3 in RNS 203
+CSCI 279 Fall 2026
+Introduction to Machine Learning
+Tuesdays 9:35-11:00 and Thursdays 9:30 - 10:50 in RNS203
 
 ## General Information
 *Mission*: This is a welcoming, inclusive, encouraging, and failure-tolerant class. <br>
@@ -48,45 +47,45 @@ In a typical semester-long course, these readings would be required. In our four
 If you find that you have questions on a particular topic, check out the readings to find related information.
 
 ## Article Reviews
-(5pt * 3 → 15 pt): In place of readings, you will be required to find three (3) articles related to machine learning, and complete a review on each.
+(5pt * 2 -> 10 pt): In place of readings, you will be required to find three (3) articles related to machine learning, and complete a review on each.
 The article reviews are due before the final exam, though it is recommended to finish them as early as possible. Read more about [article reviews](../articles.qmd) here.
 
 
 ## Homework Assignments 
-(5pt * 8 → 40 pt): We will have a homework assignment for each module that we cover, which will be due at the start of class of the following class.
+(5pt * 8 -> 40 pt): We will have a homework assignment for each module that we cover, which will be due at the start of class of the following class.
 These homework assignments consist of exercises to complete by hand (rather than programming), to reinforce your understanding of the concepts. 
 Collaboration on homework is encouraged, though you are responsible for understanding the computations as you will be assessed on similar
 questions during your quizzes. <br>
 Late work: Due to the short turn-around on turning homework in and taking the module quiz, _no late work will be accepted_.
 
 ## Lab Assignments 
-(5pt * 9 → 45 pt): We will have labs associated with every module and you are encouraged to work on labs with one other person. 
+(5pt * 9 -> 45 pt): We will have labs associated with every module and you are encouraged to work on labs with one other person. 
 Only one partner needs to submit the lab for the group.
 Labs are due before we take the corresponding quiz. 
 These assignments consist of programming exercises to practice applying the techniques we cover. 
-Typically, these assignments will be completed by filling in missing code into Jupyter notebooks 
+Typically, these assignments will be completed by filling in missing code into notebooks 
 using Google Colab, and then submitting your completed notebook. 
 Each exercise will be graded all-or-nothing, with no partial credit. 
 Late work: Due to the short turn-around on turning labs in and taking the module quiz, _no late work will be accepted_.
 
 ## Semester Project
-(80 pts): Over the entirty of this course, you will complete a *personal* project where you apply the concepts covered in the course to a topic of your choice.
-You can find more in-depth information regarding the project on the [project page](../project.qmd) 
+(85 pts): Over the entirty of this course, you will complete a *personal* project where you apply the concepts covered in the course to a topic of your choice.
+You can find more in-depth information regarding the project on the [project page](project.qmd) 
 
 The project will be divided into the following components:
 
-- Progress Checks (4pt * 9 → 36 pt): There are nine progress checks during the semester, each worth 4 points (see the schedule).
-To receive full credit for a progress check, you must check in with your instructor before leaving class on the day of the check.
-- Final Submission (30 pts): The final submission evaluates the overall quality of your project and presentation, based on the materials submitted prior to the final exam. 
-Submissions are due the night before finals. A detailed grading rubric will be available on the project page.
-- Small group presentations (9 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
+- Progress Checks (5pt * 9 -> 45 pt): There are nine progress checks during the semester, each worth 5 points (see the schedule).
+To receive full credit for a progress check, you must complete your work by midnight of the deadline.
+- Final Submission (20 pts): The final submission evaluates the overall quality of your project's workbook and presentation, based on the materials submitted prior to our in-class presentation day. 
+Submissions are due the night before presentations. A detailed grading rubric will be available on the project page.
+- Small group presentations (15 pts): During presentations, you will participate in three rounds of small-group presentations, presenting one-on-one with another project. 
 Grading is based on the quality of your peer review during these rounds. The peer review form will be available on the project page.
 - Reflection (5 pts): Complete the reflection form up on the project page. This form asks you what went well, what could be improved upon, ect.
 
 Late Work: No late work will be accepted. 
 
 ## Standards based Quizzes 
-(8pt * 9 → 72 pt): Each module will have a quiz that will be assessed using standards-based grading. 
+(8pt * 9 -> 72 pt): Each module will have a quiz that will be assessed using standards-based grading. 
 Each quiz will contain two (2) questions called standards. There will be a study guide for each quiz that indicates which standards are being assessed. 
 The full list of standards is in the section [ML Core Standards](#ml-core-standards) found on this page.
 
