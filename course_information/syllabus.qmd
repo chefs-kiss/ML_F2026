@@ -1,7 +1,7 @@
 # Syllabus
-CSCI 279 Fall 2026
-Introduction to Machine Learning
-Tuesdays 9:35-11:00 and Thursdays 9:30 - 10:50 in RNS203
+CSCI 279 Fall 2026 <br>
+Introduction to Machine Learning<br>
+Tuesdays 9:35-11:00 and Thursdays 9:30 - 10:50 in RNS203<br>
 
 ## General Information
 *Mission*: This is a welcoming, inclusive, encouraging, and failure-tolerant class. <br>
@@ -48,7 +48,7 @@ If you find that you have questions on a particular topic, check out the reading
 
 ## Article Reviews
 (5pt * 2 -> 10 pt): In place of readings, you will be required to find three (3) articles related to machine learning, and complete a review on each.
-The article reviews are due before the final exam, though it is recommended to finish them as early as possible. Read more about [article reviews](../articles.qmd) here.
+The article reviews are due before the final exam, though it is recommended to finish them as early as possible. Read more about [article reviews](articles.qmd).
 
 
 ## Homework Assignments 
@@ -113,7 +113,7 @@ Some projects have additional questions you can answer for extra credit.
 ## Final Exam
 The final exam is during the assigned period:
 
-Friday, Jan 30 from 10:40 - 3:00 P.M.
+Monday, December 21, 9:00-11:00 a.m
 
 Any final attempt on standards will take place during the second half of our final time. 
 If you successfully passed each standard, you do not have to attend the second half of our final exam. 
