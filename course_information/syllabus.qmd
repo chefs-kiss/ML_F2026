@@ -9,7 +9,9 @@ Tuesdays 9:35-11:00 and Thursdays 9:30 - 10:50 in RNS203<br>
 *E-mail*: mander1@stolaf.edu <br>
 *Office*: RMS 407<br>
 
-*Textbook*: Introduction to Statistical Learning with Python (ISL-P). This book is free and available online, and is also hosted on this site. You can download your own pdf or access via your browser [here](../files/ISLP.pdf)<br>
+*Textbook*: Introduction to Statistical Learning with Python (ISL-P). 
+This book is free and available online, and is also hosted on this site. 
+You can download your own pdf or access via your browser [here](../files/ISLP.pdf)<br>
 
 ## Course Description
 It has become increasingly common to use machine learning algorithms to analyze data,
