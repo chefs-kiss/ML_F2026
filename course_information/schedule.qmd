@@ -33,7 +33,7 @@
 
 | **date**  | **agenda** | **upcoming** |
 |:---:|:---|:----|
-| Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Saturday<br>Skim next module  |
+| Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Monday<br>Skim next module  |
 
 
 
