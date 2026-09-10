@@ -16,6 +16,8 @@ website:
         href: content/00-INTRO.qmd
       - text: "Project"
         href: course_information/project.qmd
+      - text: "Moodle"
+        href: https://mdl.stolaf.edu/course/view.php?id=64918#module-597656
 
   sidebar:
     - title: "Course Wiki"
