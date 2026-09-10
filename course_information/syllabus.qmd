@@ -31,8 +31,7 @@ Through the lens of machine learning, we will:
 - communicate information effectively to both technical and non-technical audiences
 
 ## Course Schedule
-The schedule for this course is available by navigating to Course Information > Schedule on the navigation window to the left. 
-This page is likely to be updated throughout the semester, and will be announced in class if it is. 
+The schedule for this course is available by navigating to Schedule at the top of our course site.
 
 ## Active Learning and Engagement
 I expect you to take an active role in class each day, participating positively,
@@ -87,7 +86,7 @@ Grading is based on the quality of your peer review during these rounds. The pee
 Late Work: No late work will be accepted. 
 
 ## Standards based Quizzes 
-(8pt * 9 -> 72 pt): Each module will have a quiz that will be assessed using standards-based grading. 
+(8pt * 18 -> 144 pt): Each module will have a quiz that will be assessed using standards-based grading. 
 Each quiz will contain two (2) questions called standards. There will be a study guide for each quiz that indicates which standards are being assessed. 
 The full list of standards is in the section [ML Core Standards](#ml-core-standards) found on this page.
 
