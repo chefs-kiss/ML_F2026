@@ -47,15 +47,15 @@ The following cheatsheets may be helpful for your reference: [data storytelling]
 
 #### Model workflow 
 EDA1: Overview of the 5step workflow, learning paradigms, and features types.<br>
-[Open in new tab](../01-EDA/slides-EDA.pdf){target="_blank"}
+[Open in new tab](https://docs.google.com/presentation/d/1vXiVFaSsBIhlHjO_p1hXRefWfyRjFdsBXQVJslPyF_g/edit?slide=id.g3a1af70067d_1_0#slide=id.g3a1af70067d_1_0){target="_blank"}
 
 #### Statistics
 EDA2: Descriptive statistics (mean, median, standard deviation), statistical tests and hypothesis testing. <br>
-[Open in new tab](../01-EDA/slides-EDA.pdf#page=17){target="_blank"}
+[Open in new tab](https://docs.google.com/presentation/d/1vXiVFaSsBIhlHjO_p1hXRefWfyRjFdsBXQVJslPyF_g/edit?slide=id.g3a1af70067d_2_16#slide=id.g3a1af70067d_2_16){target="_blank"}
 
 #### Visualizations 
 EDA3: How to tell a story, and creating visualizations with mathplotlib, plotnine, seaborn.<br>
-[Open in new tab](../01-EDA/slides-EDA.pdf#page=37){target="_blank"}
+[Open in new tab](https://docs.google.com/presentation/d/1vXiVFaSsBIhlHjO_p1hXRefWfyRjFdsBXQVJslPyF_g/edit?slide=id.g3a1af70067d_2_11#slide=id.g3a1af70067d_2_11){target="_blank"}
 
 ## Homework {#homework}
 This homework goes over looking at summary tables for a dataset, explaining statistical terms to non-tech folks, exploring statistics, and interpretting statistical tests.
