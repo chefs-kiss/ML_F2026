@@ -13,6 +13,8 @@ Tuesdays 9:35-11:00 and Thursdays 9:30 - 10:50 in RNS203<br>
 This book is free and available online, and is also hosted on this site. 
 You can download your own pdf or access via your browser [here](../files/ISLP.pdf)<br>
 
+
+
 ## Course Description
 It has become increasingly common to use machine learning algorithms to analyze data,
 draw conclusions, and build models, without direct human instruction. These algorithms have been used in a wide
