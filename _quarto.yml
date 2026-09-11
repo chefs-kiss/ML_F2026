@@ -16,9 +16,11 @@ website:
         href: content/00-INTRO.qmd
       - text: "Project"
         href: course_information/project.qmd
+
+    right:
       - text: "Moodle"
         href: https://mdl.stolaf.edu/course/view.php?id=64918#module-597656
-    right:
+
       - icon: github
         href: https://github.com/chefs-kiss/ML_F2026
         text: repo

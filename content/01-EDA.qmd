@@ -40,6 +40,8 @@ Before class, read the assigned material and take notes.
 
  - [ ] [Statistics for ML](../files/stats_resource.qmd) walks through basic definitions of statistical measures, charts, and distributions. 
 
+
+
 ### Cheat sheets
 The following cheatsheets may be helpful for your reference: [data storytelling](../files/data_storytelling.pdf), [data visualizations](../files/data_visualizations.pdf), [matplotlib](../files/matplotlib.pdf), [plotly](../files/plotly.pdf), [seaborn](../files/seaborn.pdf). <br>
 
