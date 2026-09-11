@@ -33,7 +33,7 @@
 
 | **date**  | **agenda** | **upcoming** |
 |:---:|:---|:----|
-| Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [INTRO](https://docs.google.com/presentation/d/1hWkyLDjksdB8nAceBbD3ttO4THQlmgm1M4-rT1C7n_s/edit?usp=sharing){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Monday<br>Skim next module  |
+| Th Sept 10 |   [syllabus](syllabus.qmd){.ag-btn .ag-grey} [INTRO](https://docs.google.com/presentation/d/1hWkyLDjksdB8nAceBbD3ttO4THQlmgm1M4-rT1C7n_s/edit?usp=sharing){.ag-btn .ag-grey} [Lab: Intro](../content/06-OTHER.qmd#intro-lab){.ag-btn .ag-grey}| INTRO lab due Thursday 9/17<br>Skim next module  |
 
 
 

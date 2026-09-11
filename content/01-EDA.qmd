@@ -62,8 +62,6 @@ This homework goes over looking at summary tables for a dataset, explaining stat
 [Click to view pdf](https://drive.google.com/file/d/1MvjwF0NlQVYzEB-rn1FgTYXVUp4bJfa_/view?usp=sharing){target="_blank"}.
 
 ## Lab {#lab}
-
-
 In this lab, we will explore how to critic and refine code outputted by a language model, and practice a bit of prompt engineering.
 We will be using the Titanic dataset to perform exploratory data analysis tasks, 
 including calculating statistical measures, conducting statistical tests, and creating visualizations. 
