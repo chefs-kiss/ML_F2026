@@ -42,30 +42,30 @@
 |||
 |:---:|:---|:----|
 | T Sept 15 |  [EDA1](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [PC0](../course_information/project.qmd#pc0){.ag-btn .ag-grey} [Quiz: INTRO]{.ag-btn .step1} | PC0 due Friday |
-| Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../course_information/project.qmd#pc1){.ag-btn .ag-grey} | PC1 due Saturday |
-| T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | [Article review 1](/articles.qmd) due Saturday <br> Skim next module  |
+| Th Sept 17 |   [EDA2](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [HW: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} [PC1](../course_information/project.qmd#pc1){.ag-btn .ag-grey} |  |
+| T Sept 22 |   [EDA3](../content/01-EDA.qmd#slides){.ag-btn .ag-grey} [Lab: EDA](../content/01-EDA.qmd){.ag-btn .ag-grey} | PC1 due Wednesday 9/23 <br> EDA HW due Thursday 9/24 <br> Skim next module  |
 
 [EVL](../content/05-EVAL.qmd){.topic-btn .step5} 
 
 |||
 |:---:|:---|:----|
-| Th Sept 24 |   [EVL1](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [PC2](../course_information/project.qmd#pc2){.ag-btn .ag-grey}| EDA HW + Lab due Saturday<br>Study for EDA quiz |
-| T Sept 29 |   [EVL2](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [Quiz: EDA](../content/01-EDA.qmd#standards){.ag-btn .step1} | PC2 due Wednesday |
+| Th Sept 24 |   [EVL1](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [PC2](../course_information/project.qmd#pc2){.ag-btn .ag-grey}| EDA Lab due Saturday 9/26<br>Study for EDA quiz |
+| T Sept 29 |   [EVL2](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [HW: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} [Quiz: EDA](../content/01-EDA.qmd#standards){.ag-btn .step1} | PC2 due Wednesday 9/30<br> EVL HW due Thursday 10/1 |
 
 ## October
 
 | **date**  | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL HW + Lab due Saturday<br> Quiz rewrites due next Tuesday<br> Skim next module |
+| Th Oct 1 | [EVL3](../content/05-EVAL.qmd#slides){.ag-btn .ag-grey} [Lab: EVL](../content/05-EVAL.qmd){.ag-btn .ag-grey} | EVAL Lab due Saturday 10/3 <br> Quiz rewrites due next Tuesday 10/6 <br> Skim next module |
 
 [CLS](../content/03-ALG.qmd#cls){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
-| T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../course_information/project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday |
-| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | Quiz rewrites due next Thursday |
+| T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../course_information/project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday  |
+| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | [Article review 1](/articles.qmd) due Friday 10/9 <br> Quiz rewrites due next Thursday |
 | T Oct 13 |  **Fall Break** |  |
-| Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW + Lab due Saturday<br>Study for CLS quiz <br> Skim next module |
+| Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW due today 10/15<br> CLS Lab due Saturday 10/17 <br>Study for CLS quiz <br> Skim next module |
 
 [DATA](../content/02-DATA.qmd){.topic-btn .step2} 
 
