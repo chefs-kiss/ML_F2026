@@ -4,4 +4,109 @@ subtitle: "Step 5 of the machine learning workflow"
 toc: true
 ---
 
-TBD
+
+::: {.callout-note appearance="minimal"}
+## EVL· at a glance
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 5 of 5 · Evaluate |
+| **What you'll learn** | How to interpret and evaluate models |
+| **Standards assessed** | EVAL · TRAIN |
+| **Key terms** | overfitting ·  test set ·  cross-validation · confusion matrix  · accuracy  ·  RMSE ·  ethical matrix|
+| **Materials** | [readings](#readings) · [slides](#slides) · [homework](#homework) · [lab](#lab) |
+| **Self-quiz** | [standards & practice →](#standards) |
+
+:::
+
+## Overview {#overview}
+**Model evaluation** is the final checkpoint in our machine learning workflow, though it often sends us back to earlier steps. 
+We run the trained model on a held-out subset of the data called the test set to measure how accurate and reliable it is on data it hasn't seen. 
+Choosing metrics that fit the problem (such as precision, recall, or RMSE) matters, since accuracy alone can be misleading.
+Evaluation also answers a practical question: is the model good enough compared to a baseline or our requirements? 
+If not, we iterate by tuning hyperparameters, changing the algorithm, revisiting data preparation or features, or gathering more data.
+Finally, evaluation includes ethical considerations. We should check performance across different groups: for whom is the model most accurate, and for whom does it perform poorly?
+
+## Readings {#readings}
+
+Before class, read the assigned material and take notes.
+
+## ISLP selected readings
+Dive deeper in the content we'll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br>
+
+ - [ ] Intro to ML [section 2.1](../files/ISLP.pdf#page=25) <br>
+ - [ ] Model Accuracy [section 2.2](../files/ISLP.pdf#page=37) <br>
+ - [ ] Cross-validation [section 5.1](../files/ISLP.pdf#page=209) <br>
+ - [ ] Bootstrap [section 5.2](../files/ISLP.pdf#page=220)<br>
+
+
+## Related articles
+ - [ ] [Accountable algorithms](https://www.fatml.org/resources/principles-for-accountable-algorithms) describes principles for investigating algorithms and holding them accountable. <br>
+
+ - [ ] [Algorithm guidance](https://cdt.org/ai-machine-learning/) expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples. <br>
+
+## Slides {#slides}
+
+#### Cross Validation
+EVL1: Overview of bias/variance tradeoff, over/underfitting, and cross validation<br>
+[Open in new tab](https://docs.google.com/presentation/d/1GtvpOFBLJzXoIgXyQgwvJR5PDyIkhCuacD80LlGRHic/edit?slide=id.g3b5862ed703_1_0#slide=id.g3b5862ed703_1_0){target="_blank"}
+
+#### Evaluation Metrics
+EVL2: Evaluation metrics for supervised classification and regression. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1GtvpOFBLJzXoIgXyQgwvJR5PDyIkhCuacD80LlGRHic/edit?slide=id.g3b5862ed703_1_221#slide=id.g3b5862ed703_1_221){target="_blank"}
+
+#### Auditing Algorithms 
+EVL3: How to audit algorithms and create an ethical matrix for our models<br>
+[Open in new tab](https://docs.google.com/presentation/d/1GtvpOFBLJzXoIgXyQgwvJR5PDyIkhCuacD80LlGRHic/edit?slide=id.g3b5862ed703_1_276#slide=id.g3b5862ed703_1_276){target="_blank"}
+
+## Homework {#homework}
+This homework goes over selecting the correct modeling approach, and calculating and interpreting evaluation metrics. 
+[Click to view pdf](https://drive.google.com/file/d/1UNiEKM_7qnMx2Ey3MMfMv9nJaKHwzyJv/view?usp=sharing){target="_blank"}.
+
+## Lab {#lab}
+In this lab, you'll practice writing prompts that guide a generative AI tool to produce visualizations, then critique the results. 
+You'll examine what makes a visualization effective, consider whether AI tools should be used to create or refine them, and finish 
+by unpacking why certain techniques, such as annotation, color, and deliberate emphasis, help tell a compelling story with data.
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1a7vmVc8IS3Sal0WT7369o-s2wMgk-N8W?usp=sharing).
+
+
+## Self-quiz {#standards}
+
+Use the standards below as a checklist, then try the practice questions to test yourself.
+
+### Standards
+
+
+## TRAIN
+
+You should be able to:
+
+- Know ways to separate train, validation, and test sets
+- Define overfitting, underfitting, cross-fold validation
+- Understand and give examples of the bias(underfitting) - variance (overfitting) tradeoff
+
+
+## EVAL
+
+You should be able to:
+
+- Identify which evaluation metrics to use for various ML tasks
+- Compute metrics (formulas provided)
+- Interpret metrics in an accessible way
+
+
+### Formulas given
+
+$\text{Accuracy} = \frac{TP + TN}{TP + FP + FN + TN}$
+
+$\text{Precision} = \frac{TP}{TP + FP}$
+
+$\text{Recall} = \frac{TP}{TP + FN}$
+
+$F1 = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$
+
+$MAE = \frac{1}{n} \sum |y_{obs} - y_{pred}|$
+
+$MSE = \frac{1}{n} \sum (y_{obs} - y_{pred})^2$
+
+$RMSE = \sqrt{MSE}$
