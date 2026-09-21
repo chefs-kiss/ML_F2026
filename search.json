@@ -249,7 +249,7 @@
     "href": "course_information/schedule.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus INTRO Lab: Intro\nINTRO lab due Thursday 9/17Skim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Friday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\n\n\n\nT Sept 22\nEDA3 Lab: EDA\nPC1 due Wednesday 9/23  EDA HW due Thursday 9/24  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA Lab due Saturday 9/26Study for EDA quiz\n\n\nT Sept 29\nEVL2 HW: EVL Quiz: EDA\nPC2 due Wednesday 9/30 EVL HW due Thursday 10/1",
+    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus INTRO Lab: Intro\nINTRO lab due Thursday 9/17Skim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Friday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\n\n\n\nT Sept 22\nEDA3 Lab: EDA\nPC1 due Wednesday 9/23  EDA HW due Thursday 9/24  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA Lab due Saturday 9/26Study for EDA quiz\n\n\nT Sept 29\nEVL2 Quiz: EDA\nPC2 due Wednesday 9/30 EVL HW due Thursday 10/1",
     "crumbs": [
       "Schedule",
       "CSCI279 Fall 2026"
@@ -260,7 +260,7 @@
     "href": "course_information/schedule.html#september",
     "title": "Machine Learning",
     "section": "",
-    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus INTRO Lab: Intro\nINTRO lab due Thursday 9/17Skim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Friday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\n\n\n\nT Sept 22\nEDA3 Lab: EDA\nPC1 due Wednesday 9/23  EDA HW due Thursday 9/24  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA Lab due Saturday 9/26Study for EDA quiz\n\n\nT Sept 29\nEVL2 HW: EVL Quiz: EDA\nPC2 due Wednesday 9/30 EVL HW due Thursday 10/1",
+    "text": "INTRO\n\n\n\ndate\nagenda\nupcoming\n\n\n\n\nTh Sept 10\nsyllabus INTRO Lab: Intro\nINTRO lab due Thursday 9/17Skim next module\n\n\n\nEDA\n\n\n\nT Sept 15\nEDA1 PC0 Quiz: INTRO\nPC0 due Friday\n\n\nTh Sept 17\nEDA2 HW: EDA PC1\n\n\n\nT Sept 22\nEDA3 Lab: EDA\nPC1 due Wednesday 9/23  EDA HW due Thursday 9/24  Skim next module\n\n\n\nEVL\n\n\n\nTh Sept 24\nEVL1 HW: EVL PC2\nEDA Lab due Saturday 9/26Study for EDA quiz\n\n\nT Sept 29\nEVL2 Quiz: EDA\nPC2 due Wednesday 9/30 EVL HW due Thursday 10/1",
     "crumbs": [
       "Schedule",
       "CSCI279 Fall 2026"
@@ -568,7 +568,117 @@
     "href": "content/05-EVAL.html",
     "title": "Evaluation",
     "section": "",
-    "text": "TBD",
+    "text": "NoteEVL· at a glance\n\n\n\n\n\n\nWorkflow step\nStep 5 of 5 · Evaluate\n\n\nWhat you’ll learn\nHow to interpret and evaluate models\n\n\nStandards assessed\nEVAL · TRAIN\n\n\nKey terms\noverfitting · test set · cross-validation · confusion matrix · accuracy · RMSE · ethical matrix\n\n\nMaterials\nreadings · slides · homework · lab\n\n\nSelf-quiz\nstandards & practice →",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#overview",
+    "href": "content/05-EVAL.html#overview",
+    "title": "Evaluation",
+    "section": "Overview",
+    "text": "Overview\nModel evaluation is the final checkpoint in our machine learning workflow, though it often sends us back to earlier steps. We run the trained model on a held-out subset of the data called the test set to measure how accurate and reliable it is on data it hasn’t seen. Choosing metrics that fit the problem (such as precision, recall, or RMSE) matters, since accuracy alone can be misleading. Evaluation also answers a practical question: is the model good enough compared to a baseline or our requirements? If not, we iterate by tuning hyperparameters, changing the algorithm, revisiting data preparation or features, or gathering more data. Finally, evaluation includes ethical considerations. We should check performance across different groups: for whom is the model most accurate, and for whom does it perform poorly?",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#readings",
+    "href": "content/05-EVAL.html#readings",
+    "title": "Evaluation",
+    "section": "Readings",
+    "text": "Readings\nBefore class, read the assigned material and take notes.",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#islp-selected-readings",
+    "href": "content/05-EVAL.html#islp-selected-readings",
+    "title": "Evaluation",
+    "section": "ISLP selected readings",
+    "text": "ISLP selected readings\nDive deeper in the content we’ll be covering. These articles can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. \n\nIntro to ML section 2.1 \nModel Accuracy section 2.2 \nCross-validation section 5.1 \nBootstrap section 5.2",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#related-articles",
+    "href": "content/05-EVAL.html#related-articles",
+    "title": "Evaluation",
+    "section": "Related articles",
+    "text": "Related articles\n\nAccountable algorithms describes principles for investigating algorithms and holding them accountable. \nAlgorithm guidance expands off of the accountable algorithms article to show some real-world examples. This is a bit long, so skim as needed. Pay attention to the real-world examples.",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#slides",
+    "href": "content/05-EVAL.html#slides",
+    "title": "Evaluation",
+    "section": "Slides",
+    "text": "Slides\n\nCross Validation\nEVL1: Overview of bias/variance tradeoff, over/underfitting, and cross validation Open in new tab\n\n\nEvaluation Metrics\nEVL2: Evaluation metrics for supervised classification and regression.  Open in new tab\n\n\nAuditing Algorithms\nEVL3: How to audit algorithms and create an ethical matrix for our models Open in new tab",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#homework",
+    "href": "content/05-EVAL.html#homework",
+    "title": "Evaluation",
+    "section": "Homework",
+    "text": "Homework\nThis homework goes over selecting the correct modeling approach, and calculating and interpreting evaluation metrics. Click to view pdf.",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#lab",
+    "href": "content/05-EVAL.html#lab",
+    "title": "Evaluation",
+    "section": "Lab",
+    "text": "Lab\nIn this lab, you’ll practice writing prompts that guide a generative AI tool to produce visualizations, then critique the results. You’ll examine what makes a visualization effective, consider whether AI tools should be used to create or refine them, and finish by unpacking why certain techniques, such as annotation, color, and deliberate emphasis, help tell a compelling story with data. Click to view Colab Notebook.",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#standards",
+    "href": "content/05-EVAL.html#standards",
+    "title": "Evaluation",
+    "section": "Self-quiz",
+    "text": "Self-quiz\nUse the standards below as a checklist, then try the practice questions to test yourself.\n\nStandards",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#train",
+    "href": "content/05-EVAL.html#train",
+    "title": "Evaluation",
+    "section": "TRAIN",
+    "text": "TRAIN\nYou should be able to:\n\nKnow ways to separate train, validation, and test sets\nDefine overfitting, underfitting, cross-fold validation\nUnderstand and give examples of the bias(underfitting) - variance (overfitting) tradeoff",
+    "crumbs": [
+      "Course Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "content/05-EVAL.html#eval",
+    "href": "content/05-EVAL.html#eval",
+    "title": "Evaluation",
+    "section": "EVAL",
+    "text": "EVAL\nYou should be able to:\n\nIdentify which evaluation metrics to use for various ML tasks\nCompute metrics (formulas provided)\nInterpret metrics in an accessible way\n\n\nFormulas given\n\\(\\text{Accuracy} = \\frac{TP + TN}{TP + FP + FN + TN}\\)\n\\(\\text{Precision} = \\frac{TP}{TP + FP}\\)\n\\(\\text{Recall} = \\frac{TP}{TP + FN}\\)\n\\(F1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}\\)\n\\(MAE = \\frac{1}{n} \\sum |y_{obs} - y_{pred}|\\)\n\\(MSE = \\frac{1}{n} \\sum (y_{obs} - y_{pred})^2\\)\n\\(RMSE = \\sqrt{MSE}\\)",
     "crumbs": [
       "Course Wiki",
       "Evaluation"
