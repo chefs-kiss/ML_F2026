@@ -14,6 +14,7 @@ I have found that [Data is Plural](https://www.data-is-plural.com/), [data.gov](
 [TidyTuesday](https://github.com/rfordatascience/tidytuesday#datasets), and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) have a fairly good selection to choose from.
 
 Your selected dataset should have the following characteristics:
+
 - it is not available on kaggle (better for your personal portfolio that the dataset is unique)
 - it has enough records (>4,000) in order to build substantial models
 - it has both categorical and numerical features
@@ -55,7 +56,7 @@ For each site, describe generally the kind of datasets that can be found there.
 You will post your response on the Moodle forum under "PC0: data sources"
 
 ### PC1
-Identify three data sets that you're interested in. 
+Take a look at all of the PC0 submissions and identify three data sets that you're interested in. 
 Include a link, a two sentence description, and the reasoning behind selection for each dataset. 
 Post on the Forum under "PC1: interesting datasets" <br>
 
