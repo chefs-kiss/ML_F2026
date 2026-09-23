@@ -64,10 +64,10 @@ This homework goes over selecting the correct modeling approach, and calculating
 [Click to view pdf](https://drive.google.com/file/d/1UNiEKM_7qnMx2Ey3MMfMv9nJaKHwzyJv/view?usp=sharing){target="_blank"}.
 
 ## Lab {#lab}
-In this lab, you'll practice writing prompts that guide a generative AI tool to produce visualizations, then critique the results. 
-You'll examine what makes a visualization effective, consider whether AI tools should be used to create or refine them, and finish 
-by unpacking why certain techniques, such as annotation, color, and deliberate emphasis, help tell a compelling story with data.
-[Click to view Colab Notebook](https://colab.research.google.com/drive/1a7vmVc8IS3Sal0WT7369o-s2wMgk-N8W?usp=sharing).
+In this assignment, you will explore the Wisconsin Breast Cancer dataset and focus on key aspects of model evaluation and resampling techniques. 
+You will comment on the complexity of chosen models in a developed workflow, discuss resampling techniques, as well as the implications on various evaluation metrics. 
+You will also be asked to audit the algorithms using the ethical matrix framework discussed in class.
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1uYkprwhGBk1K6Fq0KXTNeJwNyUFOx2I-?usp=sharing).
 
 
 ## Self-quiz {#standards}
