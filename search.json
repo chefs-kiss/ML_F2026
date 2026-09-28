@@ -304,7 +304,7 @@
     "href": "index.html#ta",
     "title": "Machine Learning",
     "section": "TA",
-    "text": "TA\nTA: Brooke Barenz TA Hours: TBD  Drop-in lab: RNS202/203\nAdditional help can often be found in the drop-in lab from Sunday-Thursdays around 6-8pm.\n\nWe will be using this site for most of our course content. Navigate to the schedule or course content using the wiki at the top of this page. You can read the syllabus here.\n\nThis site was made using Quarto! If you are interested in building your own site to host your portfolio, reach out to Prof. Kim and she’ll help you get started."
+    "text": "TA\nTA: Brooke Barenz Office Hours: Tuesdays and Thursdays 6-8pm  Drop-in lab: RNS 203\nAdditional help can often be found in the drop-in lab from Sunday-Thursdays around 6-8pm.\n\nWe will be using this site for most of our course content. Navigate to the schedule or course content using the wiki at the top of this page. You can read the syllabus here.\n\nThis site was made using Quarto! If you are interested in building your own site to host your portfolio, reach out to Prof. Kim and she’ll help you get started."
   },
   {
     "objectID": "files/stats_resource.html#setup",
@@ -1111,7 +1111,7 @@
     "href": "content/01-EDA.html#lab",
     "title": "Exploring Data",
     "section": "Lab",
-    "text": "Lab\nIn this lab, we will explore how to critic and refine code outputted by a language model, and practice a bit of prompt engineering. We will be using the Titanic dataset to perform exploratory data analysis tasks, including calculating statistical measures, conducting statistical tests, and creating visualizations. Click to view Colab Notebook.",
+    "text": "Lab\nIn this lab, we will explore how to critique and refine code outputted by a language model, and practice a bit of prompt engineering. We will be using the Titanic dataset to perform exploratory data analysis tasks, including calculating statistical measures, conducting statistical tests, and creating visualizations. Click to view Colab Notebook.",
     "crumbs": [
       "Course Wiki",
       "Exploring Data"
