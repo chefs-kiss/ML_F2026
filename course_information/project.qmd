@@ -31,13 +31,13 @@ the beginning of your code notebook. Filling in answers to these questions is re
 
 Your plan should include the following:
 
- *  What will be your goal in working on this project?
- *  What will be your source for data for the project? If this requires you to gather data, how will you go about this?
- *  What kinds of exploratory data analysis will you do?
- *  What data cleaning, conversion, or preparation will you need to do to prepare your data set?
- *  Which machine learning algorithms will you use to train models? Why are you choosing these algorithms?
- *  How will you attempt to optimize your models?
- *  How will you analyze the accuracy of your models?
+1.  What will be your goal in working on this project?
+2.  What will be your source for data for the project? If this requires you to gather data, how will you go about this?
+3.  What kinds of exploratory data analysis will you do?
+4.  What data cleaning, conversion, or preparation will you need to do to prepare your data set?
+5.  Which machine learning algorithms will you use to train models? Why are you choosing these algorithms?
+6.  How will you attempt to optimize your models?
+7.  How will you analyze the accuracy of your models?
 
 Your workflow should have some form of data pre-processing, some kind of exploratory data analysis, training and testing of machine learning algorithms
 (including some parameter tuning), and evaluating the performance of your models. It is very important that your plan is complete and very detailed, in order to show a thorough understanding
