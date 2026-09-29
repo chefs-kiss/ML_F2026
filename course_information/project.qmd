@@ -33,8 +33,8 @@ Your plan should include the following:
 
  *  What will be your goal in working on this project?
  *  What will be your source for data for the project? If this requires you to gather data, how will you go about this?
- *  What data cleaning, conversion, or preparation will you need to do to prepare your data set?
  *  What kinds of exploratory data analysis will you do?
+ *  What data cleaning, conversion, or preparation will you need to do to prepare your data set?
  *  Which machine learning algorithms will you use to train models? Why are you choosing these algorithms?
  *  How will you attempt to optimize your models?
  *  How will you analyze the accuracy of your models?
@@ -64,7 +64,8 @@ Post on the Forum under "PC1: interesting datasets" <br>
 
 Create a Colab workbook and copy-paste the workflow plan above into a text box. 
 Identify the dataset you'd like to use for your project, and fill out the project goal (first question).
-You may have to do some background research on your topic. Then fill out the next three questions.
+You may have to do some background research on your topic. Then fill out the next two questions 
+on model goal and EDA. 
 
 Next, make sure your data is accessible on a git repo somewhere so you can get started on the next PC. 
 Depending on your project, this might be as simple as locating a git repo that has your data set, 
