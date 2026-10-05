@@ -12,7 +12,7 @@ toc: true
 |---|---|
 | **Workflow step** | Step 3 of 5 · Algorithms |
 | **What you'll learn** | How to choose a model family for a task, and the core idea behind each one. |
-| **Algorithms covered** | [Classification](#cls) · [Trees](#tree) · [Linear](#lin) · [Other models](#mod) · [Neural nets](#nn) |
+| **Algorithms covered** | [Clustering](#cls) · [Trees](#tree) · [Linear](#lin) · [Other models](#mod) · [Neural nets](#nn) |
 
 :::
 
@@ -43,13 +43,93 @@ questions about your problem and your data.
 ::: {.callout-note}
 ## Key idea: match the algorithm to the problem rather than how "flashy" it is
 The most powerful model is not always the right one. A simple, interpretable model that
-is "good enough" often beats a complex one that no one can explain or maintain.
+is good enough often beats a complex one that no one can explain or maintain.
 :::
 
 ---
 
-## Classification (CLS) {#cls}
+## Clustering CLS · at a glance {#cls}
+Clustering algorithms are a form of unsupervised learning which focuses on finding patterns or groups among unlabeled data. 
+We can use these findings either to support claims about groups, or go a step further and use it to label our data into groups.
+Since we do not have a target variable for "truth" we must rely on domain-level expertise and our evaluation step to quantify how "good" our model is performing.
 
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithm Selection |
+| **What you'll learn** |  |
+| **Standards assessed** | ALG-CLS · EVL-CLS |
+| **Key terms** |  |
+| **Materials** | [readings](#cls-readings) · [slides](#cls-slides) · [homework](#cls-homework) · [lab](#cls-lab) |
+| **Self-quiz** | [standards & practice →](#cls-standards) |
+
+
+
+### Readings {#cls-readings}
+
+#### ISLP selected readings
+Dive deeper in the content we'll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br>
+
+ - [ ] Unsupervised Learning [section 12.1](../files/ISLP.pdf#page=509) <br>
+ - [ ] PCA [section 12.2](../files/ISLP.pdf#page=510) <br>
+ - [ ] Clustering Models [section 12.4](../files/ISLP.pdf#page=526)<br>
+
+
+#### Related articles
+
+ - [ ] [Recommender system tutorial](https://medium.com/@anilcogalan/practical-guide-to-building-scalable-recommender-systems-in-python-b175547e6fce) (won't cover in class but interesting unsupervised learning model) which you can get a better idea of how it works by writing out the 5-step ML workflow and fill in the steps you see being taken in the tutorial. <br>
+
+
+### Slides {#cls-slides}
+
+- CLS1: Overview of some unsupervised learning algorithms, with a deep dive on the k-means algorithm <br>
+[Open in new tab](https://docs.google.com/presentation/d/1RRVDuUdmM3Ry_vuuTAm_XpIpSM4pxcjf0ROw63ROpdY/edit?slide=id.g3b61aae36eb_0_0#slide=id.g3b61aae36eb_0_0){target="_blank"}
+
+- CLS2: Evaluation of clustering algorithms and computing the sillhouette score. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1RRVDuUdmM3Ry_vuuTAm_XpIpSM4pxcjf0ROw63ROpdY/edit?slide=id.g3b61aae36eb_0_287#slide=id.g3b61aae36eb_0_287){target="_blank"}
+
+- CLS3: Walkthrough of how to do clustering end-to-end. Discussion on improvements. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1RRVDuUdmM3Ry_vuuTAm_XpIpSM4pxcjf0ROw63ROpdY/edit?slide=id.g3b61aae36eb_0_357#slide=id.g3b61aae36eb_0_357){target="_blank"}
+
+
+### Homework {#cls-homework}
+This homework goes over calculating centroid assignments using the euclidean distance, and evaluating clusters using silhouette score.
+[Click to view pdf](https://drive.google.com/file/d/16PywTHK0aRy7KCbY1XzH72oqk11EbIdD/view?usp=sharing){target="_blank"}.
+
+### Lab {#cls-lab}
+In this lab, we will be working with image data and exploring how decisions made in the modeling workflow impact results for our clustering models. 
+There are a selection of open-ended questions (give your best guess on these) along with a few questions that require you to implement your own clustering functions.
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1zxjJBzxeiUDcKLoKXxMzQ-9GyLkKPbN3?usp=sharing).
+
+
+### Self-quiz {#cls-standards}
+
+Use the standards below as a checklist as a study guide for the upcoming quiz.
+
+
+#### ALG-CLS
+
+You should be able to:
+
+- Define the unsupervised learning approach and identify it's associated algorithms
+- Explain these algorithms and their associated terms to a non-technical audience
+- Identify when to use various unsupervised algorithms
+- Define intra vs inter cluster distances and it's relevance to the k-means clustering algorithm
+
+
+#### EVL-CLS
+
+You should be able to:
+
+- Interpret clustering results and identify which clusters are related to ground truths
+- Calculate and interpret silhouette coefficients
+- Identify good choices for cluster size $k$
+
+
+
+#### Formulas given
+
+$\text{Silhouette coefficient} = \frac{b-a}{max(a,b)}$ <br>
+$\text{Euclidean distance} = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2}$
 
 ---
 

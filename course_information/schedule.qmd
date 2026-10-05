@@ -63,9 +63,9 @@
 |||
 |:---:|:---|:---|
 | T Oct 6 |  [CLS1](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [PC3](../course_information/project.qmd#pc3){.ag-btn .ag-grey} [Quiz: EVL](../content/05-EVAL.qmd#standards){.ag-btn .step5} | PC3 due Wednesday  |
-| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | [Article review 1](/articles.qmd) due Friday 10/9 <br> Quiz rewrites due next Thursday |
+| Th Oct 8 |  [CLS2](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [HW: CLS](../content/03-ALG.qmd#cls-homework){.ag-btn .ag-grey} | [Article review 1](articles.qmd) due Friday 10/9 <br> Quiz rewrites due next Thursday |
 | T Oct 13 |  **Fall Break** |  |
-| Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls){.ag-btn .ag-grey} | CLS HW due today 10/15<br> CLS Lab due Saturday 10/17 <br>Study for CLS quiz <br> Skim next module |
+| Th Oct 15  | [CLS3](../content/03-ALG.qmd#cls-slides){.ag-btn .ag-grey} [Lab: CLS](../content/03-ALG.qmd#cls-lab){.ag-btn .ag-grey} | CLS HW due today 10/15<br> CLS Lab due Saturday 10/17 <br>Study for CLS quiz <br> Skim next module |
 
 [DATA](../content/02-DATA.qmd){.topic-btn .step2} 
 
