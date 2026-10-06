@@ -263,7 +263,7 @@ toc: false
       <div class="exp-num">Step 3</div>
       <div class="exp-title">Algorithms</div>
       <div class="alg-grid">
-        <a class="alg-dot" href="../content/03-ALG.qmd#kmeans">kmeans</a>
+        <a class="alg-dot" href="../content/03-ALG.qmd#cls">clustering</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#tree">tree-based</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#linear">linear-based</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#knn">kNN</a>

@@ -36,6 +36,8 @@ website:
         - content/02-DATA.qmd
         - section: content/03-ALG.qmd
           contents:
+            - href: content/03-ALG.qmd#cls
+              text: "Clustering"
             - href: content/03-ALG.qmd#tree
               text: "Tree-based"
             - href: content/03-ALG.qmd#lin
