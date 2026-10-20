@@ -237,8 +237,25 @@ ul.task-list li input[type="checkbox"] {
 </div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#related-articles" id="toc-related-articles" class="nav-link" data-scroll-target="#related-articles">Related articles</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">Lab</a></li>
+  <li><a href="#standards" id="toc-standards" class="nav-link" data-scroll-target="#standards">Self-quiz</a>
+  <ul class="collapse">
+  <li><a href="#standards-1" id="toc-standards-1" class="nav-link" data-scroll-target="#standards-1">Standards</a></li>
+  </ul></li>
+  <li><a href="#data-prep" id="toc-data-prep" class="nav-link" data-scroll-target="#data-prep">DATA-PREP</a></li>
+  <li><a href="#flow2" id="toc-flow2" class="nav-link" data-scroll-target="#flow2">FLOW2</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -263,9 +280,114 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>TBD</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>DATA· at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 2 of 5 · Data Processing</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td>How to interpret and evaluate models</td>
+</tr>
+<tr class="odd">
+<td><strong>Standards assessed</strong></td>
+<td>DATA-PREP · FLOW2</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#readings">readings</a> · <a href="#slides">slides</a> · <a href="#homework">homework</a> · <a href="#lab">lab</a></td>
+</tr>
+<tr class="even">
+<td><strong>Self-quiz</strong></td>
+<td><a href="#standards">standards &amp; practice →</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p><strong>Model evaluation</strong></p>
+</section>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<p>Before class, read the assigned material and take notes.</p>
+</section>
+<section id="related-articles" class="level2">
+<h2 class="anchored" data-anchor-id="related-articles">Related articles</h2>
+<ul class="task-list">
+<li><label><input type="checkbox"><a href="https://towardsdatascience.com/7-of-the-most-used-feature-engineering-techniques-bcc50f48474d/">Feature Engineering</a> walks through various data preparation methods as well as PCA.</label></li>
+</ul>
+<p>The following excerpts are from a data wrangling in Python resource. When reading keep an eye out for some of the methods used (some of which you’ve likely seen already), and general ideas of how to begin working with data (it’s okay if you don’t understand every single example). We’ll cover more specific applications in class.</p>
+<ul class="task-list">
+<li><p><label><input type="checkbox"><a href="https://sscc.wisc.edu/sscc/pubs/dwp/DataFrames.html">Working with a Pandas DataFrame</a> describes how to look at and access features and entries inside a pandas DataFrame.</label></p></li>
+<li><p><label><input type="checkbox"><a href="https://sscc.wisc.edu/sscc/pubs/dwp/Reading_Data.html">Reading in data via read_csv</a> aalks through different ways to grab data. We’ll mainly pull csvs from a url (often via git repo), so skim this one.</label></p></li>
+<li><p><label><input type="checkbox"><a href="https://sscc.wisc.edu/sscc/pubs/dwp/First_Steps.html">Data exploring</a> walks through some of the basics of EDA (some of this may look familiar to code from previous PAs).</label></p></li>
+<li><p><label><input type="checkbox"><a href="https://sscc.wisc.edu/sscc/pubs/dwp/Hierarchical_Data_Long.html">Data summarization</a> walks through how to do some summarization and transformations common in data cleaning.</label></p></li>
+<li><p><label><input type="checkbox"><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html">Additional Pandas content</a></label></p></li>
+</ul>
+<p>Cheatsheets: <a href="../files/numpy.pdf">numpy</a>, <a href="../files/pandas.pdf">pandas</a>, <a href="../files/reshaping.pdf">reshaping</a>, <a href="../files/text_data.pdf">text data</a></p>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<section id="feature-selection" class="level4">
+<h4 class="anchored" data-anchor-id="feature-selection">Feature Selection</h4>
+<p>DATA1: Feature selection and missingness. <br> <a href="https://docs.google.com/presentation/d/1gFR-NVjAKTWZO9t0PB6QDNMvSfccvEGwuCWNnLiQyno/edit?slide=id.g3b71ec61ad4_0_0#slide=id.g3b71ec61ad4_0_0" target="_blank">Open in new tab</a></p>
+</section>
+<section id="feature-engineering" class="level4">
+<h4 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h4>
+<p>DATA2: Transforming numeric features and encoding categorical features. <br> <a href="https://docs.google.com/presentation/d/1gFR-NVjAKTWZO9t0PB6QDNMvSfccvEGwuCWNnLiQyno/edit?slide=id.g3b71ec61ad4_0_170#slide=id.g3b71ec61ad4_0_170" target="_blank">Open in new tab</a></p>
+</section>
+</section>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
+<p>This homework walks through the data cleaning steps and thought process using AirBnB data. <a href="https://drive.google.com/file/d/1XUDGVT_YuIs4P1ToyDp9ox6CyqNQn6eS/view?usp=sharing" target="_blank">Click to view pdf</a>.</p>
+</section>
+<section id="lab" class="level2">
+<h2 class="anchored" data-anchor-id="lab">Lab</h2>
+<p>In this lab, we will perform various data cleaning techniques and transformations on a rental housing dataset. The last task in this lab requires you to go out and view analyses that other programmers have published using this dataset, bringing back at least one interesting code snippet you saw. <a href="https://colab.research.google.com/drive/1RcoCwDhKZc9PB6TBDkw8y_tbylS4MG9I#scrollTo=XuTSMNcdtebo">Click to view Colab Notebook</a></p>
+</section>
+<section id="standards" class="level2">
+<h2 class="anchored" data-anchor-id="standards">Self-quiz</h2>
+<p>Use the standards below as a checklist, then try the practice questions to test yourself.</p>
+<section id="standards-1" class="level3">
+<h3 class="anchored" data-anchor-id="standards-1">Standards</h3>
+</section>
+</section>
+<section id="data-prep" class="level2">
+<h2 class="anchored" data-anchor-id="data-prep">DATA-PREP</h2>
+<p>You should be able to:</p>
+<ul>
+<li>Identify which kind of features require preparation</li>
+<li>Offer appropriate methods for preparing those features</li>
+<li>Explain the steps necessary to implement the methods selected</li>
+</ul>
+</section>
+<section id="flow2" class="level2">
+<h2 class="anchored" data-anchor-id="flow2">FLOW2</h2>
+<p>You should be able to:</p>
+<ul>
+<li>Describe the five steps of the ML workflow</li>
+<li>Give examples of tasks you can do for each step</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
