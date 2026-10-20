@@ -11,7 +11,7 @@ toc: true
 |  |  |
 |---|---|
 | **Workflow step** | Step 2 of 5 · Data Processing |
-| **What you'll learn** | How to interpret and evaluate models |
+| **What you'll learn** | The what, when, and how on processing your data |
 | **Standards assessed** | DATA-PREP · FLOW2 |
 | **Key terms** | |
 | **Materials** | [readings](#readings) · [slides](#slides) · [homework](#homework) · [lab](#lab) |
