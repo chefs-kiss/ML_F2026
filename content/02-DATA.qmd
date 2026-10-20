@@ -4,4 +4,86 @@ subtitle: "Step 2 of the machine learning workflow"
 toc: true
 ---
 
-TBD
+
+::: {.callout-note appearance="minimal"}
+## DATA· at a glance
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 2 of 5 · Data Processing |
+| **What you'll learn** | How to interpret and evaluate models |
+| **Standards assessed** | DATA-PREP · FLOW2 |
+| **Key terms** | |
+| **Materials** | [readings](#readings) · [slides](#slides) · [homework](#homework) · [lab](#lab) |
+| **Self-quiz** | [standards & practice →](#standards) |
+
+:::
+
+## Overview {#overview}
+**Model evaluation** 
+
+
+## Readings {#readings}
+
+Before class, read the assigned material and take notes.
+
+## Related articles
+ - [ ] [Feature Engineering](https://towardsdatascience.com/7-of-the-most-used-feature-engineering-techniques-bcc50f48474d/) walks through various data preparation methods as well as PCA.
+
+The following excerpts are from a data wrangling in Python resource. When reading keep an eye out for some of the methods used (some of which you've likely seen already), and general ideas of how to begin working with data (it's okay if you don't understand every single example). We'll cover more specific applications in class.
+
+ - [ ] [Working with a Pandas DataFrame](https://sscc.wisc.edu/sscc/pubs/dwp/DataFrames.html) describes how to look at and access features and entries inside a pandas DataFrame.
+
+ - [ ] [Reading in data via read_csv](https://sscc.wisc.edu/sscc/pubs/dwp/Reading_Data.html) aalks through different ways to grab data. We'll mainly pull csvs from a url (often via git repo), so skim this one.
+
+ - [ ] [Data exploring](https://sscc.wisc.edu/sscc/pubs/dwp/First_Steps.html) walks through some of the basics of EDA (some of this may look familiar to code from previous PAs). 
+
+ - [ ] [Data summarization](https://sscc.wisc.edu/sscc/pubs/dwp/Hierarchical_Data_Long.html) walks through how to do some summarization and transformations common in data cleaning.
+
+ - [ ] [Additional Pandas content](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+
+Cheatsheets: [numpy](../files/numpy.pdf), [pandas](../files/pandas.pdf), [reshaping](../files/reshaping.pdf), [text data](../files/text_data.pdf)
+
+## Slides {#slides}
+
+#### Feature Selection
+DATA1: Feature selection and missingness. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1gFR-NVjAKTWZO9t0PB6QDNMvSfccvEGwuCWNnLiQyno/edit?slide=id.g3b71ec61ad4_0_0#slide=id.g3b71ec61ad4_0_0){target="_blank"}
+
+#### Feature Engineering
+DATA2: Transforming numeric features and encoding categorical features. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1gFR-NVjAKTWZO9t0PB6QDNMvSfccvEGwuCWNnLiQyno/edit?slide=id.g3b71ec61ad4_0_170#slide=id.g3b71ec61ad4_0_170){target="_blank"}
+
+
+## Homework {#homework}
+This homework walks through the data cleaning steps and thought process using AirBnB data.
+[Click to view pdf](https://drive.google.com/file/d/1XUDGVT_YuIs4P1ToyDp9ox6CyqNQn6eS/view?usp=sharing){target="_blank"}.
+
+## Lab {#lab}
+In this lab, we will perform various data cleaning techniques and transformations on a rental housing dataset. The last task 
+in this lab requires you to go out and view analyses that other programmers have published using this dataset, bringing back
+at least one interesting code snippet you saw.
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1RcoCwDhKZc9PB6TBDkw8y_tbylS4MG9I#scrollTo=XuTSMNcdtebo)
+
+
+## Self-quiz {#standards}
+
+Use the standards below as a checklist, then try the practice questions to test yourself.
+
+### Standards
+
+
+## DATA-PREP
+
+You should be able to:
+
+- Identify which kind of features require preparation
+- Offer appropriate methods for preparing those features
+- Explain the steps necessary to implement the methods selected
+
+## FLOW2
+
+You should be able to:
+
+- Describe the five steps of the ML workflow
+- Give examples of tasks you can do for each step

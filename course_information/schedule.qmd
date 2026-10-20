@@ -73,13 +73,13 @@
 |:---:|:---|:---|
 | T Oct 20 |  [DATA1](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [Quiz: CLS](../content/03-ALG.qmd#cls-standards){.ag-btn .step3} | [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSfR-lWP6ZGMbUYw_Zq4Pw8kJn8gYsjL5nun4cvbkPWpYRipSA/viewform?usp=share_link&ouid=101535206594689312428) for retakes if applicable |
 | W Oct 21 |  [Quiz Retakes: INTRO EDA EVL]{.ag-btn .ag-grey} |  |
-| Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} [PC4](../course_information/project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Quiz rewrites due next Tuesday<br> Skim next module |
+| Th Oct 22 | [DATA2](../content/02-DATA.qmd#slides){.ag-btn .ag-grey} [HW: DATA](../content/02-DATA.qmd#homework){.ag-btn .ag-grey} [PC4](../course_information/project.qmd#pc4){.ag-btn .ag-grey} | PC4 due Saturday <br> Quiz rewrites due next Tuesday<br> Skim next module |
 
 [TREE](../content/03-ALG.qmd#tree){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
-| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd){.ag-btn .ag-grey} | [Article review 2](/articles.qmd) due Wednesday |
+| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd#lab){.ag-btn .ag-grey} | [Article review 2](/articles.qmd) due Wednesday |
 | Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../course_information/project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
 
 ## November
