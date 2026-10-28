@@ -79,20 +79,20 @@
 
 |||
 |:---:|:---|:---|
-| T Oct 27 | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Lab: DATA](../content/02-DATA.qmd#lab){.ag-btn .ag-grey} | [Article review 2](/articles.qmd) due Wednesday |
-| Th Oct 29  | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../course_information/project.qmd#pc5){.ag-btn .ag-grey} | DATA HW + Lab due Saturday<br>Study for DATA quiz |
+| T Oct 27 | No class [Lab: DATA](../content/02-DATA.qmd#lab){.ag-btn .ag-grey} | [Article review 2](articles.qmd) due Wednesday |
+| Th Oct 29  | [TREE1](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [HW: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} [PC5](../course_information/project.qmd#pc5){.ag-btn .ag-grey} | DATA HW due Friday by 4pm <br> DATA Lab due Saturday<br>Study for DATA quiz |
 
 ## November
 
 | **date** | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| T Nov 3 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | PC5 due Wednesday <br>Skim next module|
+| T Nov 3 | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | PC5 due Wednesday <br>Skim next module|
 
 [LIN](../content/03-ALG.qmd#lin){.topic-btn .step3}
 
 |||
 |:---:|:---|:---|
-| Th Nov 5 | [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [Lab: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} | TREE HW + Lab due Saturday<br>Study for TREE quiz |
+| Th Nov 5 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [Lab: TREE](../content/03-ALG.qmd#tree){.ag-btn .ag-grey} | TREE HW + Lab due Saturday<br>Study for TREE quiz |
 | T Nov 10 |  [LIN2](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [HW: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey} [Quiz: TREE](../content/03-ALG.qmd#tree-standards){.ag-btn .step3} | Skim next module |
 
 [MOD](../content/03-ALG.qmd#mod){.topic-btn .step3} 
