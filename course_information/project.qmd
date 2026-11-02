@@ -16,7 +16,7 @@ There are also several dataset collections online:
 [FiveThreeEight](https://github.com/fivethirtyeight/data), 
 [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), 
 [Open Data Minneapolis](https://opendata.minneapolismn.gov/search?collection=dataset&groupIds=9a38073875844f16a93416bf6bd7df5b),
-and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) all have options to choose from.
+and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) all have options to choose from. 
 
 Your selected dataset should have the following characteristics:
 
