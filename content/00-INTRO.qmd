@@ -266,11 +266,11 @@ toc: false
         <a class="alg-dot" href="../content/03-ALG.qmd#cls">clustering</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#tree">tree-based</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#linear">linear-based</a>
-        <a class="alg-dot" href="../content/03-ALG.qmd#knn">kNN</a>
+        <a class="alg-dot" href="../content/03-ALG.qmd#mod">kNN</a>
         <a class="alg-dot" href="../content/03-ALG.qmd#nn">neural nets</a>
-        <a class="alg-dot" href="../content/03-ALG.qmd#svm">SVM</a>
-        <a class="alg-dot" href="../content/03-ALG.qmd#nb">naive bayes</a>
-        <a class="alg-dot" href="../content/03-ALG.qmd#regularized">regularized</a>
+        <a class="alg-dot" href="../content/03-ALG.qmd#mod">SVM</a>
+        <a class="alg-dot" href="../content/03-ALG.qmd#mod">naive bayes</a>
+        <a class="alg-dot" href="../content/03-ALG.qmd#mod">logistic reg</a>
       </div>
       <a class="exp-link alg-page-link" href="../content/03-ALG.qmd">Open page &rarr;</a>
     </div>

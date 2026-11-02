@@ -48,7 +48,7 @@ is good enough often beats a complex one that no one can explain or maintain.
 
 ---
 
-## Clustering CLS · at a glance {#cls}
+## Clustering CLS {#cls}
 Clustering algorithms are a form of unsupervised learning which focuses on finding patterns or groups among unlabeled data. 
 We can use these findings either to support claims about groups, or go a step further and use it to label our data into groups.
 Since we do not have a target variable for "truth" we must rely on domain-level expertise and our evaluation step to quantify how "good" our model is performing.
@@ -133,19 +133,334 @@ $\text{Euclidean distance} = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2}$
 
 ---
 
-## Trees (TREE) {#tree}
+## Trees TREE  {#tree}
+
+Tree-based algorithms
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithm Selection |
+| **What you'll learn** |  |
+| **Standards assessed** | ALG-TREE · TRAIN-TREE |
+| **Key terms** |  |
+| **Materials** | [readings](#tree-readings) · [slides](#tree-slides) · [homework](#tree-homework) · [lab](#tree-lab) |
+| **Self-quiz** | [standards & practice →](#tree-standards) |
+
+
+
+### Readings {#tree-readings}
+
+#### ISLP selected readings
+Dive deeper in the content we'll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br>
+
+ - [ ] Regression Trees [section 8.1.1](../files/ISLP.pdf#page=338) <br>
+ - [ ] Classification Trees [section 8.1.1](../files/ISLP.pdf#page=344) <br>
+ - [ ] Linear vs Tree Models [section 8.1.1](../files/ISLP.pdf#page=348) <br>
+ - [ ] Pros and Cons of Tree Models [section 8.1.1](../files/ISLP.pdf#page=348) <br>
+ - [ ] Bagging [section 18.2.1](../files/ISLP.pdf#page=350)<br>
+ - [ ] Random Forests [section 18.2.2](../files/ISLP.pdf#page=350)<br>
+ - [ ] Boosting [section 18.2.3](../files/ISLP.pdf#page=354)<br>
+
+
+### Slides {#tree-slides}
+
+- TREE1: Overview of decision tree algorithm, calculating uncertainty with gini and entropy<br>
+[Open in new tab](https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_0#slide=id.g3ba82aea71e_0_0){target="_blank"}
+
+- Worksheet: Used in TREE1 and TREE2; [open in new tab](https://drive.google.com/file/d/12ySrUg2_KxW4HGiOd0DIVa9GB9evQoTF/view?usp=sharing){target="_blank"}; [solution](https://drive.google.com/file/d/1XEMVJpiRO3_KhbpNv_XeqSZdqfK9w6FZ/view?usp=sharing){target="_blank"}
+
+- TREE2: Continuing calculating uncertainty/impurity, chat about over-under fitting with trees. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_125#slide=id.g3ba82aea71e_0_125){target="_blank"}
+
+- TREE3: Random forest, bagging, boosting; example of tree-based workflow <br>
+[Open in new tab](https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_135#slide=id.g3ba82aea71e_0_135){target="_blank"}
+
+
+### Homework {#tree-homework}
+This homework goes over calculating gini and entropy, and setting up decision boundaries on a coordinate plane given a decision tree.
+[Click to view pdf](https://drive.google.com/file/d/15xhd39JFZuIKLFqsGXu6V9YnU-JBtqlP/view?usp=sharing){target="_blank"}.
+
+### Lab {#tree-lab}
+No lab for this module.
+
+
+### Self-quiz {#tree-standards}
+
+Use the standards below as a checklist as a study guide for the upcoming quiz.
+
+
+#### ALG-TREE
+
+You should be able to:
+
+- Describe how the decision tree algorithm works 
+- Define what the terms entropy, gini, uncertainty, decision boundary, region means in the context of this algorithm
+- Draw and interpret the output of a decision tree and graph its associated regions
+
+#### TRAIN-TREE
+
+You should be able to:
+
+- Explain overfitting and underfitting in the context of this algorithm
+- Interpret results from a decision tree model
+- Give suggestions for improving the decision tree model
+
+#### Study Tips
+
+Review the lecture slides, workbooks, homework assignments, and the associated lab.  
+Quiz questions are similar (though not identical) to the types of questions covered in these materials.
+You should be able to use appropriate terminology and apply the concepts covered in class to a variety of new scenarios.
+
+The primary goal of each quiz is to give you an opportunity to apply concepts with clear and well-explained reasoning.  
+Quizzes are also a valuable opportunity to receive feedback on your reasoning skills.  
+
+
+#### Formulas Given
+
+Entropy: $-p*log_2(p) - (1-p)log_2(1-p)$ <br>
+Gini impurity:   $2*p*(1-p)$ <br>
+
+Impurity$_{\text{total}}:   2*P(target=yes)*P(target=no)$ <br>
+
+Impurity$_{Question}:   P(\text{Q=yes})*\text{Impurity}(\text{Q=yes})*P(\text{Q=no})*\text{Impurity}(\text{Q=no})$
 
 ---
 
-## Linear models (LIN) {#lin}
+## Linear models LIN  {#lin}
 
+Linear models...
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithm Selection |
+| **What you'll learn** |  |
+| **Standards assessed** | ALG-LIN· FLOW-LIN |
+| **Key terms** |  |
+| **Materials** | [readings](#lin-readings) · [slides](#lin-slides) · [homework](#lin-homework) · [lab](#lin-lab) |
+| **Self-quiz** | [standards & practice →](#lin-standards) |
+
+
+
+### Readings {#lin-readings}
+
+#### ISLP selected readings
+Dive deeper in the content we'll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br>
+
+ - [ ] Overview [chapter 3](../files/ISLP.pdf#page=78) <br>
+ - [ ] Simple Linear Regression [section 3.1](../files/ISLP.pdf#page=79) <br>
+ - [ ] Multiple Linear Regression [section 3.2](../files/ISLP.pdf#page=89) <br>
+ - [ ] Considerations [section 3.3](../files/ISLP.pdf#page=100) <br>
+ 
+### Slides {#lin-slides}
+
+- LIN1: linear transformations <br>
+[Open in new tab](https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_0#slide=id.g3b918ed6968_0_0){target="_blank"}
+
+- LIN2: gradient descent<br>
+[Open in new tab](https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_50#slide=id.g3b918ed6968_0_50){target="_blank"}
+
+- LIN3: single and multiple linear regression; chat about ridge and lasso regularization <br>
+[Open in new tab](https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_105#slide=id.g3b918ed6968_0_105){target="_blank"}
+
+
+### Homework {#lin-homework}
+
+[Click to view pdf](https://drive.google.com/file/d/1eFGLoN4IfoyHqK69x0roKpM0ZPrQxZFR/view?usp=sharing){target="_blank"}.
+
+### Lab {#lin-lab}
+No lab on linear models.
+
+
+### Self-quiz {#lin-standards}
+
+Use the standards below as a checklist as a study guide for the upcoming quiz.
+
+
+#### ALG-LIN
+
+You should be able to:
+
+- Explain the process of the linear regression algorithm
+- Define the following terms: objective function, cost function, gradient descent, learning rate
+- Interpret gradients and give suggestions for possible model improvement
+
+#### FLOW-LIN
+
+You should be able to:
+
+- Analyze and critique a given five-step workflow using linear models
+
+#### Formulas Given
+$\text{MAE}: \frac{1}{n}\Sigma |y_{obs} - y_{pred}|$<br>
+$\text{MSE}: \frac{1}{n}\Sigma (y_{obs} - y_{pred})^2$<br>
+$\text{RMSE}: \sqrt{\text{MSE}}$<br>
+$y_{pred}=\beta_1 x_1+\beta_0$<br><br>
+$\nabla C(x,y) = (\frac{\delta C}{\delta y}(x,y), \frac{\delta C}{\delta x}(x,y)$<br>
+$(\beta_0*, \beta_1* ) = (\beta_0, \beta_1) + l \times(-\nabla C(\beta_0, \beta_1))$
 
 ---
 
-## Other models (MOD) {#mod}
+## Other models MOD  {#mod} 
 
+There are a lot more algorithms than just the ones we cover in this class. Below are a few additional ones that are helpful to know. 
+This also contains the ensemble (ESB) content which includes boosting, bagging, and various voting methods for combining multiple models.
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithm Selection |
+| **What you'll learn** |  |
+| **Standards assessed** | ALG-ESB  · MOD-SEL|
+| **Key terms** |  |
+| **Materials** | [readings](#mod-readings) · [slides](#mod-slides) · [homework](#mod-homework) · [lab](#mod-lab) |
+| **Self-quiz** | [standards & practice →](#mod-standards) |
+
+
+### Readings {#mod-readings}
+
+ - [ ] Naive Bayes (NB) [section 2.2.3](../files/ISLP.pdf#page=45) is used in text classification, spam detection, and good on large datasets. The "naive" part is because it assumes features are independent (unrelated) from each other when in actuality this rarely happens. Applies probabilities to features (usually words) that can indicate the thing you're looking for.
+ - [ ] k Nearest Neighbors (KNN)[section 2.2.3](../files/ISLP.pdf#page=46) and [section 3.5](../files/ISLP.pdf#page=120) is used in pattern recognition, recommender systems, when there are non-linear boundaries, but not great on large datasets. We call this a "lazy" learner because it doesn't learn or create a model until it's asked to make a prediction on new data.
+ - [ ] Logistic regression [section 4.3](../files/ISLP.pdf#page=147) is used in binary classification to output probabilities between 0 and 1, needs linear boundaries. Uses another function to "squish" these outputted probabilities towards 0 or 1 (usually the sigmoid function).
+ - [ ] Support Vector Machine (SVM) [section 9.1-9.3](../files/ISLP.pdf#page=374) is used in a ton of ways, good because it can deal with linear and non-linear boundaries. Uses what is called the "kernel" trick to essentially project data into a higher dimension so that it can have an easier time separating groups out. Sort of how it's easier to see a person if you are facing them head-on vs looking down at them from a bird's eye view.
+ - [ ] Principal Component Analysis (PCA) [section 12.2](../files/ISLP.pdf#page=510) can simplify data by finding the most important directions (or features) that capture the most information. (Bad example) Kind of like how if someone were to dig around in your trash, they would find information out about you (what food you like, how often you clean, items you frequently use).
+ - [ ] You can read more about ensemble models in [section 8.2](../files/ISLP.pdf#page=350) from our TREE readings
+
+### Slides {#mod-slides} 
+
+- MOD1: Overview of knn, PCA, and logistic regression <br> 
+[Open in new tab](https://docs.google.com/presentation/d/1RP2FR1aiXoo8UT0EY6Y5e9SddCAjbZVBjGNcrzfP32Y/edit?slide=id.g392c6cfdf37_0_0#slide=id.g392c6cfdf37_0_0){target="_blank"}
+
+- MOD2: Overview of SVM and Naive Bayes. <br> 
+[Open in new tab](https://docs.google.com/presentation/d/1RP2FR1aiXoo8UT0EY6Y5e9SddCAjbZVBjGNcrzfP32Y/edit?slide=id.g3bb113f723d_0_0#slide=id.g3bb113f723d_0_0){target="_blank"}
+
+- ESB1: Overview of boosting, bagging, and voting ensembles.<br> 
+[Open in new tab](https://docs.google.com/presentation/d/167bEdnUICILTGqOoLvAocNPyuPo7-0Tt89SZDA8_PEE/edit?slide=id.g3bb194b7a29_0_0#slide=id.g3bb194b7a29_0_0){target="_blank"}
+
+- ESB2: Designing a flowchart for model selection.<br> 
+[Open in new tab](https://docs.google.com/presentation/d/167bEdnUICILTGqOoLvAocNPyuPo7-0Tt89SZDA8_PEE/edit?slide=id.g3bb249c1001_0_277#slide=id.g3bb249c1001_0_277){target="_blank"}
+
+### Homework {#mod-homework}
+The first three questions on this homework goes knn, SVM, and logistic regression for a binary classification problem. The last question will be assess boosting and bagging from the ESB slides.
+[Click to view pdf](https://drive.google.com/drive/folders/1JHpJhMMxEUl24mFmOPvfnfMVl_kx2OWf){target="_blank"}.
+
+### Lab {#mod-lab}
+For this two-part lab, you will come up with (Part 1) and implement (Part 2) a workflow to determine the attributes that make a cookie delicious. 
+Based on historical data of 5K cookies regarding baked_temp, sugar_index among others, 
+the authors of [Cookie Monster](https://github.com/albertoabreu91/Cookies_project/tree/master?tab=readme-ov-file) collected the dataset we'd like to use. 
+
+#### Part 1
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1FqnvTlMddm0VJ1wEXHDbo80jM0VUiLAD?usp=sharing)
+
+#### Part 2
+[Click to view Colab Notebook](https://colab.research.google.com/drive/1FXEnwNjE_cYJEc7yah-4rVybLmQ5eWeO?usp=sharing)
+
+
+### Self-quiz {#mod-standards}
+
+Use the standards below as a checklist as a study guide for the upcoming quiz.
+
+#### ALG-ESB
+
+You should be able to:
+
+- Describe terms like ensemble, voting, stacking, bagging, and boosting
+- Give examples of algorithms for each ensemble type
+- Discuss pros and cons of each ensemble type
+
+#### MOD-SEL
+
+You should be able to:
+
+- Identify appropriate algorithms for a given real-world scenarios
+- Discuss tradeoffs of particular algorithms (interpretable, scalable, handling of missing data)
+- Consider how decisions made in the modeling process may have ethical consequences
 
 ---
 
-## Neural networks (NN) {#nn}
+## Neural networks NN {#nn}
 
+Neural networks are the basis of deep learning, and are a form of supervised learning which focuses on creating layers of perceptrons that are connected into a network. 
+
+
+|  |  |
+|---|---|
+| **Workflow step** | Step 3 of 5 · Algorithm Selection |
+| **What you'll learn** |  |
+| **Standards assessed** | ALG-NN · ETH |
+| **Key terms** |  |
+| **Materials** | [readings](#nn-readings) · [slides](#nn-slides) · [homework](#nn-homework) · [lab](#nn-lab) |
+| **Self-quiz** | [standards & practice →](#nn-standards) |
+
+
+
+### Readings {#nn-readings}
+
+#### ISLP selected readings
+Dive deeper in the content we'll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br>
+
+ - [ ] Deep Learning [section 10](../files/ISLP.pdf#page=406) <br>
+ - [ ] Single Layer Neural Networks [section 10.1](../files/ISLP.pdf#page=407) <br>
+ - [ ] Multilayer Neural Networks [section 10.2](../files/ISLP.pdf#page=409)<br>
+ - [ ] When to Use One [section 10.6](../files/ISLP.pdf#page=432)<br>
+ - [ ] Fitting a Neural Network [section 10.7](../files/ISLP.pdf#page=434)<br>
+
+
+### Slides {#nn-slides}
+
+- NN1: Overview of perceptrons and activation functions <br>
+[Open in new tab](https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bbf0497fa0_0_3#slide=id.g3bbf0497fa0_0_3){target="_blank"}
+
+- NN2: neural network architecture, backpropagation <br>
+[Open in new tab](https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bbf0497fa0_0_53#slide=id.g3bbf0497fa0_0_53){target="_blank"}
+
+- NN3: Walkthrough of scikitlearn implementation, along with a chat about tensors and tensor flow. <br>
+[Open in new tab](https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bc171f78ca_0_0#slide=id.g3bc171f78ca_0_0){target="_blank"}
+
+
+### Homework {#nn-homework}
+
+[Click to view pdf](https://drive.google.com/file/d/1IyfvrJEfpiawzASzpd3ntxVJnyV9p8BF/view?usp=sharing){target="_blank"}.
+
+### Lab {#nn-lab}
+There is no lab for neural networks, but you can find some example labs at the end of Chapter 10 in our textbook in [section 10.9](../files/ISLP.pdf#page=442). 
+
+
+### Self-quiz {#nn-standards}
+
+Use the standards below as a checklist as a study guide for the upcoming quiz.
+
+
+#### ALG-NN
+
+You should be able to:
+
+- Describe terms like weights, bias, perceptron, neuron, feed-forward, backpropagation, activation function
+- Draw a diagram of neural network architecture 
+- Label the corresponding nodes ($X_i$, $Z_i^{(k)}$, $h_i^{(k)}$, $\hat{y}$, $b_i^{(k)})$ and edges $(w_{i,j}^{(k)})$ of the diagram
+- Compute a given $Z_i^{(k)}$ and $h_i^{(k)}$ using an activation function $\sigma^{(k)}$
+
+
+#### ETH
+
+You should be able to:
+
+- Suggest improvements to a given scenario of data collection methods to help mitigate ethical concerns
+- Communicate ideas clearly and justify reasoning
+
+
+#### Formulas given
+
+$\hat{y} = f(\beta + w_1x_1 + w_2x_2 + ... + w_nx_n)$ 
+
+Unit step: $f(z) = \begin{cases} 1 & z \geq 0 \\ 0 & z < 0 \end{cases}$
+
+Sigmoid: $f(z) = \frac{1}{1 + e^{-z}}$
+
+ReLU: $f(z) = \max(0, z)$ <br><br>
+
+$Z^{(1)}  =  W^{(1)} X + b^{(1)}$
+
+$h^{(1)}  =  \sigma^{(1)}(Z^{(1)})$
+
+$Z^{(k)}  =  W^{(k)}h^{(k-1)}  + b^{(k)}$
+
+$h^{(k)}  =  \sigma^{(k)}(Z^{(k)})$
