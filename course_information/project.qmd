@@ -10,8 +10,13 @@ You must complete this project individually.
 
 The first requirement for the project is that it uses an appropriate dataset. There are many places to find datasets that cover a
 variety of topics. You can use this [list of dataset resources](https://tellingstorieswithdata.com/23-datasets.html) to identify data sources you would be interested in.
-I have found that [Data is Plural](https://www.data-is-plural.com/), [data.gov](https://catalog.data.gov/?sort=popularity) (at least up until last year, the site seems to have bugs now :/), 
-[TidyTuesday](https://github.com/rfordatascience/tidytuesday#datasets), and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) have a fairly good selection to choose from.
+There are also several dataset collections online: 
+[Data is Plural](https://www.data-is-plural.com/), 
+[data.gov](https://catalog.data.gov/?sort=popularity) , 
+[FiveThreeEight](https://github.com/fivethirtyeight/data), 
+[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), 
+[Open Data Minneapolis](https://opendata.minneapolismn.gov/search?collection=dataset&groupIds=9a38073875844f16a93416bf6bd7df5b),
+and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) all have options to choose from.
 
 Your selected dataset should have the following characteristics:
 
@@ -23,6 +28,9 @@ To help illustrate, below are a selection of datasets that would work:
 
 - [Heart Failure Prediction](https://www.openml.org/search?type=data&status=active&id=45950)
 - [Phishing Websites](https://www.openml.org/search?type=data&sort=runs&id=4534&status=active)
+- [Community Repair Clinics](https://github.com/openrepair/data)
+- [Food Inspections in Minneapolis](https://opendata.minneapolismn.gov/datasets/cityoflakes::food-inspections/explore?location=22.524728%2C-46.664417%2C2&showTable=true)
+- [Marine Bird Summer/Winter Observations](https://www.sciencebase.gov/catalog/item/5a385566e4b0d05ee8b28345)
 
 
 The second requirement for the project is that you have created a workflow plan for each section of the ML
