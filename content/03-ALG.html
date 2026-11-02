@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,14 +38,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-807e31402b3e1fab54bb71dd936425fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ebacef566aebc67758111a1fa2765040.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,19 +108,18 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Machine Learning</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -155,15 +155,16 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/03-ALG.html">Algorithms</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/03-ALG.html">Algorithms</a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -174,7 +175,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Section">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -203,12 +204,12 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../content/03-ALG.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Algorithms</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Algorithms</span></a>
+            <button type="button" class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section: Algorithms">
+              <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </button> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/03-ALG.html#cls" class="sidebar-item-text sidebar-link">
@@ -267,12 +268,12 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview: choosing an algorithm</a></li>
-  <li><a href="#cls" id="toc-cls" class="nav-link" data-scroll-target="#cls">Clustering CLS · at a glance</a>
+  <li><a href="#cls" id="toc-cls" class="nav-link" data-scroll-target="#cls">Clustering CLS</a>
   <ul class="collapse">
   <li><a href="#cls-readings" id="toc-cls-readings" class="nav-link" data-scroll-target="#cls-readings">Readings</a></li>
   <li><a href="#cls-slides" id="toc-cls-slides" class="nav-link" data-scroll-target="#cls-slides">Slides</a></li>
@@ -280,15 +281,43 @@ window.Quarto = {
   <li><a href="#cls-lab" id="toc-cls-lab" class="nav-link" data-scroll-target="#cls-lab">Lab</a></li>
   <li><a href="#cls-standards" id="toc-cls-standards" class="nav-link" data-scroll-target="#cls-standards">Self-quiz</a></li>
   </ul></li>
-  <li><a href="#tree" id="toc-tree" class="nav-link" data-scroll-target="#tree">Trees (TREE)</a></li>
-  <li><a href="#lin" id="toc-lin" class="nav-link" data-scroll-target="#lin">Linear models (LIN)</a></li>
-  <li><a href="#mod" id="toc-mod" class="nav-link" data-scroll-target="#mod">Other models (MOD)</a></li>
-  <li><a href="#nn" id="toc-nn" class="nav-link" data-scroll-target="#nn">Neural networks (NN)</a></li>
+  <li><a href="#tree" id="toc-tree" class="nav-link" data-scroll-target="#tree">Trees TREE</a>
+  <ul class="collapse">
+  <li><a href="#tree-readings" id="toc-tree-readings" class="nav-link" data-scroll-target="#tree-readings">Readings</a></li>
+  <li><a href="#tree-slides" id="toc-tree-slides" class="nav-link" data-scroll-target="#tree-slides">Slides</a></li>
+  <li><a href="#tree-homework" id="toc-tree-homework" class="nav-link" data-scroll-target="#tree-homework">Homework</a></li>
+  <li><a href="#tree-lab" id="toc-tree-lab" class="nav-link" data-scroll-target="#tree-lab">Lab</a></li>
+  <li><a href="#tree-standards" id="toc-tree-standards" class="nav-link" data-scroll-target="#tree-standards">Self-quiz</a></li>
+  </ul></li>
+  <li><a href="#lin" id="toc-lin" class="nav-link" data-scroll-target="#lin">Linear models LIN</a>
+  <ul class="collapse">
+  <li><a href="#lin-readings" id="toc-lin-readings" class="nav-link" data-scroll-target="#lin-readings">Readings</a></li>
+  <li><a href="#lin-slides" id="toc-lin-slides" class="nav-link" data-scroll-target="#lin-slides">Slides</a></li>
+  <li><a href="#lin-homework" id="toc-lin-homework" class="nav-link" data-scroll-target="#lin-homework">Homework</a></li>
+  <li><a href="#lin-lab" id="toc-lin-lab" class="nav-link" data-scroll-target="#lin-lab">Lab</a></li>
+  <li><a href="#lin-standards" id="toc-lin-standards" class="nav-link" data-scroll-target="#lin-standards">Self-quiz</a></li>
+  </ul></li>
+  <li><a href="#mod" id="toc-mod" class="nav-link" data-scroll-target="#mod">Other models MOD</a>
+  <ul class="collapse">
+  <li><a href="#mod-readings" id="toc-mod-readings" class="nav-link" data-scroll-target="#mod-readings">Readings</a></li>
+  <li><a href="#mod-slides" id="toc-mod-slides" class="nav-link" data-scroll-target="#mod-slides">Slides</a></li>
+  <li><a href="#mod-homework" id="toc-mod-homework" class="nav-link" data-scroll-target="#mod-homework">Homework</a></li>
+  <li><a href="#mod-lab" id="toc-mod-lab" class="nav-link" data-scroll-target="#mod-lab">Lab</a></li>
+  <li><a href="#mod-standards" id="toc-mod-standards" class="nav-link" data-scroll-target="#mod-standards">Self-quiz</a></li>
+  </ul></li>
+  <li><a href="#nn" id="toc-nn" class="nav-link" data-scroll-target="#nn">Neural networks NN</a>
+  <ul class="collapse">
+  <li><a href="#nn-readings" id="toc-nn-readings" class="nav-link" data-scroll-target="#nn-readings">Readings</a></li>
+  <li><a href="#nn-slides" id="toc-nn-slides" class="nav-link" data-scroll-target="#nn-slides">Slides</a></li>
+  <li><a href="#nn-homework" id="toc-nn-homework" class="nav-link" data-scroll-target="#nn-homework">Homework</a></li>
+  <li><a href="#nn-lab" id="toc-nn-lab" class="nav-link" data-scroll-target="#nn-lab">Lab</a></li>
+  <li><a href="#nn-standards" id="toc-nn-standards" class="nav-link" data-scroll-target="#nn-standards">Self-quiz</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -366,7 +395,7 @@ window.Quarto = {
 <hr>
 </section>
 <section id="cls" class="level2">
-<h2 class="anchored" data-anchor-id="cls">Clustering CLS · at a glance</h2>
+<h2 class="anchored" data-anchor-id="cls">Clustering CLS</h2>
 <p>Clustering algorithms are a form of unsupervised learning which focuses on finding patterns or groups among unlabeled data. We can use these findings either to support claims about groups, or go a step further and use it to label our data into groups. Since we do not have a target variable for “truth” we must rely on domain-level expertise and our evaluation step to quantify how “good” our model is performing.</p>
 <table class="caption-top table">
 <tbody>
@@ -460,21 +489,379 @@ window.Quarto = {
 </section>
 </section>
 <section id="tree" class="level2">
-<h2 class="anchored" data-anchor-id="tree">Trees (TREE)</h2>
+<h2 class="anchored" data-anchor-id="tree">Trees TREE</h2>
+<p>Tree-based algorithms</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 3 of 5 · Algorithm Selection</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Standards assessed</strong></td>
+<td>ALG-TREE · TRAIN-TREE</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#tree-readings">readings</a> · <a href="#tree-slides">slides</a> · <a href="#tree-homework">homework</a> · <a href="#tree-lab">lab</a></td>
+</tr>
+<tr class="even">
+<td><strong>Self-quiz</strong></td>
+<td><a href="#tree-standards">standards &amp; practice →</a></td>
+</tr>
+</tbody>
+</table>
+<section id="tree-readings" class="level3">
+<h3 class="anchored" data-anchor-id="tree-readings">Readings</h3>
+<section id="islp-selected-readings-1" class="level4">
+<h4 class="anchored" data-anchor-id="islp-selected-readings-1">ISLP selected readings</h4>
+<p>Dive deeper in the content we’ll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Regression Trees <a href="../files/ISLP.pdf#page=338">section 8.1.1</a> <br></label></li>
+<li><label><input type="checkbox">Classification Trees <a href="../files/ISLP.pdf#page=344">section 8.1.1</a> <br></label></li>
+<li><label><input type="checkbox">Linear vs Tree Models <a href="../files/ISLP.pdf#page=348">section 8.1.1</a> <br></label></li>
+<li><label><input type="checkbox">Pros and Cons of Tree Models <a href="../files/ISLP.pdf#page=348">section 8.1.1</a> <br></label></li>
+<li><label><input type="checkbox">Bagging <a href="../files/ISLP.pdf#page=350">section 18.2.1</a><br></label></li>
+<li><label><input type="checkbox">Random Forests <a href="../files/ISLP.pdf#page=350">section 18.2.2</a><br></label></li>
+<li><label><input type="checkbox">Boosting <a href="../files/ISLP.pdf#page=354">section 18.2.3</a><br></label></li>
+</ul>
+</section>
+</section>
+<section id="tree-slides" class="level3">
+<h3 class="anchored" data-anchor-id="tree-slides">Slides</h3>
+<ul>
+<li><p>TREE1: Overview of decision tree algorithm, calculating uncertainty with gini and entropy<br> <a href="https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_0#slide=id.g3ba82aea71e_0_0" target="_blank">Open in new tab</a></p></li>
+<li><p>Worksheet: Used in TREE1 and TREE2; <a href="https://drive.google.com/file/d/12ySrUg2_KxW4HGiOd0DIVa9GB9evQoTF/view?usp=sharing" target="_blank">open in new tab</a>; <a href="https://drive.google.com/file/d/1XEMVJpiRO3_KhbpNv_XeqSZdqfK9w6FZ/view?usp=sharing" target="_blank">solution</a></p></li>
+<li><p>TREE2: Continuing calculating uncertainty/impurity, chat about over-under fitting with trees. <br> <a href="https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_125#slide=id.g3ba82aea71e_0_125" target="_blank">Open in new tab</a></p></li>
+<li><p>TREE3: Random forest, bagging, boosting; example of tree-based workflow <br> <a href="https://docs.google.com/presentation/d/1FuZ1fhOdXQR3mXYMnqJs3TynPwnir6xgROqTJchCGrE/edit?slide=id.g3ba82aea71e_0_135#slide=id.g3ba82aea71e_0_135" target="_blank">Open in new tab</a></p></li>
+</ul>
+</section>
+<section id="tree-homework" class="level3">
+<h3 class="anchored" data-anchor-id="tree-homework">Homework</h3>
+<p>This homework goes over calculating gini and entropy, and setting up decision boundaries on a coordinate plane given a decision tree. <a href="https://drive.google.com/file/d/15xhd39JFZuIKLFqsGXu6V9YnU-JBtqlP/view?usp=sharing" target="_blank">Click to view pdf</a>.</p>
+</section>
+<section id="tree-lab" class="level3">
+<h3 class="anchored" data-anchor-id="tree-lab">Lab</h3>
+<p>No lab for this module.</p>
+</section>
+<section id="tree-standards" class="level3">
+<h3 class="anchored" data-anchor-id="tree-standards">Self-quiz</h3>
+<p>Use the standards below as a checklist as a study guide for the upcoming quiz.</p>
+<section id="alg-tree" class="level4">
+<h4 class="anchored" data-anchor-id="alg-tree">ALG-TREE</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Describe how the decision tree algorithm works</li>
+<li>Define what the terms entropy, gini, uncertainty, decision boundary, region means in the context of this algorithm</li>
+<li>Draw and interpret the output of a decision tree and graph its associated regions</li>
+</ul>
+</section>
+<section id="train-tree" class="level4">
+<h4 class="anchored" data-anchor-id="train-tree">TRAIN-TREE</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Explain overfitting and underfitting in the context of this algorithm</li>
+<li>Interpret results from a decision tree model</li>
+<li>Give suggestions for improving the decision tree model</li>
+</ul>
+</section>
+<section id="study-tips" class="level4">
+<h4 class="anchored" data-anchor-id="study-tips">Study Tips</h4>
+<p>Review the lecture slides, workbooks, homework assignments, and the associated lab.<br>
+Quiz questions are similar (though not identical) to the types of questions covered in these materials. You should be able to use appropriate terminology and apply the concepts covered in class to a variety of new scenarios.</p>
+<p>The primary goal of each quiz is to give you an opportunity to apply concepts with clear and well-explained reasoning.<br>
+Quizzes are also a valuable opportunity to receive feedback on your reasoning skills.</p>
+</section>
+<section id="formulas-given-1" class="level4">
+<h4 class="anchored" data-anchor-id="formulas-given-1">Formulas Given</h4>
+<p>Entropy: <span class="math inline">\(-p*log_2(p) - (1-p)log_2(1-p)\)</span> <br> Gini impurity: <span class="math inline">\(2*p*(1-p)\)</span> <br></p>
+<p>Impurity<span class="math inline">\(_{\text{total}}:   2*P(target=yes)*P(target=no)\)</span> <br></p>
+<p>Impurity<span class="math inline">\(_{Question}:   P(\text{Q=yes})*\text{Impurity}(\text{Q=yes})*P(\text{Q=no})*\text{Impurity}(\text{Q=no})\)</span></p>
 <hr>
+</section>
+</section>
 </section>
 <section id="lin" class="level2">
-<h2 class="anchored" data-anchor-id="lin">Linear models (LIN)</h2>
+<h2 class="anchored" data-anchor-id="lin">Linear models LIN</h2>
+<p>Linear models…</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 3 of 5 · Algorithm Selection</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Standards assessed</strong></td>
+<td>ALG-LIN· FLOW-LIN</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#lin-readings">readings</a> · <a href="#lin-slides">slides</a> · <a href="#lin-homework">homework</a> · <a href="#lin-lab">lab</a></td>
+</tr>
+<tr class="even">
+<td><strong>Self-quiz</strong></td>
+<td><a href="#lin-standards">standards &amp; practice →</a></td>
+</tr>
+</tbody>
+</table>
+<section id="lin-readings" class="level3">
+<h3 class="anchored" data-anchor-id="lin-readings">Readings</h3>
+<section id="islp-selected-readings-2" class="level4">
+<h4 class="anchored" data-anchor-id="islp-selected-readings-2">ISLP selected readings</h4>
+<p>Dive deeper in the content we’ll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Overview <a href="../files/ISLP.pdf#page=78">chapter 3</a> <br></label></li>
+<li><label><input type="checkbox">Simple Linear Regression <a href="../files/ISLP.pdf#page=79">section 3.1</a> <br></label></li>
+<li><label><input type="checkbox">Multiple Linear Regression <a href="../files/ISLP.pdf#page=89">section 3.2</a> <br></label></li>
+<li><label><input type="checkbox">Considerations <a href="../files/ISLP.pdf#page=100">section 3.3</a> <br></label></li>
+</ul>
+</section>
+</section>
+<section id="lin-slides" class="level3">
+<h3 class="anchored" data-anchor-id="lin-slides">Slides</h3>
+<ul>
+<li><p>LIN1: linear transformations <br> <a href="https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_0#slide=id.g3b918ed6968_0_0" target="_blank">Open in new tab</a></p></li>
+<li><p>LIN2: gradient descent<br> <a href="https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_50#slide=id.g3b918ed6968_0_50" target="_blank">Open in new tab</a></p></li>
+<li><p>LIN3: single and multiple linear regression; chat about ridge and lasso regularization <br> <a href="https://docs.google.com/presentation/d/19LLF9z-B4KLSVsrIF3QgnEHM70GveCzwWW-h374A0R0/edit?slide=id.g3b918ed6968_0_105#slide=id.g3b918ed6968_0_105" target="_blank">Open in new tab</a></p></li>
+</ul>
+</section>
+<section id="lin-homework" class="level3">
+<h3 class="anchored" data-anchor-id="lin-homework">Homework</h3>
+<p><a href="https://drive.google.com/file/d/1eFGLoN4IfoyHqK69x0roKpM0ZPrQxZFR/view?usp=sharing" target="_blank">Click to view pdf</a>.</p>
+</section>
+<section id="lin-lab" class="level3">
+<h3 class="anchored" data-anchor-id="lin-lab">Lab</h3>
+<p>No lab on linear models.</p>
+</section>
+<section id="lin-standards" class="level3">
+<h3 class="anchored" data-anchor-id="lin-standards">Self-quiz</h3>
+<p>Use the standards below as a checklist as a study guide for the upcoming quiz.</p>
+<section id="alg-lin" class="level4">
+<h4 class="anchored" data-anchor-id="alg-lin">ALG-LIN</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Explain the process of the linear regression algorithm</li>
+<li>Define the following terms: objective function, cost function, gradient descent, learning rate</li>
+<li>Interpret gradients and give suggestions for possible model improvement</li>
+</ul>
+</section>
+<section id="flow-lin" class="level4">
+<h4 class="anchored" data-anchor-id="flow-lin">FLOW-LIN</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Analyze and critique a given five-step workflow using linear models</li>
+</ul>
+</section>
+<section id="formulas-given-2" class="level4">
+<h4 class="anchored" data-anchor-id="formulas-given-2">Formulas Given</h4>
+<p><span class="math inline">\(\text{MAE}: \frac{1}{n}\Sigma |y_{obs} - y_{pred}|\)</span><br> <span class="math inline">\(\text{MSE}: \frac{1}{n}\Sigma (y_{obs} - y_{pred})^2\)</span><br> <span class="math inline">\(\text{RMSE}: \sqrt{\text{MSE}}\)</span><br> <span class="math inline">\(y_{pred}=\beta_1 x_1+\beta_0\)</span><br><br> <span class="math inline">\(\nabla C(x,y) = (\frac{\delta C}{\delta y}(x,y), \frac{\delta C}{\delta x}(x,y)\)</span><br> <span class="math inline">\((\beta_0*, \beta_1* ) = (\beta_0, \beta_1) + l \times(-\nabla C(\beta_0, \beta_1))\)</span></p>
 <hr>
+</section>
+</section>
 </section>
 <section id="mod" class="level2">
-<h2 class="anchored" data-anchor-id="mod">Other models (MOD)</h2>
+<h2 class="anchored" data-anchor-id="mod">Other models MOD</h2>
+<p>There are a lot more algorithms than just the ones we cover in this class. Below are a few additional ones that are helpful to know. This also contains the ensemble (ESB) content which includes boosting, bagging, and various voting methods for combining multiple models.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 3 of 5 · Algorithm Selection</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Standards assessed</strong></td>
+<td>ALG-ESB · MOD-SEL</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#mod-readings">readings</a> · <a href="#mod-slides">slides</a> · <a href="#mod-homework">homework</a> · <a href="#mod-lab">lab</a></td>
+</tr>
+<tr class="even">
+<td><strong>Self-quiz</strong></td>
+<td><a href="#mod-standards">standards &amp; practice →</a></td>
+</tr>
+</tbody>
+</table>
+<section id="mod-readings" class="level3">
+<h3 class="anchored" data-anchor-id="mod-readings">Readings</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Naive Bayes (NB) <a href="../files/ISLP.pdf#page=45">section 2.2.3</a> is used in text classification, spam detection, and good on large datasets. The “naive” part is because it assumes features are independent (unrelated) from each other when in actuality this rarely happens. Applies probabilities to features (usually words) that can indicate the thing you’re looking for.</label></li>
+<li><label><input type="checkbox">k Nearest Neighbors (KNN)<a href="../files/ISLP.pdf#page=46">section 2.2.3</a> and <a href="../files/ISLP.pdf#page=120">section 3.5</a> is used in pattern recognition, recommender systems, when there are non-linear boundaries, but not great on large datasets. We call this a “lazy” learner because it doesn’t learn or create a model until it’s asked to make a prediction on new data.</label></li>
+<li><label><input type="checkbox">Logistic regression <a href="../files/ISLP.pdf#page=147">section 4.3</a> is used in binary classification to output probabilities between 0 and 1, needs linear boundaries. Uses another function to “squish” these outputted probabilities towards 0 or 1 (usually the sigmoid function).</label></li>
+<li><label><input type="checkbox">Support Vector Machine (SVM) <a href="../files/ISLP.pdf#page=374">section 9.1-9.3</a> is used in a ton of ways, good because it can deal with linear and non-linear boundaries. Uses what is called the “kernel” trick to essentially project data into a higher dimension so that it can have an easier time separating groups out. Sort of how it’s easier to see a person if you are facing them head-on vs looking down at them from a bird’s eye view.</label></li>
+<li><label><input type="checkbox">Principal Component Analysis (PCA) <a href="../files/ISLP.pdf#page=510">section 12.2</a> can simplify data by finding the most important directions (or features) that capture the most information. (Bad example) Kind of like how if someone were to dig around in your trash, they would find information out about you (what food you like, how often you clean, items you frequently use).</label></li>
+<li><label><input type="checkbox">You can read more about ensemble models in <a href="../files/ISLP.pdf#page=350">section 8.2</a> from our TREE readings</label></li>
+</ul>
+</section>
+<section id="mod-slides" class="level3">
+<h3 class="anchored" data-anchor-id="mod-slides">Slides</h3>
+<ul>
+<li><p>MOD1: Overview of knn, PCA, and logistic regression <br> <a href="https://docs.google.com/presentation/d/1RP2FR1aiXoo8UT0EY6Y5e9SddCAjbZVBjGNcrzfP32Y/edit?slide=id.g392c6cfdf37_0_0#slide=id.g392c6cfdf37_0_0" target="_blank">Open in new tab</a></p></li>
+<li><p>MOD2: Overview of SVM and Naive Bayes. <br> <a href="https://docs.google.com/presentation/d/1RP2FR1aiXoo8UT0EY6Y5e9SddCAjbZVBjGNcrzfP32Y/edit?slide=id.g3bb113f723d_0_0#slide=id.g3bb113f723d_0_0" target="_blank">Open in new tab</a></p></li>
+<li><p>ESB1: Overview of boosting, bagging, and voting ensembles.<br> <a href="https://docs.google.com/presentation/d/167bEdnUICILTGqOoLvAocNPyuPo7-0Tt89SZDA8_PEE/edit?slide=id.g3bb194b7a29_0_0#slide=id.g3bb194b7a29_0_0" target="_blank">Open in new tab</a></p></li>
+<li><p>ESB2: Designing a flowchart for model selection.<br> <a href="https://docs.google.com/presentation/d/167bEdnUICILTGqOoLvAocNPyuPo7-0Tt89SZDA8_PEE/edit?slide=id.g3bb249c1001_0_277#slide=id.g3bb249c1001_0_277" target="_blank">Open in new tab</a></p></li>
+</ul>
+</section>
+<section id="mod-homework" class="level3">
+<h3 class="anchored" data-anchor-id="mod-homework">Homework</h3>
+<p>The first three questions on this homework goes knn, SVM, and logistic regression for a binary classification problem. The last question will be assess boosting and bagging from the ESB slides. <a href="https://drive.google.com/drive/folders/1JHpJhMMxEUl24mFmOPvfnfMVl_kx2OWf" target="_blank">Click to view pdf</a>.</p>
+</section>
+<section id="mod-lab" class="level3">
+<h3 class="anchored" data-anchor-id="mod-lab">Lab</h3>
+<p>For this two-part lab, you will come up with (Part 1) and implement (Part 2) a workflow to determine the attributes that make a cookie delicious. Based on historical data of 5K cookies regarding baked_temp, sugar_index among others, the authors of <a href="https://github.com/albertoabreu91/Cookies_project/tree/master?tab=readme-ov-file">Cookie Monster</a> collected the dataset we’d like to use.</p>
+<section id="part-1" class="level4">
+<h4 class="anchored" data-anchor-id="part-1">Part 1</h4>
+<p><a href="https://colab.research.google.com/drive/1FqnvTlMddm0VJ1wEXHDbo80jM0VUiLAD?usp=sharing">Click to view Colab Notebook</a></p>
+</section>
+<section id="part-2" class="level4">
+<h4 class="anchored" data-anchor-id="part-2">Part 2</h4>
+<p><a href="https://colab.research.google.com/drive/1FXEnwNjE_cYJEc7yah-4rVybLmQ5eWeO?usp=sharing">Click to view Colab Notebook</a></p>
+</section>
+</section>
+<section id="mod-standards" class="level3">
+<h3 class="anchored" data-anchor-id="mod-standards">Self-quiz</h3>
+<p>Use the standards below as a checklist as a study guide for the upcoming quiz.</p>
+<section id="alg-esb" class="level4">
+<h4 class="anchored" data-anchor-id="alg-esb">ALG-ESB</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Describe terms like ensemble, voting, stacking, bagging, and boosting</li>
+<li>Give examples of algorithms for each ensemble type</li>
+<li>Discuss pros and cons of each ensemble type</li>
+</ul>
+</section>
+<section id="mod-sel" class="level4">
+<h4 class="anchored" data-anchor-id="mod-sel">MOD-SEL</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Identify appropriate algorithms for a given real-world scenarios</li>
+<li>Discuss tradeoffs of particular algorithms (interpretable, scalable, handling of missing data)</li>
+<li>Consider how decisions made in the modeling process may have ethical consequences</li>
+</ul>
 <hr>
 </section>
+</section>
+</section>
 <section id="nn" class="level2">
-<h2 class="anchored" data-anchor-id="nn">Neural networks (NN)</h2>
+<h2 class="anchored" data-anchor-id="nn">Neural networks NN</h2>
+<p>Neural networks are the basis of deep learning, and are a form of supervised learning which focuses on creating layers of perceptrons that are connected into a network.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Workflow step</strong></td>
+<td>Step 3 of 5 · Algorithm Selection</td>
+</tr>
+<tr class="even">
+<td><strong>What you’ll learn</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Standards assessed</strong></td>
+<td>ALG-NN · ETH</td>
+</tr>
+<tr class="even">
+<td><strong>Key terms</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Materials</strong></td>
+<td><a href="#nn-readings">readings</a> · <a href="#nn-slides">slides</a> · <a href="#nn-homework">homework</a> · <a href="#nn-lab">lab</a></td>
+</tr>
+<tr class="even">
+<td><strong>Self-quiz</strong></td>
+<td><a href="#nn-standards">standards &amp; practice →</a></td>
+</tr>
+</tbody>
+</table>
+<section id="nn-readings" class="level3">
+<h3 class="anchored" data-anchor-id="nn-readings">Readings</h3>
+<section id="islp-selected-readings-3" class="level4">
+<h4 class="anchored" data-anchor-id="islp-selected-readings-3">ISLP selected readings</h4>
+<p>Dive deeper in the content we’ll be covering. These readings can be quite math-heavy. If anything is unclear, don’t hesitate to reach out to your instructor. Aim to grasp the big-picture ideas so you can explain each topic to a non-technical audience. <br></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Deep Learning <a href="../files/ISLP.pdf#page=406">section 10</a> <br></label></li>
+<li><label><input type="checkbox">Single Layer Neural Networks <a href="../files/ISLP.pdf#page=407">section 10.1</a> <br></label></li>
+<li><label><input type="checkbox">Multilayer Neural Networks <a href="../files/ISLP.pdf#page=409">section 10.2</a><br></label></li>
+<li><label><input type="checkbox">When to Use One <a href="../files/ISLP.pdf#page=432">section 10.6</a><br></label></li>
+<li><label><input type="checkbox">Fitting a Neural Network <a href="../files/ISLP.pdf#page=434">section 10.7</a><br></label></li>
+</ul>
+</section>
+</section>
+<section id="nn-slides" class="level3">
+<h3 class="anchored" data-anchor-id="nn-slides">Slides</h3>
+<ul>
+<li><p>NN1: Overview of perceptrons and activation functions <br> <a href="https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bbf0497fa0_0_3#slide=id.g3bbf0497fa0_0_3" target="_blank">Open in new tab</a></p></li>
+<li><p>NN2: neural network architecture, backpropagation <br> <a href="https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bbf0497fa0_0_53#slide=id.g3bbf0497fa0_0_53" target="_blank">Open in new tab</a></p></li>
+<li><p>NN3: Walkthrough of scikitlearn implementation, along with a chat about tensors and tensor flow. <br> <a href="https://docs.google.com/presentation/d/1FbfagJuRHVHG7OSMIGvUJNC80RvmNFG-9LUtLGY4gxw/edit?slide=id.g3bc171f78ca_0_0#slide=id.g3bc171f78ca_0_0" target="_blank">Open in new tab</a></p></li>
+</ul>
+</section>
+<section id="nn-homework" class="level3">
+<h3 class="anchored" data-anchor-id="nn-homework">Homework</h3>
+<p><a href="https://drive.google.com/file/d/1IyfvrJEfpiawzASzpd3ntxVJnyV9p8BF/view?usp=sharing" target="_blank">Click to view pdf</a>.</p>
+</section>
+<section id="nn-lab" class="level3">
+<h3 class="anchored" data-anchor-id="nn-lab">Lab</h3>
+<p>There is no lab for neural networks, but you can find some example labs at the end of Chapter 10 in our textbook in <a href="../files/ISLP.pdf#page=442">section 10.9</a>.</p>
+</section>
+<section id="nn-standards" class="level3">
+<h3 class="anchored" data-anchor-id="nn-standards">Self-quiz</h3>
+<p>Use the standards below as a checklist as a study guide for the upcoming quiz.</p>
+<section id="alg-nn" class="level4">
+<h4 class="anchored" data-anchor-id="alg-nn">ALG-NN</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Describe terms like weights, bias, perceptron, neuron, feed-forward, backpropagation, activation function</li>
+<li>Draw a diagram of neural network architecture</li>
+<li>Label the corresponding nodes (<span class="math inline">\(X_i\)</span>, <span class="math inline">\(Z_i^{(k)}\)</span>, <span class="math inline">\(h_i^{(k)}\)</span>, <span class="math inline">\(\hat{y}\)</span>, <span class="math inline">\(b_i^{(k)})\)</span> and edges <span class="math inline">\((w_{i,j}^{(k)})\)</span> of the diagram</li>
+<li>Compute a given <span class="math inline">\(Z_i^{(k)}\)</span> and <span class="math inline">\(h_i^{(k)}\)</span> using an activation function <span class="math inline">\(\sigma^{(k)}\)</span></li>
+</ul>
+</section>
+<section id="eth" class="level4">
+<h4 class="anchored" data-anchor-id="eth">ETH</h4>
+<p>You should be able to:</p>
+<ul>
+<li>Suggest improvements to a given scenario of data collection methods to help mitigate ethical concerns</li>
+<li>Communicate ideas clearly and justify reasoning</li>
+</ul>
+</section>
+<section id="formulas-given-3" class="level4">
+<h4 class="anchored" data-anchor-id="formulas-given-3">Formulas given</h4>
+<p><span class="math inline">\(\hat{y} = f(\beta + w_1x_1 + w_2x_2 + ... + w_nx_n)\)</span></p>
+<p>Unit step: <span class="math inline">\(f(z) = \begin{cases} 1 &amp; z \geq 0 \\ 0 &amp; z &lt; 0 \end{cases}\)</span></p>
+<p>Sigmoid: <span class="math inline">\(f(z) = \frac{1}{1 + e^{-z}}\)</span></p>
+<p>ReLU: <span class="math inline">\(f(z) = \max(0, z)\)</span> <br><br></p>
+<p><span class="math inline">\(Z^{(1)}  =  W^{(1)} X + b^{(1)}\)</span></p>
+<p><span class="math inline">\(h^{(1)}  =  \sigma^{(1)}(Z^{(1)})\)</span></p>
+<p><span class="math inline">\(Z^{(k)}  =  W^{(k)}h^{(k-1)}  + b^{(k)}\)</span></p>
+<p><span class="math inline">\(h^{(k)}  =  \sigma^{(k)}(Z^{(k)})\)</span></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -556,7 +943,8 @@ window.Quarto = {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -565,8 +953,69 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -580,6 +1029,7 @@ window.Quarto = {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -742,44 +1192,54 @@ window.Quarto = {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -877,6 +1337,9 @@ window.Quarto = {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 
