@@ -13,7 +13,7 @@ variety of topics. You can use this [list of dataset resources](https://tellings
 There are also several dataset collections online: 
 [Data is Plural](https://www.data-is-plural.com/), 
 [data.gov](https://catalog.data.gov/?sort=popularity) , 
-[FiveThreeEight](https://github.com/fivethirtyeight/data), 
+[FiveThreeEight](https://github.com/fivethirtyeight/data) (no longer active as of July 2023), 
 [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), 
 [Open Data Minneapolis](https://opendata.minneapolismn.gov/search?collection=dataset&groupIds=9a38073875844f16a93416bf6bd7df5b),
 and [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active) all have options to choose from. 
