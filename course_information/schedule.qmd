@@ -86,13 +86,13 @@
 
 | **date** | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| T Nov 3 | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | PC5 due Wednesday <br> TREE HW due Thursday|
+| T Nov 3 | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | REE HW due Thursday|
 
 [LIN](../content/03-ALG.qmd#lin){.topic-btn .step3}
 
 |||
 |:---:|:---|:---|
-| Th Nov 5 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} | Study for TREE quiz |
+| Th Nov 5 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} | PC5 due Monday 11/11 <br> Study for TREE quiz |
 | T Nov 10 |  [LIN2](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [HW: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey} [Quiz: TREE](../content/03-ALG.qmd#tree-standards){.ag-btn .step3} | Study for LIN quiz |
 
 [MOD](../content/03-ALG.qmd#mod){.topic-btn .step3} 
