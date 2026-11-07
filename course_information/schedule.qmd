@@ -86,7 +86,7 @@
 
 | **date** | **agenda** | **upcoming** |
 |:---:|:---|:---|
-| T Nov 3 | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | REE HW due Thursday|
+| T Nov 3 | [TREE2](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [Quiz: DATA](../content/02-DATA.qmd#standards){.ag-btn .step2} | TREE HW due Thursday|
 
 [LIN](../content/03-ALG.qmd#lin){.topic-btn .step3}
 
