@@ -93,13 +93,13 @@
 |||
 |:---:|:---|:---|
 | Th Nov 5 | [TREE3](../content/03-ALG.qmd#tree-slides){.ag-btn .ag-grey} [LIN1](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} | PC5 due Monday 11/11 <br> Study for TREE quiz |
-| T Nov 10 |  [LIN2](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [HW: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey} [Quiz: TREE](../content/03-ALG.qmd#tree-standards){.ag-btn .step3} | Study for LIN quiz |
+| T Nov 10 |  [LIN2](../content/03-ALG.qmd#lin-slides){.ag-btn .ag-grey} [HW: LIN](../content/03-ALG.qmd#lin){.ag-btn .ag-grey}  | Study for LIN quiz |
 
 [MOD](../content/03-ALG.qmd#mod){.topic-btn .step3} 
 
 |||
 |:---:|:---|:---|
-| Th Nov 12 |  [MOD1](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} | LIN HW due today |
+| Th Nov 12 |  [MOD1](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [Quiz: TREE](../content/03-ALG.qmd#tree-standards){.ag-btn .step3} | LIN HW due today |
 | T Nov 17  | [MOD2](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [HW: MOD](../content/03-ALG.qmd#mod){.ag-btn .ag-grey} [Quiz: LIN](../content/03-ALG.qmd#lin-standards){.ag-btn .step3} | |
 | Th Nov 19 |  [MOD3](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [PC6](../course_information/project.qmd#pc6){.ag-btn .ag-grey} | MOD HW due before break |
 | T Nov 24 |  [MOD4](../content/03-ALG.qmd#mod-slides){.ag-btn .ag-grey} [Lab: MOD Part 1](../content/03-ALG.qmd#mod-lab){.ag-btn .ag-grey} | MOD LAB Part1 due Monday |
