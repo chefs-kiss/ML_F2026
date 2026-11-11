@@ -342,7 +342,7 @@ This also contains the ensemble (ESB) content which includes boosting, bagging, 
 
 ### Homework {#mod-homework}
 The first three questions on this homework goes knn, SVM, and logistic regression for a binary classification problem. The last question will be assess boosting and bagging from the ESB slides.
-[Click to view pdf](https://drive.google.com/drive/folders/1JHpJhMMxEUl24mFmOPvfnfMVl_kx2OWf){target="_blank"}.
+[Click to view pdf](https://drive.google.com/file/d/1eSAtQbu0dRAAYldsMQYLZHcMqd3qIJAC/view?usp=sharing{target="_blank"}.
 
 ### Lab {#mod-lab}
 For this two-part lab, you will come up with (Part 1) and implement (Part 2) a workflow to determine the attributes that make a cookie delicious. 
